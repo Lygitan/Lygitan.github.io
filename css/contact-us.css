@@ -1,0 +1,152 @@
+/*---------------------header---------------------*/
+.top-container {
+    width:1200px;
+    height: 128px;
+    margin: 0 auto;
+}
+.header-top {
+    height: 68px;
+}
+.logo {
+    padding-top: 35px;
+    padding-right: 20px;
+    float: left;
+}
+.logo-describe {
+    height: 43px;
+    margin-top: 25px;
+    font-size: 12px;
+    line-height: 23px;
+    padding-left:20px;
+    border-left:1px solid #dcdcdc;
+    color: #999;float: left;
+}
+.top-search {
+    float: right;
+    margin-top: 25px;
+}
+.search {
+    width: 295px;
+    height: 41px;
+    font-size: 16px;
+    border: 1px solid #dcdcdc;
+    border-right: 0 none;
+    vertical-align: middle;
+    padding-left: 13px;
+    outline: none;
+}
+.btn {
+    width: 44px;
+    height: 43px;
+    background:url("../images/search.png") no-repeat #ff5842 center center;
+    border: 0 none;
+    vertical-align: middle;
+    outline: none;
+    cursor: pointer;
+}
+.header-bottom {
+    margin-top: 20px;
+}
+.content {
+    float: left;
+}
+.content-ul {
+    font-size: 20px;
+    color: #828282;
+}
+.content-ul li {
+    float: left;
+    padding-right: 50px;
+    height: 14px;
+}
+.li-else {
+    color: #ff5842;
+}
+.button {
+    float: right;
+    height: 27px;
+    text-align: center;
+    line-height: 27px;
+    color: #FFF;
+}
+.button a {
+    display: inline-block;
+    color: #FFF;
+}
+.Join {
+    width: 63px;
+    background-color: #ff5842 ;
+    float: left;
+    margin-right: 1px;
+}
+.Login {
+    width: 52px;
+    background-color: #a1a1a1 ;
+    float: left;
+}
+/*---------------------footer---------------------*/
+.footer-container {
+
+}
+.foot-top {
+    height: 210px;
+    background-color: #222f35;
+}
+.foot-bottom {
+    height: 53px;
+    background-color: #172125;
+}
+.container {
+    width: 1200px; margin: 0 auto;
+}
+dl {
+    float: left;
+}
+dt {
+    font-size: 24px;
+    line-height: 72px;
+    color: #FFF;
+    height: 72px;
+}
+dd {
+    font-size: 14px;
+    line-height: 26px;
+    color: #7d9aa7;
+}
+.dl1 {
+    width: 568px;
+}
+.dl1 img {
+    vertical-align: middle;
+    margin-top: -6px;
+    padding-right: 9px;
+}
+.dl1 dd {
+    line-height: 21px;
+}
+.dl2 {
+    width: 220px;
+}
+.dl3 {
+    width: 254px;
+}
+.dl4 {
+    width: 158px;
+}
+.foot-left {
+    font-size: 14px;
+    line-height: 53px;
+    color: #82a0ad;
+    float: left;
+}
+.foot-right {
+    padding-top: 7px;
+    float: right;
+}
+.foot-right li {
+    float: left;
+    margin-left: 2px;
+    width: 37px;
+    height: 37px;
+    background-color: #222f35;
+}

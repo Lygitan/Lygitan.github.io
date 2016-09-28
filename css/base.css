@@ -1,0 +1,7 @@
+* {margin: 0; padding: 0;}
+body {font-size: 14px; font-family: "Segoe UI Light", "Calibri";}
+img {border: 0 none; vertical-align: top;}
+a {text-decoration: none;}
+.cf:after {content: ''; display: none; clear: both;}
+.cf {*zoom:1;}
+ul,ol {list-style: none;}
