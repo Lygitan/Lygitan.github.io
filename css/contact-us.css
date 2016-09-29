@@ -59,7 +59,13 @@
     padding-right: 50px;
     height: 14px;
 }
-.li-else {
+.content-ul li a {
+    color: #828282;
+}
+.content-ul li a:hover {
+    color: #ff5842;
+}
+#li-else a {
     color: #ff5842;
 }
 .button {
@@ -84,10 +90,68 @@
     background-color: #a1a1a1 ;
     float: left;
 }
-/*---------------------footer---------------------*/
-.footer-container {
-
+/*---------------------middle---------------------*/
+.banner {
+    height: 512px;
+    background: #f4f4f4 url("http://192.168.1.134:8899/Composure/images/banner-bg.jpg") no-repeat;
+    border-top: 5px solid #efefef;
 }
+.contact {
+    height: 483px;
+}
+.contact h3 {
+    color: #121212;
+    font-size: 24px;
+    line-height: 72px;
+    height: 72px;
+}
+.contact p {
+    font-size: 16px;
+    line-height: 28px;
+    color: #121212;
+}
+.contact img {
+    vertical-align: middle;
+    margin-top: -6px;
+    padding-right: 9px;
+}
+.form-top {
+    padding-top: 14px;
+}
+.form-top input {
+    width: 363px;
+    height: 46px;
+    font-size: 16px;
+    line-height: 46px;
+    border: 2px solid #f8f8f8;
+    padding-left: 9px;
+    font-family: "Segoe UI Light", "Calibri";
+}
+.e-mail {
+    margin: 0 32px;
+}
+.form-middle textarea {
+    width: 1187px;
+    height: 134px;
+    font-size: 16px;
+    padding-left: 9px;
+    padding-top: 12px;
+    margin-top: 30px;
+    border: 2px solid #f8f8f8;
+    font-family: "Segoe UI Light", "Calibri";
+}
+.form-bottom input {
+    width: 281px;
+    height: 47px;
+    background-color: #ff5842;
+    font-size: 16px;
+    line-height: 47px;
+    text-align: center;
+    color: #FFF;
+    margin-top: 30px;
+}
+
+/*---------------------footer---------------------*/
 .foot-top {
     height: 210px;
     background-color: #222f35;
@@ -112,6 +176,12 @@ dd {
     font-size: 14px;
     line-height: 26px;
     color: #7d9aa7;
+}
+.foot-top dd a {
+    color: #7d9aa7;
+}
+.foot-top dd a:hover {
+    color: #FFFFFF;
 }
 .dl1 {
     width: 568px;
@@ -149,4 +219,25 @@ dd {
     width: 37px;
     height: 37px;
     background-color: #222f35;
+}
+.foot-right li a {
+    display: inline-block;
+    width: 37px;
+    height: 37px;
+    opacity: .6;
+}
+.foot-right li a:hover {
+    opacity: 1;
+}
+.icon_facebook {
+    background: url("../images/cp-icon.gif") 0 0;
+}
+.icon_twitter {
+    background: url("../images/cp-icon.gif") -38px 0;
+}
+.icon_google {
+    background: url("../images/cp-icon.gif") -77px 0;
+}
+.icon_youtube {
+    background: url("../images/cp-icon.gif") -116px 0;
 }
