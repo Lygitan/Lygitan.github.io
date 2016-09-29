@@ -1,0 +1,57 @@
+.title-list-wrap {
+    height: 47px;
+    border-top: 5px solid #e9422c;
+    background-color: #ff5842;
+}
+.title-list {
+}
+.title-list li {
+    float: left;
+    height: 47px;
+}
+.title-list a {
+    display: block;
+    margin-top: 10px;
+    padding: 0 20px;
+    height: 27px;
+    line-height: 27px;
+    color: #FFF;
+    font-size: 16px;
+    border-left: 1px solid #e9422c;
+    text-align: center;
+}
+.title-list li:hover {
+    background-color: #e9422c;
+}
+#first-title {
+    background-color: #e9422c;
+}
+.Exc {
+    height: 72px;
+}
+.Ecx-left img {
+    vertical-align: middle;
+    padding-right: 10px;
+    margin-top: -6px;
+}
+.Ecx-left {
+    font-size: 24px;
+    line-height: 72px;
+    float: left;
+}
+.Exc-right {
+    float: right;
+}
+.Exc-right div {
+    width: 41px;
+    height: 41px;
+    float: left;
+}
+.turn-left {
+    background: #f5f5f5 url("../images/turn-left.png");
+}
+.turn-right {
+    background: #eeeeee url("../images/turn-right.png");
+    margin-left: 1px;
+}
+

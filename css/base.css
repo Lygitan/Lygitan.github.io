@@ -10,9 +10,8 @@ textarea {outline: none;}
 
 
 
-/*---------------------header---------------------*/
+/*---------------------header start---------------------*/
 .top-container {
-    width:1200px;
     height: 128px;
     margin: 0 auto;
 }
@@ -31,7 +30,8 @@ textarea {outline: none;}
     line-height: 23px;
     padding-left:20px;
     border-left:1px solid #dcdcdc;
-    color: #999;float: left;
+    color: #999;
+    float: left;
 }
 .top-search {
     float: right;
@@ -102,10 +102,9 @@ textarea {outline: none;}
     background-color: #a1a1a1 ;
     float: left;
 }
-/*---------------------footer---------------------*/
-.footer-container {
+/*---------------------header end---------------------*/
 
-}
+/*---------------------footer start---------------------*/
 .foot-top {
     height: 210px;
     background-color: #222f35;
@@ -195,3 +194,4 @@ dd {
 .icon_youtube {
     background: url("../images/cp-icon.gif") -116px 0;
 }
+/*---------------------footer end---------------------*/
