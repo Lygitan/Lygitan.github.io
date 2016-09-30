@@ -26,21 +26,12 @@
 #first-title {
     background-color: #e9422c;
 }
-.Exc {
-    height: 72px;
-}
-.Ecx-left img {
-    vertical-align: middle;
-    padding-right: 10px;
-    margin-top: -6px;
-}
 .Ecx-left {
-    font-size: 24px;
-    line-height: 72px;
     float: left;
 }
 .Exc-right {
     float: right;
+    padding-top: 16px;
 }
 .Exc-right div {
     width: 41px;
@@ -54,4 +45,110 @@
     background: #eeeeee url("../images/turn-right.png");
     margin-left: 1px;
 }
+.Exc-display {
+    width: 1200px;
+    height: 322px;
+}
+.Exc-display dl {
+    width: 386px;
+    margin-right: 21px;
+    border-bottom: 5px solid #ff5842;
+}
+.Exc-display dl.dl-else {
+    margin-right: 0;
+}
+.Exc-display dt {
+    height: 223px;
+    background-color: #1f1f1f;
+}
+.Exc-display dd {
+    width: 370px;
+    margin-left: 16px;
+}
+.Exc-describe {
+    padding-top: 12px;
+    height: 48px;
+    font-size: 18px;
+    line-height: 24px;
+}
+.Exc-time {
+    font-size: 12px;
+    line-height: 34px;
+}
+.Exc-display span {
+    color: #ff5842;
+}
 
+
+
+
+
+
+.index-main {
+     height: 1000px;
+ }
+.main {
+    width: 880px;
+    margin-right: 20px;
+    float: left;
+}
+.Hot {
+    border-bottom: 5px solid #ff5842;
+}
+.Hot-display {
+    height: 400px;
+    color: #FFFFFF;
+    background-color: #d7d7d7;
+    position: relative;
+}
+.Hot-describe {
+    width: 589px;
+    height: 119px;
+    padding-left: 15px;
+    position: absolute;
+    background-color: #2b2b2b;
+    left: 16px;
+    bottom: 10px;
+}
+.Hot-describe h3 {
+    font-size: 19px;
+    line-height: 39px;
+}
+.Hot-describe p {
+    font-size: 16px;
+    line-height: 21px;
+}
+.Hot-display-turn {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.Hot-display-turn-left {
+    width: 41px;
+    height: 41px;
+    background: #404040 url("../images/icon-turn.png") 0 0;
+    float: left;
+}
+.Hot-display-turn-right {
+    width: 41px;
+    height: 41px;
+    margin-left: 1px;
+    background: #404040 url("../images/icon-turn.png") -42px 0;
+    float: left;
+}
+
+
+
+
+
+.aside {
+    width: 300px;
+    float: right;
+}
+.Fol-icon li {
+    float: left;
+    margin: 0 6px 6px 0;
+}
+.Fol-icon li.li-else {
+    margin: 0;
+}

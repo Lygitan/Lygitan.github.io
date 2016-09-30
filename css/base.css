@@ -195,3 +195,13 @@ dd {
     background: url("../images/cp-icon.gif") -116px 0;
 }
 /*---------------------footer end---------------------*/
+.com-title {
+    height: 72px;
+    font-size: 24px;
+    line-height: 72px;
+}
+.com-title img {
+    vertical-align: middle;
+    padding-right: 10px;
+    margin-top: -6px;
+}
