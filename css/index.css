@@ -21,6 +21,7 @@
 .title-list li:hover {
     background-color: #e9422c;
 }
+/*----------------------------------------------Exc----------------------------------------------*/
 .Ecx-left {
     float: left;
 }
@@ -53,8 +54,13 @@
     margin-right: 0;
 }
 .Exc-display dt {
+    width: 386px;
     height: 223px;
     background-color: #1f1f1f;
+}
+.Exc-display img {
+    width: 386px;
+    height: 223px;
 }
 .Exc-display dd {
     width: 370px;
@@ -78,7 +84,7 @@ span {
 
 
 
-
+/*--------------------------------------index-main--------------------------------------*/
 .index-main {
      height: 2845px;
  }
@@ -87,6 +93,7 @@ span {
     margin-right: 20px;
     float: left;
 }
+/*----------------------------------------------Hot----------------------------------------------*/
 .Hot {
     height: 477px;
 }
@@ -96,6 +103,10 @@ span {
     background-color: #d7d7d7;
     position: relative;
     border-bottom: 5px solid #ff5842;
+}
+.Hot-display img {
+    width: 880px;
+    height: 400px;
 }
 .Hot-describe {
     width: 589px;
@@ -132,6 +143,7 @@ span {
     background: #404040 url("../images/icon-turn.png") -42px 0;
     float: left;
 }
+/*----------------------------------------------Ent----------------------------------------------*/
 .Ent {
     height: 494px;
 }
@@ -143,7 +155,11 @@ span {
 }
 .Ent-left-img {
     height: 190px;
-    background-color: #b4b4b4;
+    background: #b4b4b4 url("../images/sticky.png") no-repeat 0 0;
+}
+.Ent-left-img img {
+    width: 420px;
+    height: 190px;
 }
 .Ent-left-bottom {
     width: 416px;
@@ -201,6 +217,10 @@ span {
     height: 99px;
     background-color: #b4b4b4;
 }
+.Ent-pieces-img img {
+    width: 220px;
+    height: 99px;
+}
 .Ent-pieces-bottom {
     width: 207px;
     height: 105px;
@@ -216,7 +236,7 @@ span {
 .Ent-pieces-else {
     margin-top: 10px;
 }
-
+/*----------------------------------------------Tec----------------------------------------------*/
 .Tec {
     width: 880px;
     height: 745px;
@@ -232,6 +252,10 @@ span {
 .Tec-top-img {
     height: 190px;
     background-color: #b4b4b4;
+}
+.Tec-top-img img {
+    width: 435px;
+    height: 190px;
 }
 .Tec-top-desc {
     width: 417px;
@@ -265,6 +289,10 @@ span {
     height: 129px;
     background-color: #b4b4b4;
 }
+.Tec-bottom-img img {
+    width: 286px;
+    height: 129px;
+}
 .Tec-bottom-desc {
     width: 282px;
     height: 246px;
@@ -295,6 +323,7 @@ span {
 .Tec-bottom-else {
     margin: 0 11px;
 }
+/*----------------------------------------------Env----------------------------------------------*/
 .Env {
     width: 880px;
     height: 639px;
@@ -302,6 +331,10 @@ span {
 .Env-img {
     height: 398px;
     background-color: #b4b4b4;
+}
+.Env-img img {
+    width: 880px;
+    height: 398px;
 }
 .Env-desc {
     width: 876px;
@@ -357,6 +390,10 @@ span {
     margin: 10px 10px 0 0;
     float: left;
 }
+.Env-list-img img {
+    width: 90px;
+    height: 90px;
+}
 .Env-list-desc {
     width: 325px;
     height: 90px;
@@ -383,6 +420,7 @@ span {
     width: 300px;
     float: right;
 }
+/*----------------------------------------------Fol----------------------------------------------*/
 .Fol {
     height: 220px;
 }
@@ -460,7 +498,7 @@ span {
 .Fol-icon li a.icon-18 {
     background-position: -255px -102px;
 }
-
+/*----------------------------------------------Cat----------------------------------------------*/
 .Cat {
     height: 230px;
 }
@@ -490,7 +528,7 @@ span {
     color: #FFFFFF;
     background-color: #ff5842;
 }
-
+/*----------------------------------------------Adv----------------------------------------------*/
 .Adv {
     height: 948px;
 }
@@ -563,7 +601,7 @@ span {
 .Adv-desc-else {
     border-bottom: none;
 }
-
+/*----------------------------------------------Tag----------------------------------------------*/
 .Tag {
     height: 185px;
 }
@@ -585,7 +623,7 @@ span {
 .Tag a.no-bottom {
     margin-bottom: 0;
 }
-
+/*----------------------------------------------Fea----------------------------------------------*/
 .Fea {
     height: 272px;
 }
@@ -594,6 +632,7 @@ span {
     height: 200px;
     background: url("../images/Fea-img.png") no-repeat;
 }
+/*----------------------------------------------Twi----------------------------------------------*/
 .Twi-img {
     width: 48px;
     height: 48px;
@@ -622,6 +661,7 @@ span {
     border: 2px solid #42a7d9;
     background-color: #50b4e6;
 }
+/*----------------------------------------------New----------------------------------------------*/
 .New p {
     font-size: 16px;
     line-height: 23px;
