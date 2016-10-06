@@ -80,12 +80,15 @@ span {
 
 
 .index-main {
-     height: 2500px;
+     height: 2845px;
  }
 .main {
     width: 880px;
     margin-right: 20px;
     float: left;
+}
+.Hot {
+    height: 477px;
 }
 .Hot-display {
     height: 400px;
@@ -129,11 +132,253 @@ span {
     background: #404040 url("../images/icon-turn.png") -42px 0;
     float: left;
 }
+.Ent {
+    height: 494px;
+}
+.Ent-left {
+    width: 420px;
+    height: 417px;
+    border-bottom: 5px solid #ff5842;
+    float: left;
+}
+.Ent-left-img {
+    height: 190px;
+    background-color: #b4b4b4;
+}
+.Ent-left-bottom {
+    width: 416px;
+    height: 227px;
+    border-left: 2px solid #f8f8f8;
+    border-right: 2px solid #f8f8f8;
+}
+.Ent-left-describe {
+    width: 388px;
+    margin: 0 auto;
+}
+.Ent-left-title {
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+}
+.Ent-left-time {
+    height: 20px;
+    line-height: 20px;
+    color: #c9c9c9;
+    font-size: 12px;
+}
+.Ent-star {
+    height: 27px;
+    line-height: 27px;
+}
+.Ent-star li {
+    width: 15px;
+    height: 14px;
+    float: left;
+}
+.Ent-describe-border {
+    height: 7px;
+    border-bottom: 2px solid #f8f8f8;
+}
+.Ent-describe {
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+    padding-top: 10px;
+}
+.Ent-right {
+    width: 460px;
+    height: 422px;
+    float: left;
+}
+.Ent-pieces {
+    width: 220px;
+    height: 206px;
+    margin-left: 10px;
+    float: left;
+}
+.Ent-pieces-img {
+    width: 220px;
+    height: 99px;
+    background-color: #b4b4b4;
+}
+.Ent-pieces-bottom {
+    width: 207px;
+    height: 105px;
+    border: 2px solid #f8f8f8;
+    border-top: none;
+    padding-left: 9px;
+}
+.Ent-pieces-title {
+    font-size: 16px;
+    height: 55px;
+    line-height: 25px;
+}
+.Ent-pieces-else {
+    margin-top: 10px;
+}
+
+.Tec {
+    width: 880px;
+    height: 745px;
+}
+.Tec-up {
+    width: 880px;
+    height: 286px;
+}
+.Tec-top {
+    width: 435px;
+    height: 286px;
+}
+.Tec-top-img {
+    height: 190px;
+    background-color: #b4b4b4;
+}
+.Tec-top-desc {
+    width: 417px;
+    height: 94px;
+    border: 2px solid #f8f8f8;
+    padding-left: 14px;
+}
+.Tec-top-title {
+    font-size: 18px;
+    height: 47px;
+    line-height: 47px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+.Tec-down {
+    margin-top: 10px;
+    width: 880px;
+    height: 377px;
+}
+.Tec-bottom {
+    width: 286px;
+    height: 377px;
+    float: left;
+}
+.Tec-bottom-img {
+    height: 129px;
+    background-color: #b4b4b4;
+}
+.Tec-bottom-desc {
+    width: 282px;
+    height: 246px;
+    border: 2px solid #f8f8f8;
+}
+.Tec-desc-box {
+    width: 254px;
+    height: 246px;
+    margin: 0 auto;
+}
+.Tec-desc-title {
+    font-size: 18px;
+    line-height: 24px;
+    height: 58px;
+    padding-top: 10px;
+}
+.Tec-desc-border {
+    height: 4px;
+    border-bottom: 2px solid #f8f8f8;
+}
+.Tec-desc {
+    font-size: 14px;
+    line-height: 21px;
+    color: #777777;
+    height: 115px;
+    padding-top: 10px;
+}
+.Tec-bottom-else {
+    margin: 0 11px;
+}
+.Env {
+    width: 880px;
+    height: 639px;
+}
+.Env-img {
+    height: 398px;
+    background-color: #b4b4b4;
+}
+.Env-desc {
+    width: 876px;
+    height: 189px;
+    border: 2px solid #f8f8f8;
+    border-top: none;
+}
+.Env-desc-box {
+    width: 848px;
+    margin: 0 auto;
+}
+.Env-desc-title {
+    font-size: 18px;
+    line-height: 52px;
+    padding-top: 8px;
+    height: 52px;
+}
+.Env-star {
+    height: 22px;
+    padding-top: 5px;
+}
+.Env-star li {
+    width: 15px;
+    height: 14px;
+    float: left;
+}
+.Env-desc-content {
+    font-size: 14px;
+    line-height: 21px;
+    color: #a2a2a2;
+    padding-top: 5px;
+}
+.Env-bottom {
+    width: 880px;
+    height: 448px;
+}
+.Env-bottom-list {
+    width: 435px;
+    height: 448px;
+    float: left;
+}
+.Env-bottom-list-else {
+    margin-right: 10px;
+}
+.Env-bottom-list li {
+    height: 110px;
+    border-bottom: 2px solid #f8f8f8;
+}
+.Env-list-img {
+    width: 90px;
+    height: 90px;
+    background-color: #c3c3c3;
+    margin: 10px 10px 0 0;
+    float: left;
+}
+.Env-list-desc {
+    width: 325px;
+    height: 90px;
+    margin-top: 10px;
+    float: left;
+}
+.Env-list-title {
+    font-size: 16px;
+    line-height: 24px;
+    height: 48px;
+}
+.Env-left-time {
+    height: 25px;
+    line-height: 25px;
+    color: #c9c9c9;
+    font-size: 12px;
+}
 
 
 
 
-
+/*----------------------右侧-----------------------*/
 .aside {
     width: 300px;
     float: right;
@@ -348,4 +593,52 @@ span {
     width: 300px;
     height: 200px;
     background: url("../images/Fea-img.png") no-repeat;
+}
+.Twi-img {
+    width: 48px;
+    height: 48px;
+    background: url("../images/Twi-gray.png") no-repeat center center;
+    float: left;
+}
+.Twi-li {
+    height: 48px;
+    border: 2px solid #f6f6f6;
+    font-size: 12px;
+    line-height: 16px;
+    color: #8f8f8f;
+    background-color: #f6f6f6;
+    margin-bottom: 2px;
+    float: left;
+}
+.Twi-li p {
+    margin-top: 7px;
+    margin-right: 10px;
+}
+.Twi-li-else {
+    margin-bottom: 0;
+}
+.Twi-li:hover {
+    color: #FFFFFF;
+    border: 2px solid #42a7d9;
+    background-color: #50b4e6;
+}
+.New p {
+    font-size: 16px;
+    line-height: 23px;
+    color: #8e8e8e;
+}
+.New-txt {
+    width: 199px;
+    height: 41px;
+    border: 1px solid #dcdcdc;
+    border-right: none;
+    font-size: 14px;
+    padding-left: 10px;
+}
+.New-btn {
+    width: 90px;
+    height: 43px;
+    background-color: #ff5842;
+    color: #fff6f6;
+    font-size: 16px;
 }
