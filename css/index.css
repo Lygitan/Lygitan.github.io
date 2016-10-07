@@ -112,22 +112,49 @@ span {
     height: 477px;
 }
 .Hot-display {
+    width: 880px;
     height: 400px;
     color: #FFFFFF;
     background-color: #d7d7d7;
     position: relative;
     border-bottom: 5px solid #ff5842;
+    overflow: hidden;
+}
+#HotImg {
+    width: 5400px;
+    height: 400px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .Hot-display img {
     width: 880px;
     height: 400px;
+    float: left;
 }
+/*.Hot-describe-wrap {*/
+    /*width: 604px;*/
+    /*height: 119px;*/
+    /*padding-left: 15px;*/
+    /*position: absolute;*/
+    /*background-color: #2b2b2b;*/
+    /*left: 16px;*/
+    /*bottom: 10px;*/
+    /*overflow: hidden;*/
+/*}*/
+/*.Hot-describe-container {*/
+    /*width: 604px;*/
+    /*height: 1000px;*/
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*bottom: 0;*/
+/*}*/
 .Hot-describe {
-    width: 589px;
+    width: 604px;
     height: 119px;
     padding-left: 15px;
-    position: absolute;
     background-color: #2b2b2b;
+    position: absolute;
     left: 16px;
     bottom: 10px;
 }
@@ -143,18 +170,32 @@ span {
     position: absolute;
     right: 10px;
     bottom: 10px;
+    cursor: pointer;
 }
 .Hot-display-turn-left {
     width: 41px;
     height: 41px;
-    background: #404040 url("../images/icon-turn.png") 0 0;
+    background: #404040 url("../images/icon-left.png") no-repeat center center;
     float: left;
 }
 .Hot-display-turn-right {
     width: 41px;
     height: 41px;
     margin-left: 1px;
-    background: #404040 url("../images/icon-turn.png") -42px 0;
+    background: #404040 url("../images/icon-right.png") no-repeat center center;
+    float: left;
+}
+.Hot-display-turn-left:hover {
+    width: 41px;
+    height: 41px;
+    background: #fff url("../images/left-icon.png") no-repeat center center;
+    float: left;
+}
+.Hot-display-turn-right:hover {
+    width: 41px;
+    height: 41px;
+    margin-left: 1px;
+    background: #fff url("../images/right-icon.png") no-repeat center center;
     float: left;
 }
 /*----------------------------------------------Ent----------------------------------------------*/
