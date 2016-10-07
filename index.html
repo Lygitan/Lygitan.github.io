@@ -46,8 +46,8 @@
 <!----------------------------------header公共部分 end---------------------------------->
 <div class="title-list-wrap">
     <div class="container">
-        <ul class="title-list cf">
-            <li id="first-title"><a>Technology</a></li>
+        <ul class="title-list cf" id="TitleList">
+            <li><a>Technology</a></li>
             <li><a>Education</a></li>
             <li><a>Business</a></li>
             <li><a>Entertainment</a></li>
@@ -60,9 +60,10 @@
 <div class="container">
     <div class="Exc com-title cf">
         <div class="Ecx-left"><img src="images/icon-Exc.png">Exclusive Topics</div>
-        <div class="Exc-right cf"><div class="turn-left"></div><div class="turn-right"></div></div>
+        <div class="Exc-right cf"><div class="turn-left" id="btnLeft"></div><div class="turn-right" id="btnRight"></div></div>
     </div>
-    <div class="Exc-display">
+    <div class="Exc-display-wrap">
+    <div class="Exc-display" id="ExcDisplay">
         <dl>
             <dt><img src="images/Exc-01.jpg"></dt>
             <dd class="Exc-describe">Wesley Snipes Freed From Jail After Tax Evasion.</dd>
@@ -78,6 +79,18 @@
             <dd class="Exc-describe">Wesley Snipes reportedly released from prison</dd>
             <dd class="Exc-time">Posted on <span>7 April, 2013</span> By <span>M-elgendy</span></dd>
         </dl>
+<!-------------------------------------------隐藏的dl------------------------------------------------>
+        <dl>
+            <dt><img src="images/Exc-04.jpg"></dt>
+            <dd class="Exc-describe">Halle Berry Pregnant With Second Child It's A Boy.</dd>
+            <dd class="Exc-time">Posted on <span>7 April, 2013</span> By <span>M-elgendy</span></dd>
+        </dl>
+        <dl class="dl-else">
+            <dt><img src="images/Exc-05.jpg"></dt>
+            <dd class="Exc-describe">Wesley Snipes reportedly released from prison</dd>
+            <dd class="Exc-time">Posted on <span>7 April, 2013</span> By <span>M-elgendy</span></dd>
+        </dl>
+    </div>
     </div>
     <!----------------------------------index-main---------------------------------->
     <div class="index-main cf">
@@ -411,7 +424,7 @@
             <!--------------------------------Adv--------------------------------------->
             <div class="Adv com-title">
                 <div><img src="images/icon-Adv.png">Advertising</div>
-                <div class="Adv-picture"></div>
+                <div class="Adv-picture"><img src="images/Adv-01.jpg"></div>
                 <div class="Adv-tab">
                     <div class="Adv-tab-head">
                         <ul class="cf">
@@ -422,7 +435,7 @@
                     </div>
                     <div class="Adv-tab-content-wrap">
                         <div class="Adv-tab-content cf">
-                            <div class="Adv-tab-img"></div>
+                            <div class="Adv-tab-img"><img src="images/Adv-01p.jpg"></div>
                             <div class="Adv-tab-desc">
                                 <p class="Adv-tab-con">How to budget for living abroad</p>
                                 <p>Posted on <span>7 April, 2013</span></p>
@@ -430,7 +443,7 @@
                             </div>
                         </div>
                         <div class="Adv-tab-content cf">
-                            <div class="Adv-tab-img"></div>
+                            <div class="Adv-tab-img"><img src="images/Adv-02p.jpg"></div>
                             <div class="Adv-tab-desc">
                                 <p class="Adv-tab-con">How to budget for living abroad</p>
                                 <p>Posted on <span>7 April, 2013</span></p>
@@ -438,7 +451,7 @@
                             </div>
                         </div>
                         <div class="Adv-tab-content cf">
-                            <div class="Adv-tab-img"></div>
+                            <div class="Adv-tab-img"><img src="images/Adv-03p.jpg"></div>
                             <div class="Adv-tab-desc">
                                 <p class="Adv-tab-con">How to budget for living abroad</p>
                                 <p>Posted on <span>7 April, 2013</span></p>
@@ -446,7 +459,7 @@
                             </div>
                         </div>
                         <div class="Adv-tab-content cf">
-                            <div class="Adv-tab-img"></div>
+                            <div class="Adv-tab-img"><img src="images/Adv-04p.jpg"></div>
                             <div class="Adv-tab-desc">
                                 <p class="Adv-tab-con">How to budget for living abroad</p>
                                 <p>Posted on <span>7 April, 2013</span></p>
@@ -454,7 +467,7 @@
                             </div>
                         </div>
                         <div class="Adv-tab-content Adv-desc-else cf">
-                            <div class="Adv-tab-img"></div>
+                            <div class="Adv-tab-img"><img src="images/Adv-05p.jpg"></div>
                             <div class="Adv-tab-desc">
                                 <p class="Adv-tab-con">How to budget for living abroad</p>
                                 <p>Posted on <span>7 April, 2013</span></p>
@@ -573,5 +586,7 @@
     </div>
 </div>
 <!-----------------footer公共部分 end----------------->
+<script src="js/base.js"></script>
+<script src="js/index.js"></script>
 </body>
 </html>
