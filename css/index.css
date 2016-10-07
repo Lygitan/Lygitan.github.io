@@ -132,37 +132,32 @@ span {
     height: 400px;
     float: left;
 }
-/*.Hot-describe-wrap {*/
-    /*width: 604px;*/
-    /*height: 119px;*/
-    /*padding-left: 15px;*/
-    /*position: absolute;*/
-    /*background-color: #2b2b2b;*/
-    /*left: 16px;*/
-    /*bottom: 10px;*/
-    /*overflow: hidden;*/
-/*}*/
-/*.Hot-describe-container {*/
-    /*width: 604px;*/
-    /*height: 1000px;*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*bottom: 0;*/
-/*}*/
-.Hot-describe {
+
+.Hot-describe-visible {
     width: 604px;
     height: 119px;
-    padding-left: 15px;
     background-color: #2b2b2b;
     position: absolute;
     left: 16px;
     bottom: 10px;
+    overflow: hidden;
 }
-.Hot-describe h3 {
+.Hot-describe {
+    width: 604px;
+    height: 1000px;
+    position: absolute;
+    top: 0;
+    left: 15px;
+}
+.Hot-describe-box {
+    width: 589px;
+    height: 119px;
+}
+.Hot-describe-h3 {
     font-size: 19px;
     line-height: 39px;
 }
-.Hot-describe p {
+.Hot-describe-p {
     font-size: 16px;
     line-height: 21px;
 }
@@ -383,19 +378,45 @@ span {
     width: 880px;
     height: 639px;
 }
-.Env-img {
+.Env-img-visible {
+    width: 880px;
     height: 398px;
     background-color: #b4b4b4;
+    position: relative;
+    overflow: hidden;
+}
+.Env-img {
+    width: 8800px;
+    height: 398px;
+    position: absolute;
+    left: 0;
+    top:0;
+}
+.Env-img li {
+    float: left;
 }
 .Env-img img {
     width: 880px;
     height: 398px;
 }
+.Env-desc-visible {
+    width: 880px;
+    height: 191px;
+    position: relative;
+    overflow: hidden;
+}
+.Env-describe {
+    width: 880px;
+    height: 1000px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
 .Env-desc {
     width: 876px;
-    height: 189px;
+    height: 187px;
     border: 2px solid #f8f8f8;
-    border-top: none;
+    /*border-top: none;*/
 }
 .Env-desc-box {
     width: 848px;

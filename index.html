@@ -106,14 +106,16 @@
                         <img src="images/Hot-04.jpg">
                         <img src="images/Hot-05.jpg">
                     </div>
-                    <!--<div class="Hot-describe-wrap">-->
-                        <!--<div class="Hot-describe-container" id="HotDescribe">-->
-                            <div class="Hot-describe">
-                                <h3>'Evil Dead' brings life to industry with $26 million debut.</h3>
-                                <p>Dreaming of an overseas move can be so exciting that it is often hard to focus on the dreary matter of money – but some smart decisions and simple planning could save you thousands...</p>
+
+                    <div class="Hot-describe-visible">
+                        <div class="Hot-describe" id="HotDescribe">
+                            <div class="Hot-describe-box">
+                                <h3 class="Hot-describe-h3">'Evil Dead' brings life to industry with $26 million debut.</h3>
+                                <p class="Hot-describe-p">Dreaming of an overseas move can be so exciting that it is often hard to focus on the dreary matter of money – but some smart decisions and simple planning could save you thousands...</p>
                             </div>
-                        <!--</div>-->
-                    <!--</div>-->
+                        </div>
+                    </div>
+
                     <ul class="Hot-display-turn cf">
                         <li class="Hot-display-turn-left" id="HotLeft"></li>
                         <li class="Hot-display-turn-right" id="HotRight"></li>
@@ -296,24 +298,38 @@
             <div class="Env">
                 <div class="Env-title com-title cf">
                     <div class="left"><img src="images/icon-Ent.png" class="com-title-img">Environment</div>
-                    <div class="Exc-right cf"><div class="turn-left"></div><div class="turn-right"></div></div>
+                    <div class="Exc-right cf"><div class="turn-left" id="envLeft"></div><div class="turn-right" id="envRight"></div></div>
                 </div>
-                <div class="Env-img"><img src="images/Env-01.jpg"></div>
-                <div class="Env-desc">
-                    <div class="Env-desc-box">
-                        <div class="Env-desc-title">Wesley Snipes Freed From Jail After Tax Evasion.</div>
-                        <div class="Ent-left-time">Posted on <span>7 April, 2013</span> By <span>M-elgendy</span></div>
-                        <ul class="Env-star cf">
-                            <li><img src="images/yellow-star.png"></li>
-                            <li><img src="images/yellow-star.png"></li>
-                            <li><img src="images/gray-star.png"></li>
-                            <li><img src="images/gray-star.png"></li>
-                            <li><img src="images/gray-star.png"></li>
-                        </ul>
-                        <div class="Tec-desc-border"></div>
-                        <div class="Env-desc-content">Dreaming of an overseas move can be so exciting that it is often hard to focus on the dreary matter of money – but some smart decisions and simple planning could save you thousands eirmod tempor invidunt ut labore et dolore magna Dreaming of an overseas move can be so exciting... <span>Continue Reading</span></div>
+                <div class="Env-img-visible">
+                    <ul class="Env-img cf" id="EnvDisplay">
+                        <li><img src="images/Env-01.jpg"></li>
+                        <li><img src="images/Env-02.jpg"></li>
+                        <li><img src="images/Env-03.jpg"></li>
+                        <li><img src="images/Env-04.jpg"></li>
+                        <li><img src="images/Env-05.jpg"></li>
+                    </ul>
+                </div>
+
+                <div class="Env-desc-visible">
+                    <div class="Env-describe" id="EnvDescribe">
+                        <div class="Env-desc">
+                            <div class="Env-desc-box">
+                                <div class="Env-desc-title">Wesley Snipes Freed From Jail After Tax Evasion.</div>
+                                <div class="Ent-left-time">Posted on <span>7 April, 2013</span> By <span>M-elgendy</span></div>
+                                <ul class="Env-star cf">
+                                    <li><img src="images/yellow-star.png"></li>
+                                    <li><img src="images/yellow-star.png"></li>
+                                    <li><img src="images/gray-star.png"></li>
+                                    <li><img src="images/gray-star.png"></li>
+                                    <li><img src="images/gray-star.png"></li>
+                                </ul>
+                                <div class="Tec-desc-border"></div>
+                                <div class="Env-desc-content">Dreaming of an overseas move can be so exciting that it is often hard to focus on the dreary matter of money – but some smart decisions and simple planning could save you thousands eirmod tempor invidunt ut labore et dolore magna Dreaming of an overseas move can be so exciting... <span>Continue Reading</span></div>
+                            </div>
+                        </div>
                     </div>
                 </div>
+
                 <div class="Env-bottom cf">
                     <ul class="Env-bottom-list Env-bottom-list-else">
                         <li class="cf">

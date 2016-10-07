@@ -90,16 +90,18 @@ textarea {outline: none;}
 .button a {
     display: inline-block;
     color: #FFF;
+    background-color: #a1a1a1 ;
+}
+.button a:hover {
+    background-color: #ff5842 ;
 }
 .Join {
     width: 63px;
-    background-color: #ff5842 ;
     float: left;
     margin-right: 1px;
 }
 .Login {
     width: 52px;
-    background-color: #a1a1a1 ;
     float: left;
 }
 /*---------------------header end---------------------*/
