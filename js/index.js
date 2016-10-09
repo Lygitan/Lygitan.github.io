@@ -190,21 +190,21 @@ window.onload = function () {
         envScrollRight();
     };
 
-    var envTimer = setInterval(envScrollRight,1000);
+    var envTimer = setInterval(envScrollRight,2000);
 
 
     env.onmouseover = function () {
         clearInterval(envTimer);
     };
     env.onmouseout = function () {
-        envTimer = setInterval(envScrollRight,1000);
+        envTimer = setInterval(envScrollRight,2000);
     };
     var EnvBtn = $('EnvBtn');
     EnvBtn.onmouseover = function () {
         clearInterval(envTimer);
     };
     EnvBtn.onmouseout = function () {
-        envTimer = setInterval(envScrollRight,1000);
+        envTimer = setInterval(envScrollRight,2000);
     };
 
     var EnvContent = $('EnvContent');
@@ -212,7 +212,7 @@ window.onload = function () {
         clearInterval(envTimer);
     };
     EnvContent.onmouseout = function () {
-        envTimer = setInterval(envScrollRight,1000);
+        envTimer = setInterval(envScrollRight,2000);
     };
 
 };//window.onload()闭括号
