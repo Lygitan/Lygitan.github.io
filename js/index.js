@@ -2,7 +2,7 @@
  * Created by lx on 2016/10/6.
  */
 window.onload = function () {
-    
+
     var allTwiLi = document.getElementsByClassName('Twi-li');
     for (var t = 0; t < allTwiLi.length; t++){
         allTwiLi[t].onmouseover = function () {
@@ -13,8 +13,6 @@ window.onload = function () {
         }
     }
 
-
-    // -------------------------------------------轮播1--------------------------------------
     var exc = $('ExcDisplay');
     var excCur = 0;
     var excDl = exc.getElementsByTagName('dl');
@@ -23,32 +21,18 @@ window.onload = function () {
     }
     var excLen = excDl.length;
 
-
-    var allExcDt = exc.getElementsByClassName('dt');
+    var allExcDt = exc.getElementsByTagName('dt');
     for (var e = 0; e < allExcDt.length; e++){
         allExcDt[e].onmouseover = function () {
-            this.getElementsByTagName('dt')[0].style.background = 'rgba(0,0,0,.7)';
-            
+            this.getElementsByTagName('span')[0].style.display = 'block';
         };
-        // url("../images/icon-link.png") no-repeat center center;
         allExcDt[e].onmouseout = function () {
-            this.getElementsByTagName('dt')[0].style.background = '';
+            this.getElementsByTagName('span')[0].style.display = 'none';
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-    $('btnLeft').onclick = function () {
+// -------------------------------------------轮播1--------------------------------------
+    function excScrollLeft() {
         var sum;
         excCur--;
         if(excCur == -1){
@@ -57,23 +41,45 @@ window.onload = function () {
             exc.style.left = sum;
         }
         animate(exc,{left:- 407 * excCur});
-    };
-    $('btnRight').onclick = function () {
+    }
+    function excScrollRight() {
         excCur++;
         if(excCur == excLen-2){
             excCur = 1;
             exc.style.left = 0;
         }
         animate(exc,{left:-407 * excCur});
+    }
+
+
+    $('btnLeft').onclick = function () {
+        excScrollLeft();
+    };
+    $('btnRight').onclick = function () {
+        excScrollRight();
     };
 
+    var excTimer = setInterval(excScrollRight,1000);
+    exc.onmouseover = function () {
+        clearInterval(excTimer);
+    };
+    exc.onmouseout = function () {
+        excTimer = setInterval(excScrollRight,1000);
+    };
+    var ExcBtn = $('ExcBtn');
+    ExcBtn.onmouseover = function () {
+        clearInterval(excTimer);
+    };
+    ExcBtn.onmouseout = function () {
+        excTimer = setInterval(excScrollRight,1000);
+    };
 
 
     // -------------------------------------------轮播2--------------------------------------
     var hot = $('HotImg');
     var hotCur = 0;
     var hotImg = hot.getElementsByTagName('img');
-        hot.appendChild(hotImg[0].cloneNode(true));
+    hot.appendChild(hotImg[0].cloneNode(true));
     var hotLen = hotImg.length;
 
     var hotDesc = $('HotDescribe');
@@ -81,7 +87,9 @@ window.onload = function () {
     for (var hotI = 0; hotI < 5; hotI++){
         hotDesc.appendChild(hotAllDesc[0].cloneNode(true));
     }
-    $('HotLeft').onclick = function () {
+
+
+    function hotScrollLeft() {
         var sum,txtSum;
         hotCur--;
         if(hotCur == -1){
@@ -93,9 +101,9 @@ window.onload = function () {
         }
         animate(hot,{left:- 880 * hotCur});
         animate(hotDesc,{top:-119 * hotCur});
-    };
+    }
 
-    $('HotRight').onclick = function () {
+    function hotScrollRight() {
         hotCur++;
         if(hotCur == hotLen){
             hotCur = 1;
@@ -104,8 +112,39 @@ window.onload = function () {
         }
         animate(hot,{left:-880 * hotCur});
         animate(hotDesc,{top:-119 * hotCur});
+    }
+
+    $('HotLeft').onclick = function () {
+        hotScrollLeft();
     };
 
+    $('HotRight').onclick = function () {
+        hotScrollRight();
+    };
+
+    var hotTimer = setInterval(hotScrollLeft,3000);
+
+    hot.onmouseover = function () {
+        clearInterval(hotTimer);
+    };
+    hot.onmouseout = function () {
+        hotTimer = setInterval(hotScrollLeft,3000);
+    };
+    var HotBtn = $('HotBtn');
+    HotBtn.onmouseover = function () {
+        clearInterval(hotTimer);
+    };
+    HotBtn.onmouseout = function () {
+        hotTimer = setInterval(hotScrollLeft,3000);
+    };
+
+    var HotContent = $('HotContent');
+    HotContent.onmouseover = function () {
+        clearInterval(hotTimer);
+    };
+    HotContent.onmouseout = function () {
+        hotTimer = setInterval(hotScrollLeft,3000);
+    };
     // -------------------------------------------轮播3--------------------------------------
     var env = $('EnvDisplay');
     var envCur = 0;
@@ -118,7 +157,8 @@ window.onload = function () {
     for (var envI = 0; envI < 5; envI++){
         envDesc.appendChild(envAllDesc[0].cloneNode(true));
     }
-    $('envLeft').onclick = function () {
+
+    function envScrollLeft() {
         var sum,txtSum;
         envCur--;
         if(envCur == -1){
@@ -130,9 +170,9 @@ window.onload = function () {
         }
         animate(env,{left:- 880 * envCur});
         animate(envDesc,{top:-191 * envCur});
-    };
+    }
 
-    $('envRight').onclick = function () {
+    function envScrollRight() {
         envCur++;
         if(envCur == envLen){
             envCur = 1;
@@ -141,7 +181,38 @@ window.onload = function () {
         }
         animate(env,{left:-880 * envCur});
         animate(envDesc,{top:-191 * envCur});
+    }
+
+    $('envLeft').onclick = function () {
+        envScrollLeft();
+    };
+    $('envRight').onclick = function () {
+        envScrollRight();
     };
 
+    var envTimer = setInterval(envScrollRight,1000);
+
+
+    env.onmouseover = function () {
+        clearInterval(envTimer);
+    };
+    env.onmouseout = function () {
+        envTimer = setInterval(envScrollRight,1000);
+    };
+    var EnvBtn = $('EnvBtn');
+    EnvBtn.onmouseover = function () {
+        clearInterval(envTimer);
+    };
+    EnvBtn.onmouseout = function () {
+        envTimer = setInterval(envScrollRight,1000);
+    };
+
+    var EnvContent = $('EnvContent');
+    EnvContent.onmouseover = function () {
+        clearInterval(envTimer);
+    };
+    EnvContent.onmouseout = function () {
+        envTimer = setInterval(envScrollRight,1000);
+    };
 
 };//window.onload()闭括号
