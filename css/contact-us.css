@@ -93,8 +93,12 @@
 /*---------------------middle---------------------*/
 .banner {
     height: 512px;
-    background: #f4f4f4 url("http://192.168.1.134:8899/Composure/images/banner-bg.jpg") no-repeat;
+    background: #f4f4f4;
     border-top: 5px solid #efefef;
+}
+.banner img {
+    width: 1920px;
+    height: 512px;
 }
 .contact {
     height: 483px;

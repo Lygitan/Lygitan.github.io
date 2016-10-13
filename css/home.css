@@ -1,0 +1,106 @@
+.main {
+    height: 2000px;
+}
+.home-title {
+    height: 92px;
+    font-size: 24px;
+    line-height: 92px;
+}
+.home-title-img {
+    vertical-align: middle;
+    padding-right: 10px;
+}
+.banner {
+    width: 100%;
+    height: 477px;
+    background: #f9f9f9;
+    border-top: 5px solid #efefef;
+}
+.split {
+    width: 100%;
+    height: 76px;
+    padding-top: 24px;
+    background: #121212;
+}
+.split-content {
+    height: 50px;
+    background: url("../images/split-close.png") no-repeat right center;
+}
+.split-btn {
+    width: 172px;
+    height: 50px;
+    color: #bababa;
+    background: #1f1f1f;
+    font-size: 23px;
+    font-family: "Segoe UI Light", "Calibri";
+    float: left;
+}
+.split-describe {
+    padding-left: 17px;
+    font-size: 23px;
+    line-height: 50px;
+    color: #bababa;
+    float: left;
+}
+
+.Our {
+    height: 339px;
+}
+.Our .Our-tab {
+    height: 246px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.Our .Our-tab li {
+    width: 340px;
+    height: 196px;
+    padding: 23px 20px 0;
+    border-top: 7px solid #ff5842;
+    margin-right: 30px;
+    background: #f9f9f9;
+    float: left;
+}
+.Our .Our-tab li.Our-li-else {
+    margin-right: 0;
+}
+.Our .Our-tab li div {
+    height: 48px;
+    font-size: 24px;
+    line-height: 39px;
+}
+div.Task  {
+    background: url("../images/Task.png") no-repeat right center;
+}
+div.Calender  {
+    background: url("../images/Calender.png") no-repeat right center;
+}
+div.Reminder  {
+    background: url("../images/Reminder.png") no-repeat right center;
+}
+.Our .Our-tab li p {
+    height: 75px;
+    line-height: 25px;
+    font-size: 16px;
+    color: #555;
+    padding-bottom: 23px;
+}
+.Our .Our-tab li a {
+    font-size: 16px;
+    color: #6ec0fd;
+}
+.Our .Our-tab li a img {
+    vertical-align: middle;
+}
+
+.Sto {
+    height: 513px;
+}
+.Sto-tab {
+    height: 388px;
+    border-bottom: 1px solid #e6e6e6;
+}
+.Sto-tab li {
+    width: 281px;
+    height: 366px;
+    border: 2px solid #f8f8f8;
+    margin-right: 20px;
+}
