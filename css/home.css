@@ -1,5 +1,5 @@
 .main {
-    height: 2500px;
+    height: 2015px;
 }
 .home-title {
     height: 92px;
@@ -16,6 +16,82 @@
     height: 477px;
     background: #f9f9f9;
     border-top: 5px solid #efefef;
+    position: relative;
+}
+.banner-container {
+    width: 1200px;
+    margin: 0 auto;
+    /*margin-left: 308px;*/
+    /*float: left;*/
+}
+.banner-display {
+
+}
+.banner-describe {
+    width: 600px;
+}
+.banner-p-first {
+    padding-top: 50px;
+    font-size: 32px;
+    height: 34px;
+    line-height: 34px;
+    color: #ff5842;
+    font-weight: bold;
+}
+.banner-p-second {
+    width: 508px;
+    height: 67px;
+    font-size: 22px;
+    line-height: 67px;
+    color: #8b8b8b;
+    border-bottom: 1px solid #e2e2e2;
+}
+.banner-p-third {
+    width: 472px;
+    padding-top: 20px;
+    font-size: 16px;
+    color: #656565;
+    line-height: 28px;
+    padding-bottom: 82px;
+}
+.banner-btn {
+    width: 276px;
+    height: 57px;
+    background: #ff5842;
+    color: #fff;
+    font-size: 24px;
+    border: 0 none;
+}
+.banner-btn img {
+    vertical-align: middle;
+}
+#bannerLeft {
+    width: 41px;
+    height: 41px;
+    /*margin-left: 10px;*/
+    /*margin-top: 218px;*/
+    position: absolute;
+    left: 10px;
+    top: 218px;
+    background: #f5f5f5 url("../images/left-icon.png") no-repeat center center;
+    float: left;
+}
+#bannerLeft:hover {
+    background: #eee;
+}
+#bannerRight {
+    width: 41px;
+    height: 41px;
+    /*margin-right: 10px;*/
+    /*margin-top: 218px;*/
+    position: absolute;
+    right: 10px;
+    top: 218px;
+    background: #f5f5f5 url("../images/right-icon.png") no-repeat center center;
+    float: right;
+}
+#bannerRight:hover {
+    background: #eee;
 }
 .split {
     width: 100%;
@@ -93,7 +169,31 @@ div.Reminder  {
 }
 
 .Sto {
-    height: 513px;
+    height: 483px;
+}
+
+.Sto-left {
+    float: left;
+}
+.Sto-right {
+    float: right;
+    padding-top: 31px;
+}
+.Sto-right div {
+    width: 41px;
+    height: 41px;
+    cursor: pointer;
+    float: left;
+}
+.Sto-right div:hover {
+    background-color: #eee;
+}
+.turn-left {
+    background: #f5f5f5 url("../images/turn-left.png");
+}
+.turn-right {
+    background: #f5f5f5 url("../images/turn-right.png");
+    margin-left: 1px;
 }
 .Sto-tab {
     height: 388px;
@@ -221,12 +321,11 @@ div.Reminder  {
 }
 .Pos-display {
     height: 170px;
-    /*padding: 0 10px;*/
 }
 .Pos-btn-left {
     width: 41px;
     height: 170px;
-    background: #eee;
+    background: #eee url("../images/left-icon.png") no-repeat center center;
     float: left;
 }
 .Pos-display-content {
@@ -275,7 +374,7 @@ div.Reminder  {
 .Pos-btn-right {
     width: 41px;
     height: 170px;
-    background: #eee;
+    background: #eee url("../images/right-icon.png") no-repeat center center;
     float: right;
 }
 
@@ -283,8 +382,91 @@ div.Reminder  {
     height: 279px;
 }
 .Cli-left {
-
+    float: left;
+}
+.Cli-display {
+    width: 804px;
+    height: 186px;
+    padding-top: 1px;
+}
+.Cli-display li {
+    width: 253px;
+    height: 186px;
+    margin-right: 15px;
+    float: left;
+}
+.Cli-li-describe {
+    width: 231px;
+    height: 80px;
+    position: relative;
+    border: 1px solid #f2f2f2;
+    background: #f8f8f8;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 5px 10px 0;
+}
+.Cli-li-describe-arrow {
+    width: 0;
+    height: 0;
+    border-top: 8px solid #f2f2f2;
+    border-bottom: 8px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    position: absolute;
+    top: 85px;
+    left: 52px;
+}
+.Cli-li-item {
+    height: 100px;
+    margin-top: 19px;
+}
+.Cli-li-item-icon {
+    width: 30px;
+    height: 30px;
+    background: #686868;
+    float: left;
+}
+.Cli-li-item-content {
+    padding-left: 5px;
+    line-height: 16px;
+    font-size: 12px;
+    float: left;
+}
+.Cli-li-item-content h4 {
+    height: 15px;
+}
+.Cli-li-item-content p {
+    height: 15px;
+    color: #bbb;
 }
 .Cli-right {
-
+    float: right;
+    width: 390px;
+    height: 209px;
+    background: #57bae8;
+    margin-top: 20px;
+}
+.Cli-right-icon {
+    height: 74px;
+    background: url("../images/Cli-Twitter-icon.png") no-repeat center center;
+}
+.Cli-right-describe {
+    height: 85px;
+    padding-bottom: 20px;
+    text-align: center;
+    line-height: 23px;
+}
+.Cli-right-describe p {
+    color: #f6fbfe;
+    font-size: 16px;
+}
+.Cli-right-describe h4 {
+    color: #bbe7fb;
+    font-size: 14px;
+}
+.Cli-right-Twitter {
+    font-size: 18px;
+    line-height: 28px;
+    text-indent: 10px;
+    color: #edf7fc;
 }

@@ -46,9 +46,25 @@
 <!----------------------------------header公共部分 end---------------------------------->
 <!----------------------------------banner start---------------------------------->
 <div class="banner">
-    <div class="container">
-
+    <div id="bannerLeft"></div>
+    <div class="banner-container">
+        <div class="banner-display">
+            <ul class="banner-describe">
+                <li>
+                    <p class="banner-p-first">It's beautifully made & performs beautiful.</p>
+                    <p class="banner-p-second">Loving it is easy, that's why so many people do.</p>
+                    <p class="banner-p-third">Made from high-quality materials like aluminum and glass, iPad and iPad mini are exquisitely designed. You can tell just by looking. But from the very first touch, you’ll realize there’s much more to them than meets the eye.</p>
+                    <button class="banner-btn">Purchase Now <img src="images/icon-go.png"></button>
+                </li>
+            </ul>
+            <!--<ul class="banner-images">-->
+                <!--<li><img src="images/computer.png"></li>-->
+                <!--<li><img src=""></li>-->
+                <!--<li><img src=""></li>-->
+            <!--</ul>-->
+        </div>
     </div>
+    <div id="bannerRight"></div>
 </div>
 <!----------------------------------banner end---------------------------------->
 <!----------------------------------split start---------------------------------->
@@ -56,8 +72,7 @@
     <div class="container">
         <div class="split-content cf">
             <input type="button" value="Join us now" class="split-btn">
-            <p class="split-describe">And get your own offer, Get a 30% discount for the first 5 purchases.
-            </p>
+            <p class="split-describe">And get your own offer, Get a 30% discount for the first 5 purchases.</p>
         </div>
     </div>
 </div>
@@ -88,7 +103,10 @@
 
     <!----------------------------------Sto start---------------------------------->
     <div class="Sto">
-        <div class="home-title"><img src="images/icon-Sto.png" class="home-title-img">Store Featured Items</div>
+        <div class="home-title">
+            <div class="Sto-left"><img src="images/icon-Sto.png" class="home-title-img">Store Featured Items</div>
+            <div class="Sto-right cf" id="StoBtn"><div class="turn-left" id="btnLeft"></div><div class="turn-right" id="btnRight"></div></div>
+        </div>
         <ul class="Sto-tab cf">
             <li>
                 <div>
@@ -192,12 +210,54 @@
     <div class="Cli cf">
         <div class="Cli-left">
             <div class="home-title"><img src="images/icon-Cli.png" class="home-title-img">Client Testimonials</div>
-            <ul>
-                <li></li>
+            <ul class="Cli-display">
+                <li class="Cli-li">
+                    <div class="Cli-li-describe">Morbi pretium gravida justo nec ultrices. Ut et facilisis justo. Fusce ac turpis eros, vel molestie lectus.
+                        <div class="Cli-li-describe-arrow"></div>
+                    </div>
+                    <div class="Cli-li-item cf">
+                        <div class="Cli-li-item-icon"></div>
+                        <div class="Cli-li-item-content">
+                            <h4>Henry Sherman</h4>
+                            <p>Bakersfield, MI 95261</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="Cli-li">
+                    <div class="Cli-li-describe">Morbi pretium gravida justo nec ultrices. Ut et facilisis justo. Fusce ac turpis eros, vel molestie lectus.
+                        <div class="Cli-li-describe-arrow"></div>
+                    </div>
+                    <div class="Cli-li-item cf">
+                        <div class="Cli-li-item-icon"></div>
+                        <div class="Cli-li-item-content">
+                            <h4>Brody Rios</h4>
+                            <p>Frisco, WY 10118</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="Cli-li">
+                    <div class="Cli-li-describe">Morbi pretium gravida justo nec ultrices. Ut et facilisis justo. Fusce ac turpis eros, vel molestie lectus.
+                        <div class="Cli-li-describe-arrow"></div>
+                    </div>
+                    <div class="Cli-li-item cf">
+                        <div class="Cli-li-item-icon"></div>
+                        <div class="Cli-li-item-content">
+                            <h4>Connor Sims</h4>
+                            <p>Abilene, GA 39172</p>
+                        </div>
+                    </div>
+                </li>
             </ul>
         </div>
 
-        <div class="Cli-right"></div>
+        <div class="Cli-right">
+            <div class="Cli-right-icon"></div>
+            <div class="Cli-right-describe">
+                <p>Nulla molestie libero sit amet sem ullamcorper<br> sit amet mattis sem bibendum.</p><br>
+                <h4>M-Elgendy - April 5, 2013</h4>
+            </div>
+            <div class="Cli-right-Twitter">Twitter</div>
+        </div>
     </div>
     <!----------------------------------Cli end---------------------------------->
 
