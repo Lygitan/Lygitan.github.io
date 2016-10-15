@@ -34,10 +34,14 @@
     height: 477px;
     position: relative;
     z-index: 99;
+    overflow: hidden;
 }
 .banner-describe {
     width: 600px;
     height: 9999px;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .banner-describe li {
     width: 600px;
@@ -80,24 +84,33 @@
     vertical-align: middle;
 }
 .banner-images-visible {
-    width: 750px;
-    height: 443px;
+    width: 1200px;
+    height: 477px;
     position: absolute;
-    left: 476px;
+    left: 0;
     top: 0;
     z-index: 9;
     overflow: hidden;
 }
 .banner-images {
-    width: 9999px;
-    height: 443px;
     list-style: none;
-    padding-top: 35px;
+    width: 9999px;
+    height: 440px;
+    padding-top: 37px;
+    /*height: 477px;*/
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .banner-images li {
-    width: 750px;
-    height: 443px;
+    width: 1200px;
+    height: 440px;
     float: left;
+}
+.banner-images li img {
+    max-width: 800px;
+    max-height: 440px;
+    vertical-align: middle;
 }
 #bannerLeft {
     width: 41px;
@@ -226,12 +239,23 @@ div.Reminder  {
     background: #f5f5f5 url("../images/turn-right.png");
     margin-left: 1px;
 }
+.Sto-tab-display {
+    width: 1200px;
+    height: 391px;
+    position: relative;
+    overflow: hidden;
+}
 .Sto-tab {
-    height: 388px;
+    width: 9999px;
+    height: 390px;
     border-bottom: 1px solid #e6e6e6;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
 .Sto-tab li {
     width: 281px;
+    height: 366px;
     border: 2px solid #f8f8f8;
     margin-right: 20px;
     float: left;
@@ -239,14 +263,18 @@ div.Reminder  {
 .Sto-tab-img {
     width: 281px;
     height: 266px;
-    background: #fefefe;
+    background: #f60;
+}
+.Sto-tab-img img {
+    min-width: 281px;
+    min-height: 266px;
 }
 .Sto-tab li:hover {
     border: 2px solid #ededed;
 }
-.Sto-tab li.Sto-li-else {
-    margin-right: 0;
-}
+/*.Sto-tab li.Sto-li-else {*/
+    /*margin-right: 0;*/
+/*}*/
 .Sto-tab-describe {
     height: 100px;
     font-size: 16px;
@@ -314,10 +342,18 @@ div.Reminder  {
     position: relative;
     overflow: hidden;
 }
+.Pro-content li div.Pro-img {
+    width: 595px;
+    height: 240px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: red;
+}
 .Pro-content li.Pro-content-no-right {
     margin-right: 0;
 }
-.Pro-content li div {
+.Pro-content li div.Pro-text {
     height: 240px;
     padding: 0 40px 0 20px;
     color: #fff;

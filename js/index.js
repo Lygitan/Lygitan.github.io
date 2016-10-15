@@ -168,7 +168,7 @@ window.onload = function () {
             txtSum =-(envLen-1)*191+'px';
             envDesc.style.top = txtSum;
         }
-        animate(env,{left:- 880 * envCur});
+        animate(env,{left:-880 * envCur});
         animate(envDesc,{top:-191 * envCur});
     }
 
