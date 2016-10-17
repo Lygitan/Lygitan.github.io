@@ -80,6 +80,13 @@
     border: 0 none;
     outline: none;
 }
+.banner-btn a {
+    display: block;
+    width: 276px;
+    height: 57px;
+    color: #fff;
+    line-height: 57px;
+}
 .banner-btn img {
     vertical-align: middle;
 }
@@ -106,11 +113,12 @@
     width: 1200px;
     height: 440px;
     float: left;
+    display: table-cell;
+    vertical-align: middle;
 }
 .banner-images li img {
     max-width: 800px;
     max-height: 440px;
-    vertical-align: middle;
 }
 #bannerLeft {
     width: 41px;
@@ -146,25 +154,50 @@
 }
 .split-content {
     height: 50px;
-    background: url("../images/split-close.png") no-repeat right center;
+    /*background: url("../images/split-close.png") no-repeat right center;*/
 }
 .split-btn {
-    width: 172px;
-    height: 50px;
-    color: #bababa;
     background: #1f1f1f;
     font-size: 23px;
     font-family: "Segoe UI Light", "Calibri";
     float: left;
+    border: 0 none;
+    outline: none;
+    opacity: .8;
+}
+.split-btn a {
+    display: block;
+    width: 172px;
+    height: 50px;
+    color: #bababa;
+    line-height: 50px;
+}
+.split-btn:hover {
+    color: #fff;
+    opacity: 1;
 }
 .split-describe {
-    padding-left: 17px;
+    width: 1028px;
+    text-indent: 17px;
     font-size: 23px;
     line-height: 50px;
     color: #bababa;
     float: left;
+    position: relative;
 }
-
+.split-close {
+    width: 22px;
+    height: 22px;
+    position: absolute;
+    right: 0;
+    top: 15px;
+}
+.split-close img {
+    opacity: .5;
+}
+.split-close img:hover {
+    opacity: 1;
+}
 .Our {
     height: 339px;
 }
@@ -266,8 +299,8 @@ div.Reminder  {
     background: #f60;
 }
 .Sto-tab-img img {
-    min-width: 281px;
-    min-height: 266px;
+    width: 281px;
+    height: 266px;
 }
 .Sto-tab li:hover {
     border: 2px solid #ededed;
@@ -284,7 +317,12 @@ div.Reminder  {
 .Sto-tab li div p {
     height: 40px;
     line-height: 40px;
+}
+.Sto-tab li div p a {
     color: #727272;
+}
+.Sto-tab li div p a:hover {
+    color: #ff5842;
 }
 .Sto-tab li div span {
     display: block;
@@ -329,7 +367,14 @@ div.Reminder  {
     padding-right: 0;
     border-right: 0 none;
 }
+.Pro-content-visible {
+    width: 1200px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
 .Pro-content {
+    width: 2410px;
     height: 500px;
 }
 .Pro-content li {
@@ -348,7 +393,12 @@ div.Reminder  {
     position: absolute;
     left: 0;
     top: 0;
-    background: red;
+    background: #efefef;
+    line-height: 65px;
+}
+.Pro-content li div.Pro-img img {
+    min-width: 595px;
+    min-height: 240px;
 }
 .Pro-content li.Pro-content-no-right {
     margin-right: 0;
@@ -361,6 +411,7 @@ div.Reminder  {
     position: absolute;
     left: 0;
     top: 169px;
+    opacity: .5;
 }
 .Pro-content li div h3 {
     height: 44px;
@@ -404,10 +455,25 @@ div.Reminder  {
     background: #eee url("../images/left-icon.png") no-repeat center center;
     cursor: pointer;
 }
+.Pos-display-visible {
+    width: 1098px;
+    height: 170px;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+    float: left;
+}
 .Pos-display-content {
     width: 1098px;
-    padding: 0 10px;
-    float: left;
+    height: 9999px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.Pos-content {
+    width: 1098px;
+    height: 170px;
+    padding-bottom: 20px;
 }
 .Pos-img {
     display: inline-block;
@@ -415,6 +481,10 @@ div.Reminder  {
     height: 170px;
     background: #797979;
     float: left;
+}
+.Pos-img img {
+    width: 200px;
+    height: 170px;
 }
 .Pos-display-describe {
     display: inline-block;
@@ -440,12 +510,15 @@ div.Reminder  {
     line-height: 21px;
     padding: 14px 0;
 }
-.Pos-display-describe input {
+.Pos-display-describe a.Pos-button {
+    display: block;
     width: 183px;
     height: 45px;
     font-size: 16px;
     color: #fff;
     background: #ff5842;
+    line-height: 45px;
+    text-align: center;
 }
 .Pos-btn-right {
     width: 41px;
@@ -484,17 +557,25 @@ div.Reminder  {
     line-height: 18px;
     padding: 5px 10px 0;
 }
-.Cli-li-describe-arrow {
-    width: 0;
-    height: 0;
-    border-top: 8px solid #f2f2f2;
-    border-bottom: 8px solid transparent;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
+.Cli-arrow-border {
     position: absolute;
     top: 85px;
     left: 52px;
+    width: 0;
+    height: 0;
+    border-top: 8px solid #f8f8f8;
+    border-bottom: 8px solid transparent;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
 }
+/*.Cli-li-describe-arrow {*/
+    /*width: 0;*/
+    /*height: 0;*/
+    /*border-top: 8px solid #f8f8f8;*/
+    /*border-bottom: 8px solid transparent;*/
+    /*border-left: 6px solid transparent;*/
+    /*border-right: 6px solid transparent;*/
+/*}*/
 .Cli-li-item {
     height: 100px;
     margin-top: 19px;
