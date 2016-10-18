@@ -433,9 +433,12 @@ div.Reminder  {
     background: #efefef;
 }
 .Pro-border-display {
-    width: 500px;
+    width: 484px;
     height: 20px;
     background: #ff5842;
+    position: relative;
+    left: 0;
+    top: 0;
 }
 
 .Pos {

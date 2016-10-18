@@ -12,7 +12,7 @@ window.onload = function () {
             this.getElementsByTagName('div')[0].className = 'Twi-img';
         }
     }
-
+    
     var exc = $('ExcDisplay');
     var excCur = 0;
     var excDl = exc.getElementsByTagName('dl');
@@ -30,7 +30,6 @@ window.onload = function () {
             this.getElementsByTagName('span')[0].style.display = 'none';
         }
     }
-
 // -------------------------------------------轮播1--------------------------------------
     function excScrollLeft() {
         var sum;

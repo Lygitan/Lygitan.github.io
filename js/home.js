@@ -149,4 +149,26 @@ $(function () {
         }
         $('.Pos-display-content').stop().animate({top: -190 * posCur});
     });
+    
+    // -------------------------------------------------------Pro拖拽
+    $('.Pro-border-display').mousedown(function (e) {
+        var event = e || window.event;
+        $(this).css({cursor:'move'});
+        var x = event.clientX;
+        var w = x - $(this).offsetLeft;
+
+        $('.Pro-border-bottom').mousemove(function (e) {
+            var event = e || window.event;
+            var _x = event.clientX;
+            var s = _x - w;
+            $('.Pro-border-display').css({left:s});
+            $('.Pro-content').css({left:3*s});
+        });
+
+        $('.Pro-border-bottom').mouseup(function () {
+            $('.Pro-border-display').css({cursor:'default'});
+            $('.Pro-border-bottom').mousemove = null;
+        });
+        return false;
+    });
 });
