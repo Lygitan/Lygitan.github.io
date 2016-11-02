@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <title>微信卡券页面</title>
+    <link rel="stylesheet" href="font-icon/iconfont.css">
+    <style>
+        * {margin: 0;padding: 0}
+        .cf:after {content: '';display: table;clear: both}
+        .cf {*zoom:1}
+        body {font-family: "microsoft yahei"}
+        .top-bar {width: 6.4rem;height: .79rem;}
+        .back {width: .47rem;text-align: right;float: left;line-height: .29rem}
+        .icon-back {font-size: .36rem;color: #636363;font-weight: bolder;}
+        .coupon {width: 5.29rem;font-size: .3rem;text-align: center;float: left;color: #333;line-height: .79rem;}
+        .menu {width: .38rem;height: .33rem;margin: 0 .17rem 0 0;text-align: left;float: left;line-height: .19rem;}
+        .icon-menu {font-size: .33rem;color: #666}
+        
+        .banner {width: 6.4rem;height: 2.9rem;border-top: .01rem solid #e8e8e8;border-bottom: .01rem solid #e8e8e8;background: #f4f4f4}
+        .display {width: 6rem;height: 2.5rem;margin: .2rem auto 0;background: url("images/bg-img.png") no-repeat;background-size: cover;overflow: hidden;position: relative;}
+        .house-wrap {height: .63rem;margin: .26rem 0 0 .25rem;font-size: .25rem;color: #fff}
+        .house {width: .63rem;height: .63rem;border-radius: 50%;vertical-align: middle;margin-right: .13rem}
+
+        .QR-Code p {font-size: .2rem;color: #b5b5b5;margin: 0 auto}
+
+        .gift-card {width: 1.5rem;height: .39rem;background: #d7fcd2;text-align: center;line-height: .39rem;font-size: .25rem;color: #279560;font-weight: bolder;position: absolute;top: .18rem;right: -.4rem;transform: rotate(45deg);}
+        .gift-wrap {height: .78rem;padding: .36rem 0 0 .89rem;position: relative}
+        .gift {width: .76rem;height: .76rem;position: absolute;top: .36rem;left: .89rem;}
+        .gift-wrap dl {width: 3.95rem;height: .69rem;border-left: .01rem solid #95d7be;margin: .09rem 0 0 1.15rem;padding-left: .43rem;color: #fff}
+        .gift-wrap dl dt {font-size: .35rem;}
+        .gift-wrap dl dd {font-size: .2rem;}
+
+        .list {width: 6.4rem;border-bottom: .01rem solid #e8e8e8;list-style: none;padding-left: .2rem}
+        .list li {height: .79rem;line-height: .79rem;font-size: .25rem;color: #333;position: relative}
+        .describe {}
+        .use-shop {border-top: .01rem solid #ddd;border-bottom: .01rem solid #ddd;}
+        .tel {}
+        .icon-more {position: absolute;top: 0;right: .41rem;font-size: .21rem;color: #636363;font-weight: bolder;}
+
+        #btn {width: 6rem;height: .8rem;border-radius: .04rem;background: #ff7f02;color: #fff;font-size: .3rem;border: 0 none;margin: .59rem auto 2.95rem;line-height: .8rem;text-align: center}
+        .myWallet {display: block;font-size: .26rem;color: #2f45ca;text-decoration: none;width: 2rem;margin: 0 auto}
+
+        .QR-Code {padding-top:2.95rem;width: 5.98rem;height: .79rem;border: .01rem solid #d5d5d5;border-top: 0 none;margin: 0 auto;background: #fff url("images/QR-Code.png") center .4rem no-repeat;background-size: 2.32rem 2.32rem;font-size: .2rem;color: #b5b5b5;text-align: center;line-height: .3rem;border-radius: 0 0 .1rem .1rem;display: none}
+
+    </style>
+</head>
+<body>
+    <div class="top-bar cf">
+        <div class="back"><i class="iconfont icon-back"></i></div>
+        <div class="coupon">优惠券</div>
+        <div class="menu"><i class="iconfont icon-menu"></i></div>
+    </div>
+    <div class="banner">
+        <div class="display">
+            <div class="house-wrap">
+                <img src="images/house.jpg" class="house">美乐乐家居旗舰店
+            </div>
+            <div class="gift-card">礼品券</div>
+            <div class="gift-wrap">
+                <img src="images/gift.png" class="gift">
+                <dl>
+                    <dt>金秋10月优惠券</dt>
+                    <dd>领取后1天生效，有效期30天</dd>
+                </dl>
+            </div>
+        </div>
+        <div class="QR-Code">
+            <div class="icon"></div>
+            mll15613213546<br>
+            将本页展示给店员即可使用
+        </div>
+    </div>
+    <ul class="list">
+        <li class="describe">使用说明<i class="iconfont icon-more"></i></li>
+        <li class="use-shop">适用门店<i class="iconfont icon-more"></i></li>
+        <li class="tel">客服电话<i class="iconfont icon-more"></i></li>
+    </ul>
+    <div id="btn">领 取</div>
+    <a href="javascript:;" class="myWallet">查看我的钱包>></a>
+
+<script>
+    new function () {
+        var _self = this;
+        var p;
+        _self.width = 640; // 设置默认最大宽度
+        _self.fontSize = 100; // 默认字体大小
+        _self.widthProportion = function () {
+            p = (document.body && document.body.clientWidth || document.getElementsByTagName("html")[0].offsetWidth) / _self.width;
+            return p;
+        };
+        _self.changePage = function () {
+            document.getElementsByTagName("html")[0].setAttribute("style", "font-size:" + _self.widthProportion() * _self.fontSize + "px !important");
+        };
+        _self.changePage();
+        window.addEventListener('resize', function () {
+            _self.changePage();
+        }, false);
+    };
+    
+    var btn = document.getElementById('btn');
+    var banner = document.getElementsByClassName('banner')[0];
+    var QR = document.getElementsByClassName('QR-Code')[0];
+    var a = document.getElementsByClassName('myWallet')[0];
+    btn.onclick = function () {
+        btn.style.display = 'none';
+        banner.style.height = '6.65rem';
+        QR.style.display = 'block';
+        a.style.marginTop = '.59rem';
+    }
+</script>
+</body>
+</html>
