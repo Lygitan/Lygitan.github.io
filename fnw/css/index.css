@@ -122,7 +122,7 @@ li.hlp {height: 35px;line-height: 36px;padding: 0 2px;}
 .search-form {position: relative;width: 503px;height: 34px;border: 2px solid #C20053;padding-left: 33px;}
 i.search-icon {width: 21px;height: 21px;position: absolute;top: 7px;left: 8px;background: url("http://static01.fn-mart.com/product/images/index/fn_g_header.png?12345656805") 0 -52px no-repeat;}
 .search-ipt {width: 395px;height: 24px;line-height: 24px;padding: 5px;border: 0 none;font-size: 16px;color: #333;}
-.search-btn {width: 98px;height: 34px;padding-left: 13px;line-height: 34px;background-color: #C20053;font-size: 18px;color: #fff;letter-spacing: 7px;}
+.search-btn {width: 98px;height: 34px;padding-left: 13px;line-height: 34px;background-color: #C20053;font-size: 18px;color: #fff;letter-spacing: 7px;cursor: pointer;}
 .hotword {width: 540px;height: 22px;line-height: 20px;overflow: hidden;}
 .hotword a {float: left;font-size: 12px;color: #999;margin-top: 4px;margin-right: 10px;}
 .hotword a:hover {color: #C20053;text-decoration: underline;}
@@ -216,7 +216,7 @@ i.menu-icon {width: 16px;height: 10px;display: inline-block;overflow: hidden;pos
 .main-banner-img li:nth-child(9) {background-color: rgb(154, 41, 121);}
 .main-banner-img li:nth-child(10) {background-color: rgb(221, 1, 20);}
 .main-banner-nav {height: 20px;line-height: 20px;position: absolute;left: 50%;bottom: 9px;text-align: center;}
-.main-banner-nav li {width: 9px;height: 9px;background-color: transparent;border: 2px solid #fff;border-radius: 50%;float: left;margin-right: 18px;transform: translate(-140px,0);}
+.main-banner-nav li {width: 9px;height: 9px;background-color: transparent;border: 2px solid #fff;border-radius: 50%;float: left;margin-right: 18px;transform: translate(-140px,0);cursor: pointer;}
 .main-banner-nav li.on {width: 13px;height: 13px;background-color: #C20053;border: 0 none;border-radius: 50%;}
 .left-btn,.right-btn {display: block;width: 28px;height: 62px;line-height: 62px;background: #000;opacity: .2;left: 50%;top: 50%;margin-top: -31px;color: #fff;font-size: 22px;font-weight: 400;font-family: SimSun;filter: alpha(opacity=20);-webkit-transition: opacity .2s linear 0s;transition: opacity .2s linear 0s;position: absolute;text-align: center;}
 .left-btn:hover,.right-btn:hover {cursor: pointer;}
