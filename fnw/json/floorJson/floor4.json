@@ -1,0 +1,387 @@
+{"floor4":[
+    {"floorTitle":[
+        {"titleText":"家电数码"},
+        {"titleNum":"4F"}, 
+        {"floorTab":[
+            "热门推荐","季节电器","手机数码","电脑办公","小家电","大家电"
+        ]}
+    ]},
+    {"floorContent":[
+        {"floorNav":[
+            {"floorNavAd":"http://img03.fn-mart.com/C/web/layout/kk/20170103/201701030932441483407164_kk-0.png"},
+            {"sales":[
+                "电脑数码新年大放送  >","贝尔莱德熨烫 爆款5折起 >"
+            ]},
+            {"assists":[
+                "买林内送电动牙刷 >","手机配件 满35立减5元 >","奔腾新年钜惠 全场66元起 >","斐讯路由器 “0”元领 >"
+            ]},
+            {"words":[
+                {"lst":[
+                    "手　机","充电宝","洗衣机","笔记本","榨汁机","吸尘器"
+                ]},
+                {"lst":[
+                    "净水设备","电压力锅","家用冰箱","打印设备","LED电视","厨卫大电"
+                ]}
+            ]}
+        ]},
+        {"floorTabContent":[
+            {"page":[
+                {"listItem":[
+                    {"slide1":[
+                        "http://img03.fn-mart.com/C/web/layout/kk/20170103/201701030927531483406873_kk-0.jpg",
+                        "http://img04.fn-mart.com/C/web/layout/kk/20170103/201701030928341483406914_kk-0.jpg",
+                        "http://img02.fn-mart.com/C/web/layout/kk/20170103/201701030928491483406929_kk-0.jpg"
+                    ]},
+                    {"slide2":[
+                        "http://img04.fn-mart.com/C/web/layout/kk/20170103/201701030928591483406939_kk-0.jpg",
+                        "http://img02.fn-mart.com/C/web/layout/kk/20170103/201701030929181483406958_kk-0.jpg"
+                    ]}
+                ]},
+                {"listItemGroup":[
+                    {"listItem":[
+                        "http://img03.fn-mart.com/C/web/layout/kk/20170103/201701030930041483407004_kk-0.jpg",
+                        "http://img04.fn-mart.com/C/web/layout/kk/20170103/201701030930091483407009_kk-0.jpg",
+                        "http://img02.fn-mart.com/C/web/layout/kk/20170103/201701030930131483407013_kk-0.jpg"
+                    ]},
+                    {"listItem":[
+                        "http://img03.fn-mart.com/C/web/layout/kk/20170103/201701030930491483407049_kk-0.jpg",
+                        "http://img04.fn-mart.com/C/web/layout/kk/20170103/201701030930531483407053_kk-0.jpg",
+                        "http://img02.fn-mart.com/C/web/layout/kk/20170103/201701030930551483407055_kk-0.jpg"
+                    ]}
+                ]}    
+            ]},
+            {"pageGroup":[
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/fa17133c92ab23292ea0/BT62nn72_zClhdZMX2/5xmRoaORvGciZx/CsmRslht6lKAHlk-AADUp-aGMNU903_160x160.jpg"},
+                            {"prodN":"奥克斯(AUX) KFR-35GW/BpHU+3 1.5匹 壁挂式 智能WIFI 变频 冷暖空调"},
+                            {"prodPrice":[
+                                {"curPrice":"2277"},{"oldPrice":"2499"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2015/0906/201509C060000553/_892877190_160x160.jpg"},
+                            {"prodN":"赛亿（Shinee)取暖器家用 取暖电器 电暖器 电暖气居浴室防水欧式快热炉HC5120R"},
+                            {"prodPrice":[
+                                {"curPrice":"79"},{"oldPrice":"149"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/807a133c9343259c32ee/B2q2TT5T_zLMBMZdf2/1xmGSGtyQ9PiKR/CsmRr1hvSgOAP6ceAAIBA2pBIUg435_160x160.jpg"},
+                            {"prodN":"大金(DAIKIN) FTXS336SCDN 大1.5匹 壁挂式 变频 冷暖空调(金色)"},
+                            {"prodPrice":[
+                                {"curPrice":"3955"},{"oldPrice":"4099"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/65a9133c135120ba1a36/B26zzz5TDnLgklUd3T/1ioRmyfaKat9LG/CsmRslfXiPGAAGFzAAPhSeHRicM450_160x160.jpg"},
+                            {"prodN":"Singfun 先锋 取暖器 11片直板电热油汀 静音 家用 CY11BB-11"},
+                            {"prodPrice":[
+                                {"curPrice":"249"},{"oldPrice":"379"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/6dbe133c92a52518a9e6/kzH222sTFTLMKMUM32/1Yeama3a_GExfi/CsmRslht85KAQZBgAADgW28-4vE962_160x160.jpg"},
+                            {"prodN":"奥克斯(AUX) KFR-51LW/BpSFD+3 2匹 立柜式 变频 冷暖空调"},
+                            {"prodPrice":[
+                                {"curPrice":"3799"},{"oldPrice":"3899"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/8e11133a2ca4323e84e4/h262TT5T_nfdBlZd3T/7imGeaXGQanRoG/CsmRsVhhE9iAGsaEAAKc5jWy248519_160x160.jpg"},
+                            {"prodN":"实佳 卡通花边 暖手袋（款式随机发货）"},
+                            {"prodPrice":[
+                                {"curPrice":"19.9"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/dcfe133c934d25cc6ca8/BzHznn5T_2tlKguMC2/59eyoatRQxWxhR/CsmRr1hvS8aAFaARAAHKB-QcrM0947_160x160.jpg"},
+                            {"prodN":"大金(DAIKIN) FVXG250NC-W 2匹 立柜式 变频 冷暖空调(白色)"},
+                            {"prodPrice":[
+                                {"curPrice":"9555"},{"oldPrice":"9599"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img16.fn-mart.com/pic/4529133a26a3193d44c7/kT6zzz7zv2fghgVdCT/1YmRmafGPxKGBG/CsmRr1g-OmSAC22tAAIZpk3W76c391_160x160.jpg"},
+                            {"prodN":"养参堂 家用足浴盆618老人洗脚盆按摩保健足疗深桶泡脚桶"},
+                            {"prodPrice":[
+                                {"curPrice":"288"}
+                            ]}
+                        ]}
+                    ]}    
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/57e3133a300d20f89af6/kn62zz1zDTflhdZd3z/sioRmR3aORKGTR/CsmRslhI6i2APdCtAAFJ5eIbJc8577_160x160.jpg"},
+                            {"prodN":"OPPO R9sPlus 全网通 玫瑰金 64GB"},
+                            {"prodPrice":[
+                                {"curPrice":"3499"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/f5d8133c142edc2086e1/hTqnzz7TvnfdkMUdjn/1iSGSafaFy2yZa/CsmRsVfodtSAVf0jAAFjtxL_VDk054_160x160.jpg"},
+                            {"prodN":"小米 红米Note4 高配全网通版 3GB+64GB 金色 移动联通电信4G手机 双卡双待"},
+                            {"prodPrice":[
+                                {"curPrice":"1199"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2016/0414/201604C140000436/_823644472_160x160.jpg"},
+                            {"prodN":"华为（HUAWEI） P9（EVA-DL00） 3GB+32GB 联通定制版 （支持联通移动4G）手机 - 皓月银"},
+                            {"prodPrice":[
+                                {"curPrice":"2499"},{"oldPrice":"2988"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/eb39133a242922de4c36/K26z225zF2tMBlUdO2/7YeaoatygGjaZi/CsmRslf544SAT2oDAAD4p7MuOpQ511_160x160.jpg"},
+                            {"prodN":"华为  nova 4GB+64GB版 香槟金（白）移动联通电信4G手机 双卡双待"},
+                            {"prodPrice":[
+                                {"curPrice":"2199"},{"oldPrice":"2399"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/e531133a25e8255b9e9e/B262zz1z_TCgBgUlOz/7xeamRfGExLYfa/CsmRslgup7WAaacwAADLyl7pQhQ110_160x160.jpg"},
+                            {"prodN":"vivo X9 全网通 4GB+64GB 移动联通电信4G手机 双卡双待 金色"},
+                            {"prodPrice":[
+                                {"curPrice":"2798"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2016/0731/201607C310000008/_310265484_160x160.jpg"},
+                            {"prodN":"摩曼(moman)  VR BOX手机虚拟现实眼镜3D眼镜"},
+                            {"prodPrice":[
+                                {"curPrice":"79"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/0a4c133a20101c0e4874/hnHnzz12F2fgklVMjz/5iSymGCypiXyTa/CsmRslgO1jyAZploAALe852BUWo371_160x160.jpg"},
+                            {"prodN":"镁声MEXSON X1无线蓝牙音乐耳机头戴式有源消噪免提通话运动防汗耳麦 黑色"},
+                            {"prodPrice":[
+                                {"curPrice":"299"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2015/0813/201508C130000956/_442889819_160x160.jpg"},
+                            {"prodN":"罗马仕(ROMOSS) sense4 plus 移动电源/充电宝 10400毫安 LED显屏 白色"},
+                            {"prodPrice":[
+                                {"curPrice":"69.9"},{"oldPrice":"79"}
+                            ]}
+                        ]}
+                    ]}
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/4b46133a1f2d1bc34c35/hzqT221nvntlBdVMfT/5YmRSyUGBYoaSy/CsmRr1f7DOyAJJmUAAG-X4lfgEs237_160x160.jpg"},
+                            {"prodN":"联想（thinkpad） S5 20G4A003CD 游戏本 i5 8G 1T 2G独显 15.6英寸 IPS 笔记本电脑"},
+                            {"prodPrice":[
+                                {"curPrice":"6999"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2016/0324/201603C240000212/_934674180_160x160.jpg"},
+                            {"prodN":"TP-LINK 1750M 11AC双频无线路由器（全金属机身） TL-WDR7800"},
+                            {"prodPrice":[
+                                {"curPrice":"299"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/6e3e133a25d229ce0eb7/kzH222sTFTLMKMUMt2/59oGoaCGfyfiKG/CsmRr1gtdICAc-VAAAMxv_cOWpA644_160x160.jpg"},
+                            {"prodN":"戴尔（DELL）Ins14SR-4528B 14英寸便携娱乐笔记本电脑 i5-6200U 独显2G 4G内存 500G硬盘 Ins14SR-4528BB"},
+                            {"prodPrice":[
+                                {"curPrice":"3499"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2014/0905/201409C050000171/_615861820_160x160.jpg"},
+                            {"prodN":"迅捷（FAST）150M无线路由器 FW150R"},
+                            {"prodPrice":[
+                                {"curPrice":"43"},{"oldPrice":"48"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/5025133a25ca1b41ccbf/BnHT2212FTtMkMudtn/79SGmRfafGzGmG/CsmRsFgrz5yAED3zAARzxm5OEuo236_160x160.jpg"},
+                            {"prodN":"酷奇 发热保暖电热鼠标垫暖桌垫宝24V电脑桌垫 学生暖手书写字板YH-002"},
+                            {"prodPrice":[
+                                {"curPrice":"69.9"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/8adc133a25ce25b99650/B28nnn7z_2CMBgulLz/sieaoyfytanRpx/CsmRr1gsDpGAJ-nyAAHjrKkM-TE010_160x160.jpg"},
+                            {"prodN":"AKG/爱科技 y50  耳机头戴式 音乐线控麦克风耳麦"},
+                            {"prodPrice":[
+                                {"curPrice":"678"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/da11133a1fe6201c0f90/K28TTT1z_zCMBdugXz/1ioRmyfanak9BG/CsmRslgK9eiAXHwzAAMYJcaKlXg298_160x160.jpg"},
+                            {"prodN":"蔡司（ZEISS) 镜头擦镜纸 200片装"},
+                            {"prodPrice":[
+                                {"curPrice":"99"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2016/0428/201604C280003715/_477152056_160x160.jpg"},
+                            {"prodN":"佳能（Canon）G3800 加墨式 喷墨无线一体机打印机（打印 扫描 复印 Wifi）"},
+                            {"prodPrice":[
+                                {"curPrice":"1399"}
+                            ]}
+                        ]}
+                    ]}
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2015/0713/201507C130000523/_785048192_160x160.jpg"},
+                            {"prodN":"宾果 电陶炉 YH808A"},
+                            {"prodPrice":[
+                                {"curPrice":"129"},{"oldPrice":"188"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2015/0625/201506C250000088/201506C250000097_801463057_160x160.jpg"},
+                            {"prodN":"大金（DAIKIN） MC70KMV2 空气清洁器"},
+                            {"prodPrice":[
+                                {"curPrice":"1849"},{"oldPrice":"2300"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/fc92133a24243441a65d/Kz62TTsnDTflhgugtT/59oGoaZGJYhivG/CsmRr1f6QGqAHKItAAVZ87q_yIk861_160x160.jpg"},
+                            {"prodN":"美的（Midea） 电饭煲 MB-WFS4017TM 4L"},
+                            {"prodPrice":[
+                                {"curPrice":"299"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/8006133a26a5200b839d/h262TT5T_nfdBlZd3T/7YSySGOatafYzG/CsmRslg-X9iAXe_gAAMrvzt1T2k342_160x160.jpg"},
+                            {"prodN":"雷瓦（RIWA）RC-7401 吹风美发造型套装"},
+                            {"prodPrice":[
+                                {"curPrice":"99"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2015/0928/201509C280000043/_951084587_160x160.jpg"},
+                            {"prodN":"九阳（Joyoung） DJ13B-D08D豆浆机全自动倍浓植物奶牛豆浆机 1.3升大容量"},
+                            {"prodPrice":[
+                                {"curPrice":"349"},{"oldPrice":"399"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2014/0319/201403C190000279/_162140932_160x160.jpg"},
+                            {"prodN":"松下(Panasonic) ES-RC30-K(黑色) 剃须刀"},
+                            {"prodPrice":[
+                                {"curPrice":"129"},{"oldPrice":"138"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img17.fn-mart.com/pic/f26a133a30a31c47899c/BzHznn5T_2tlKguMj2/7YmySGXGjR_akY/CsmRslhKK-iAcMsIAAHkb2HTQMg102_160x160.jpg"},
+                            {"prodN":"拜杰（Baijie）电火锅家用电煮锅韩式多功能不粘锅电热锅 煮面锅火锅炉多功能锅6L大容量"},
+                            {"prodPrice":[
+                                {"curPrice":"99"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img18.fn-mart.com/pic/dce9133c14483207b7ce/Bnq2zz72_2fMKdudO2/siSRmGLR_at939/CsmRslfrvFOATckZAAJi_gcbL94630_160x160.jpg"},
+                            {"prodN":"德尔玛（Deerma）DX117C 手持立式两用 家用吸尘器 （红黑）"},
+                            {"prodPrice":[
+                                {"curPrice":"89"},{"oldPrice":"99"}
+                            ]}
+                        ]}
+                    ]}
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/8934133a260c1bb0bc38/BTqn225nv2LgBMUMf2/5iSymGCyZRPyOa/CsmRr1gZXruAXBv4AAVuxLjKRtI076_160x160.jpg"},
+                            {"prodN":"TCL D49A620U 49英寸 智能 4K超高清 LED液晶电视"},
+                            {"prodPrice":[
+                                {"curPrice":"2488"},{"oldPrice":"2999"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/03db133a274edc7d0e13/hT8nTTs2v2LgBMuM32/7YSGmatauY3iP9/CsmRslgb5NaASw08AAJ_UJRjdg4148_160x160.jpg"},
+                            {"prodN":"飞利浦(Philips) 65PUF6656/T3 65英寸 智能 4K超高清 LED液晶电视"},
+                            {"prodPrice":[
+                                {"curPrice":"7477"},{"oldPrice":"8499"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/d18e133b980a190978db/h28z22sT_nLdhlugLT/59oGoaZGJy0ici/CsmRr1d5yS-AGnNwAACYR5kaZE4131_160x160.jpg"},
+                            {"prodN":"海尔(Haier) KFR-35GW/15DCA21AU1 1.5匹 壁挂式 智能WIFI 变频 冷暖空调"},
+                            {"prodPrice":[
+                                {"curPrice":"3866"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/6359133bd57bddeeeb95/Kz62TTsnDTflhgugtT/1ioRmyVaVit9BG/CsmRsFe7olKAJLUuAACn0CuOL4w958_160x160.jpg"},
+                            {"prodN":"海尔(Haier) SKFR-50LW/11WDA22A 2匹 立柜式 智能WIFI 变频 冷暖空调"},
+                            {"prodPrice":[
+                                {"curPrice":"7177"},{"oldPrice":"7940"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/8d61133c9025dbf9a167/kzqnTT72vnCghMZlf2/5xSGeaCRcijxLY/CsmRr1h0Ml6AOX3lAAFU8gufnzM157_160x160.jpg"},
+                            {"prodN":"小天鹅(Little Swan) TB70-C1098H 7公斤 全自动 波轮 洗衣机"},
+                            {"prodPrice":[
+                                {"curPrice":"999"},{"oldPrice":"1058"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/1b9e133c9029dc3aaf8c/BT6n22szFztlhlUdCz/5YmRSyLGJY3iWY/CsmRsFh0MsKAMXMWAADAA2xOFuU852_160x160.jpg"},
+                            {"prodN":"美菱(MEILING) BCD-171LCX 171升 双门 冰箱"},
+                            {"prodPrice":[
+                                {"curPrice":"999"}
+                            ]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2015/0910/201509C100000278/_761261095_160x160.jpg"},
+                            {"prodN":"海尔(Haier) ES60H-HC3(E) 60升 电热水器"},
+                            {"prodPrice":[
+                                {"curPrice":"789"},{"oldPrice":"799"}
+                            ]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/b49d133a26061b6d2a39/kTq2nn7nDzLdKMZgfT/5iSymGCyZRPyWa/CsmRsFgZXDqAYRZ2AADcyRdXJKs978_160x160.jpg"},
+                            {"prodN":"美的(Midea) F05-15A(S) 5升 小厨宝 电热水器(上出水)"},
+                            {"prodPrice":[
+                                {"curPrice":"369"},{"oldPrice":"399"}
+                            ]}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]}
+]}

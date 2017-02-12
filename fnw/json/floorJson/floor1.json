@@ -1,0 +1,356 @@
+{"floor":[
+    {"floorTitle":[
+        {"titleText":"食品饮料"},
+        {"titleNum":"1F"},
+        {"floorTab":["精选推荐","休闲零食","酒水饮料","茶冲乳品","粮油调味","营养保健"]}
+    ]},
+    {"floorContent":[
+        {"floorNav":[
+            {"floorNavAd":"http://img03.fn-mart.com/C/web/layout/kk/20161220/201612200932341482197554_kk-0.jpg"},
+            {"floorNavContent":[
+              {"sale":["大牌饼干 满99减30元 >","汇源满38元赠马克杯 >"]},
+              {"words":["薯　片","白　酒","纯牛奶","炒货类","葡萄酒","大　米","沙琪玛","黄　酒","食用油","肉零食","饮用水","酸　奶","饼　干","茶饮料","咖　啡"]}
+          ]}
+        ]},
+        {"floorTabContent":[
+            {"page":[
+                {"listItem":[
+                    {"slide1":
+                    "http://img02.fn-mart.com/C/web/layout/kk/20170102/201701021024361483323876_kk-0.jpg"},
+                    {"slide2":[
+                      "http://img03.fn-mart.com/C/web/layout/kk/20170102/201701021028511483324131_kk-0.jpg",
+                      "http://img04.fn-mart.com/C/web/layout/kk/20161227/201612271001381482804098_kk-0.jpg",
+                      "http://img02.fn-mart.com/C/web/layout/kk/20161227/201612271001461482804106_kk-0.jpg",
+                      "http://img03.fn-mart.com/C/web/layout/kk/20161227/201612271449171482821357_kk-0.jpg"
+                    ]}
+                ]},
+                {"listItemGroup":[
+                  {"listItem":[
+                    "http://img03.fn-mart.com/C/web/layout/kk/20161228/201612280951421482889902_kk-0.jpg",
+                    "http://img04.fn-mart.com/C/web/layout/kk/20161227/201612271035341482806134_kk-0.jpg"
+                  ]},
+                  {"listItem":[
+                    "http://img02.fn-mart.com/C/web/layout/kk/20161228/201612280951481482889908_kk-0.jpg",
+                    "http://img03.fn-mart.com/C/web/layout/kk/20161227/201612271035431482806143_kk-0.jpg"
+                  ]},
+                  {"listItem":[
+                    "http://img04.fn-mart.com/C/web/layout/kk/20170102/201701021023231483323803_kk-0.jpg",
+                    "http://img02.fn-mart.com/C/web/layout/kk/20161227/201612271035511482806151_kk-0.jpg"
+                  ]}
+                ]}
+            ]},
+            {"pageGroup":[
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2014/1101/201411C010000153/_646516180_160x160.jpg"},
+                            {"prodN":"百草味  富贵开1610g/盒 9袋装 年货零食坚果礼盒 零食大礼包"},
+                            {"prodPrice":[{"curPrice":"188"},{"oldPrice":"255"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2016/0710/201607C100000028/_368199901_160x160.jpg"},
+                            {"prodN":"憨豆熊  合家欢礼盒  967g/盒 坚果礼盒 年货元宵礼盒"},
+                            {"prodPrice":[{"curPrice":"78"},{"oldPrice":"138"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2015/0812/201508C120000354/_954828966_160x160.jpg"},
+                            {"prodN":"楼恒泰 牛气冲天 礼盒 1700g 坚果礼盒 零食大礼包休闲零食 坚果炒货"},
+                            {"prodPrice":[{"curPrice":"98"},{"oldPrice":"129"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/8280133a26552ad384d5/hTqTnns2DnLdBgZMtT/5iSymGCypiPyBx/CsmRr1g4CkiAKyFMAAKWfvk9WnQ640_160x160.jpg"},
+                            {"prodN":"乐事 美国经典原味薯片 202g/袋"},
+                            {"prodPrice":[{"curPrice":"8.9"},{"oldPrice":"12.5"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/d026133a2c3b1b8701df/K2qTnn5TD2tghguMtn/79oaSRLGViZxja/CsmRsFhXU7iADBeIAAnxqnkxA6A121_160x160.jpg"},
+                            {"prodN":"立丰 腊味礼盒 1438g"},
+                            {"prodPrice":[{"curPrice":"238"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/8396133a2ba2236dba51/h262TT5T_nfdBlZdLT/sioRmRfa09dGgR/CsmRsFg_yGOAB4wrAASb4o3aig4371_160x160.jpg"},
+                            {"prodN":"旺旺 旺旺团缘大礼包 480g/袋"},
+                            {"prodPrice":[{"curPrice":"26.9"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/47fa133c143625191ac0/B262zz1z_TCgBgUlpz/59oGoacGdy0itG/CsmRq1fqHZmAT_zmAAPKLQvvsN0977_160x160.jpg"},
+                            {"prodN":"卜珂 8口味臻萃松露型巧克力（代可可脂） 408g"},
+                            {"prodPrice":[{"curPrice":"29.9"},{"oldPrice":"39.9"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/a403133c9523dc3aaab3/kz8zTT1n_zCdkdVMtT/7imRoGLREYf9da/CsmRsFhy5XqAFAOgAAI_myFui54428_160x160.jpg"},
+                            {"prodN":"卡夫 闲趣自然清咸原味 900g/盒"},
+                            {"prodPrice":[{"curPrice":"23.5"},{"oldPrice":"28.8"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2016/0727/201607C270000112/_375465512_160x160.jpg"},
+                            {"prodN":"港荣 蒸奶香蛋糕 1kg/箱"},
+                            {"prodPrice":[{"curPrice":"38.2"},{"oldPrice":"47.9"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img16.fn-mart.com/pic/4c1c133a1f5d3636bc1b/B2Hzzz5TvnfdBdZdtn/5YSGeGVRBYDRBy/CsmRsFf_mEuAas4iAAD3jZo6ypY566_160x160.jpg"},
+                            {"prodN":"马一芳 红枣夹核桃 葡萄干 芝麻 独立包装什锦大枣夹核桃仁 夹心枣268g"},
+                            {"prodPrice":[{"curPrice":"23.8"}]}
+                        ]}
+                    ]}
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2015/1008/201510C080000045/_205818660_160x160.jpg"},
+                            {"prodN":"53度飞天茅台酱香型 500ml/瓶"},
+                            {"prodPrice":[{"curPrice":"1239"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2013/1120/201311C200002345/_511913528_160x160.jpg"},
+                            {"prodN":"52度五粮液浓香型白酒水晶装  500ml/瓶"},
+                            {"prodPrice":[{"curPrice":"829"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2015/0410/201504C100000942/_506102214_160x160.jpg"},
+                            {"prodN":"52度剑南春浓香型白酒 500ml/瓶"},
+                            {"prodPrice":[{"curPrice":"345"},{"oldPrice":"349"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2015/1231/201512C310000239/_934426547_160x160.jpg"},
+                            {"prodN":"和酒 大开福五年陈 1L*6瓶/箱"},
+                            {"prodPrice":[{"curPrice":"108"},{"oldPrice":"133.8"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2016/0812/201608C120000206/_993281458_160x160.jpg"},
+                            {"prodN":"华夏长城 金色大厅干红葡萄酒礼盒 750ml*2瓶/盒"},
+                            {"prodPrice":[{"curPrice":"99"},{"oldPrice":"128"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/8924133c139b255597a4/kzH222sTFTLMKMUMW2/7xeamRcGvRLYea/CsmRrFfc8NGAYHu9AASmI4bQW98792_160x160.jpg"},
+                            {"prodN":"洋河 52度蓝色经典天之蓝 480ml/瓶"},
+                            {"prodPrice":[{"curPrice":"299"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2014/0522/201405C220000379/_506517329_160x160.jpg"},
+                            {"prodN":"脉动 维生素饮料(芒果) 600ml*15瓶/箱"},
+                            {"prodPrice":[{"curPrice":"50.5"},{"oldPrice":"55.5"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2013/1112/201311C120000564/_376936711_160x160.jpg"},
+                            {"prodN":"正宗椰树牌利乐包椰子汁 245ml*24盒/箱"},
+                            {"prodPrice":[{"curPrice":"64.5"},{"oldPrice":"79.1"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/ba1a133a2ecc27a091b5/knqnTT5nFzCghdZdLT/5xeamRLapxE93a/CsmRsFhGdXGAWwZlAAHyvyFXSUQ638_160x160.jpg"},
+                            {"prodN":"星巴克 星冰乐摩卡味咖啡饮料 281ml*4瓶/组"},
+                            {"prodPrice":[{"curPrice":"52.9"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img17.fn-mart.com/pic/fbdb133b962128443c20/kT6zzz7zv2fghgVdpT/19maoaXGKxJik9/CsmRq1d2LpuAWyzEAAR379eNH-4984_160x160.jpg"},
+                            {"prodN": "全国包邮 52度 贵州茅台镇 飞天不老 吉祥如意 大坛礼盒 1.5L*2 浓香型白酒"},
+                            {"prodPrice":[{"curPrice":"158"}]}
+                        ]}
+                    ]}
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/53a1133a20451933be38/hnHnzz12F2fgklVMjz/1YmRmafGPxEYMG/CsmRslgSuLuAHF3lAAQ5WGAqSRc920_160x160.jpg"},
+                            {"prodN":"新希望 New Hope 新希望香蕉牛奶 韩国风味奶 250ml*12盒/箱"},
+                            {"prodPrice":[{"curPrice":"49"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2015/0814/201508C140000095/_259416275_160x160.jpg"},
+                            {"prodN":"圣牧 全程有机酸牛奶 205g*12盒/箱"},
+                            {"prodPrice":[{"curPrice":"44.9"},{"oldPrice":"59.9"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/7740133c15a51b9dbb31/h28z22sT_nLdhlug0T/59eyoaJRDGuaJY/CsmRq1fM5wOAJ7_BAAFStQ-JUJ4763_160x160.jpg"},
+                            {"prodN":"光明  巧风巧克力味含乳饮料  250ml*24/箱"},
+                            {"prodPrice":[{"curPrice":"73"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2013/1115/201311C150001226/_120569300_160x160.jpg"},
+                            {"prodN":"蒙牛 纯甄常温酸牛奶 200g*12/箱"},
+                            {"prodPrice":[{"curPrice":"49.9"},{"oldPrice":"63"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2015/1117/201511C170000451/_858585443_160x160.jpg"},
+                            {"prodN":"雀巢 脱脂牛奶 1L"},
+                            {"prodPrice":[{"curPrice":"8.9"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2016/0525/201605C250000508/_849390716_160x160.jpg"},
+                            {"prodN":"维维 天山雪 大红枣酸奶饮品 250ml*18盒/箱"},
+                            {"prodPrice":[{"curPrice":"29.9"},{"oldPrice":"33"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2015/0123/201501C230000135/_535414651_160x160.jpg"},
+                            {"prodN":"贡苑  特级金骏眉礼盒(私享版)  200g/盒"},
+                            {"prodPrice":[{"curPrice":"298"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2015/1216/201512C160000135/_436296589_160x160.jpg"},
+                            {"prodN":"狮井 杭州西湖龙井茶  茶叶礼盒 250克"},
+                            {"prodPrice":[{"curPrice":"188"},{"oldPrice":"198"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2015/0512/201505C120000377/_814118624_160x160.jpg"},
+                            {"prodN":"寿全斋 红糖姜茶 120g/盒"},
+                            {"prodPrice":[{"curPrice":"21"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img18.fn-mart.com/pic/d5e1133bd688287d0969/h26n22sT_2tMKludLn/sioGoGVGpYZy2G/CsmRr1ejA8CAX4wuAAJcBWzkjWI824_160x160.jpg"},
+                            {"prodN":"【新疆原产】新疆千初纯牛奶全脂牛奶200ml*15盒礼盒装"},
+                            {"prodPrice":[{"curPrice":"68"}]}
+                        ]}
+                    ]}
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2014/0704/201407C040000044/null_795103880_160x160.jpg"},
+                            {"prodN":"金龙鱼 阳光葵花籽油 5L/桶"},
+                            {"prodPrice":[{"curPrice":"67.9"},{"oldPrice":"74.9"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2015/0722/201507C220000365/_923419632_160x160.jpg"},
+                            {"prodN":"福临门 非转基因纯正菜籽油 5L"},
+                            {"prodPrice":[{"curPrice":"69.8"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/c686133a1fcd1b99e317/K26z225zF2tMBlUdO2/siSRmGLR2ap9fG/CsmRslgIOm6AajshAAOKj2egNdc183_160x160.jpg"},
+                            {"prodN":"光明米业 光明崇明好米 5kg/袋"},
+                            {"prodPrice":[{"curPrice":"28.9"},{"oldPrice":"34.8"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/4c89133a26a62544bc71/B2qT2252DnflhlVMXz/sioyey3atRLxEx/CsmRslg-fzuAdSIrAAI9N5EK0LM874_160x160.jpg"},
+                            {"prodN":"老恒和浙江米醋(三年陈酿）500ml/瓶"},
+                            {"prodPrice":[{"curPrice":"7.9"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/496a133c92a92a777661/K2qTnn5TD2tghguMXn/59oGoajG_yhiZG/CsmRsVhuFF-AbJGzAARo5BLZJ1I926_160x160.jpg"},
+                            {"prodN":"民福齐食 清油火锅底料 300g"},
+                            {"prodPrice":[{"curPrice":"14.6"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/87aa133a2bc127817770/kn62zz1zDTflhdZd3z/1YoaSRjGOa0YJi/CsmRsVhOXUeAUwzfAAPP1MSGTZU225_160x160.jpg"},
+                            {"prodN":"甘汁园单晶体冰糖 300克/袋"},
+                            {"prodPrice":[{"curPrice":"3.9"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2016/0728/201607C280000127/_208748371_160x160.jpg"},
+                            {"prodN":"想念  挂面 兰州拉面366gX1袋 面条 含调料包 口味面"},
+                            {"prodPrice":[{"curPrice":"12.8"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2016/0719/201607C190000436/_831115367_160x160.jpg"},
+                            {"prodN":"双汇芝士鱼肉肠110g/盒"},
+                            {"prodPrice":[{"curPrice":"8.9"},{"oldPrice":"9.9"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/8802133a1fb122f602c0/B262zz1z_TCgBgUltz/5xeRmataSGuaJa/CsmRsFgHE2CAdZBlAAKTvihSO0o000_160x160.jpg"},
+                            {"prodN":"德州真空五香扒鸡 500g/袋"},
+                            {"prodPrice":[{"curPrice":"26.8"},{"oldPrice":"29"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img16.fn-mart.com/pic/6ce8133bd4a822d35177/Kz62TTsnDTflhgugpT/79oaSRcGcRmap9/CsmRq1eqySWAXDZgAARPIPv3BtY116_160x160.jpg"},
+                            {"prodN":"【黑芝麻油】福达坊黑芝麻油100ml 纯正 健康 适合婴儿及孕妇食用更佳 火锅调味 养生调味"},
+                            {"prodPrice":[{"curPrice":"1"},{"oldPrice":"16.8"}]}
+                        ]}
+                    ]}
+                ]},
+                {"list":[
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/8915133a2cd21b20998c/BnHT2212FTtMkMudtn/7iSaeaCyXY0aux/CsmRsFhkftGAQEPpAAEhtaFSFas767_160x160.jpg"},
+                            {"prodN":"脑白金250ml*2瓶/盒"},
+                            {"prodPrice":[{"curPrice":"248"},{"oldPrice":"258"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/C/item/2013/1028/201310C280002905/201310C280000583_407326942_160x160.jpg"},
+                            {"prodN":"黄金搭档多种维生素片(中老年型)1000mg/粒*100粒/盒"},
+                            {"prodPrice":[{"curPrice":"148"},{"oldPrice":"158"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2013/1028/201310C280002870/_626885125_160x160.jpg"},
+                            {"prodN":"东阿阿胶桃花姬阿胶糕 300g/盒"},
+                            {"prodPrice":[{"curPrice":"249"},{"oldPrice":"328"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2015/0409/201504C090000196/_907005508_160x160.jpg"},
+                            {"prodN":"神象 西洋参片 50g/盒"},
+                            {"prodPrice":[{"curPrice":"109"},{"oldPrice":"132"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/986c133a25c32174f36f/Kz8Tnn1zvTLdhMVdtz/1xmGSGtyfGzGVR/CsmRsFgr6ZuAA17uAANqWDFIZ4k286_160x160.jpg"},
+                            {"prodN":"雷氏 十全阿胶膏 450g*2瓶/盒"},
+                            {"prodPrice":[{"curPrice":"148"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/C/item/2015/1030/201510C300000231/_467048341_160x160.jpg"},
+                            {"prodN":"九和堂 红楼阿胶糕 红枣味 400g/盒"},
+                            {"prodPrice":[{"curPrice":"130"},{"oldPrice":"175"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/C/item/2015/1130/201511C300000554/null_957657448_160x160.jpg"},
+                            {"prodN":"昂立 多邦胶囊铁盒 0.3g*24粒*7包/盒"},
+                            {"prodPrice":[{"curPrice":"112"},{"oldPrice":"148"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img02.fn-mart.com/pic/dcc7133a2c4618d74b4b/B28nnn5TDnClhgZdfz/7YoamGfyZitita/CsmRsFhYlMyAQp5oAAPgHokD2tY694_160x160.jpg"},
+                            {"prodN":"汤臣倍健 液体钙软胶囊礼盒装(40粒*3瓶/盒) 1000mg/粒*40粒/瓶*3瓶/盒"},
+                            {"prodPrice":[{"curPrice":"158"}]}
+                        ]}
+                    ]},
+                    {"listItem":[
+                        {"prod":[
+                            {"prodI":"http://img03.fn-mart.com/pic/a12d133a2c3222ad395c/kn62zz1zDTflhdZd3z/59eaeajGcGWalG/CsmRsVhXd_uAKhhZAAOpe-cX-6g899_160x160.jpg"},
+                            {"prodN":"汤臣倍健 蛋白粉商超礼盒 300g/盒 300g/盒(150g/罐*2罐)"},
+                            {"prodPrice":[{"curPrice":"248"}]}
+                        ]},
+                        {"prod":[
+                            {"prodI":"http://img04.fn-mart.com/pic/92ec133c13f21b979999/k2q2nn72FzflKgUM3T/5YmRSyLGFaEaSy/CsmRsVfkm3WAVBfbAAHOGfbGKDs986_160x160.jpg"},
+                            {"prodN":"康富来 冰糖燕窝  70ml*6瓶/盒"},
+                            {"prodPrice":[{"curPrice":"139"}]}
+                        ]}
+                    ]}
+                ]}
+            ]}
+        ]}
+    ]}
+]}

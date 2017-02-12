@@ -149,7 +149,7 @@ $(function () {
     $('.list-item-slide32-display').append($('.list-item-slide32-display li').eq(0).clone(true));
 
     var floor3Cur = 0;//当前显示的ul.list-item-slide32-display li帧数
-    var floor3Len = $('.list-item-slide12-display li').length;//获取ul.list-item-slide32-display里li的个数
+    var floor3Len = $('.list-item-slide32-display li').length;//获取ul.list-item-slide32-display里li的个数
     var floor3NavCur = 0; //当前显示的ul#floor3SlideNav li帧数
     var floor3SlideTimer;//创建定时器
 

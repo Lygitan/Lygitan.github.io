@@ -1,0 +1,113 @@
+body {height: 2000px;}
+/*头部 start*/
+.header {}
+/*顶部栏 start*/
+.header-topbar {width: 100%;height: 35px;line-height: 35px;border-bottom: 1px solid #dedede;background-color: #f7f7f7;}
+.split {width: 1px;height: 10px;margin-top: 13px;padding: 0;background: #dedede;}
+.header-topbar-container {width: 1190px;}
+
+.header-topbar-left {}
+.header-topbar-left li {float: left;}
+li.hlp {height: 35px;line-height: 36px;padding: 0 2px;}
+.header-topbar-login {}
+.login-status {position: relative;padding: 0 8px;}
+.login-status a,.login-status span,.post a {height: 35px;display: inline-block;float: left;font-size: 12px;line-height: 37px;color: #666;}
+.post a:hover {color: #C20053;}
+.msg {margin-left: 10px;position: relative;}
+.msg .num {color: #C20053;float: none;}
+.msg .tips {position: absolute;right: -12px;top: 32px;min-width: 70px;max-width: 132px;height: 20px;line-height: 20px;border-radius: 2px;padding: 0 20px 0 5px;background: #666;color: #fff;display: none;}
+.msg .tips span {display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.msg .tips .tip-t {position: absolute;right: 22px;top: -11px;width: 0;height: 0;font-size: 0;border-width: 6px;border-style: dashed dashed solid;border-color: transparent transparent #666;}
+.msg .tips .tip-times {position: absolute;display: block;right: 5px;top: 0;font-size: 16px;font-style: normal;color: #bfb5b5;cursor: pointer;}
+.ml5 {margin-left: 5px;}
+.hlp i {overflow: hidden;}
+
+.header-topbar-city {position: relative;z-index: 20;}
+.post {position: relative;padding: 0 19px 0 8px;}
+.shz {height: 35px;line-height: 37px;display: inline-block;float: left;font-size: 12px;color: #666;margin-right: 6px;}
+.post-city {margin-left: -4px;}
+.city-list-box {width: 547px;height: auto;padding: 11px 0;position: absolute;top: 34px;left: 1px;z-index: 3;background-color: #fff;display: none;}
+.city-list-box ul {width: 273px;height: auto;border-right: 1px dotted #ddd;}
+.city-list-box ul li {width: 258px;padding-left: 15px;line-height: 17px;margin-bottom: 7px;float: left;}
+.city-list-box ul li span {font-family: Tahoma;line-height: 18px;display: inline-block;color: #333;height: 20px;font-size: 12px;float: left;}
+.city-list-box ul li a {display: inline-block;line-height: 20px;padding: 0 5px;margin-left: 4px;color: #666;background-color: #fff;height: 20px;font-size: 12px;float: left;}
+.city-list-box ul li a:hover {color: #C20053;background-color: #f7f7f7;}
+.city-list-box ul li a.on {background-color: #C20053;color: #fff;}
+
+.header-topbar-right {}
+.header-topbar-right li {float: left;}
+
+.my-fn {position: relative;z-index: 4;}
+.my-fn div.t {position: relative;padding: 0 19px 0 8px;height: 35px;line-height: 36px;}
+.my-fn div.t a {line-height: 37px;color: #666;height: 35px;display: inline-block;float: left;font-size: 12px;}
+.my-fn div.t a:hover {color: #C20053;}
+.fn-login-box {position: absolute;top: 34px;left: 1px;z-index: 3;background-color: #fff;display: none;}
+.head-pop {width: 280px;height: 100%;background-color: #FFF;border: 1px solid #DEDEDE;color: #666;font-size: 12px;}
+.head-por {padding: 15px;height: 80px;}
+.fn-picture {margin-right: 15px;width: 80px;height: 80px;float: left;}
+.fn-picture a {display: block;color: #333;}
+.fn-picture a img {border: 1px solid #E2E2E2;width: 80px;height: 80px;padding: 1px;border-radius: 50%;display:inline;}
+.fn-login-tip {height: 80px;line-height: 80px;float: left;}
+.fn-login-tip p {text-align: center;font-size: 13px;font-weight: 700;color: #333;}
+.fn-login-tip p a {color: #333;}
+.head-list {height: 85px;width: 265px;padding: 0 0 15px 15px;}
+.head-list li {width: 120px;height: 24px;line-height: 24px;margin-right: 10px;float: left;display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+.head-list li a {color: #666;}
+.head-list li a:hover {color: #C20053;text-decoration: underline;}
+
+.my-order {}
+.my-order div.t {position: relative;padding: 0 8px;height: 35px;line-height: 36px;}
+.my-order div.t a {line-height: 37px;color: #666;height: 35px;display: inline-block;float: left;font-size: 12px;}
+
+.card-recharge {}
+.card-recharge div.t {padding: 0 8px 0 24px;height: 35px;line-height: 36px;position: relative;}
+.card-recharge div.t a {line-height: 37px;height: 35px;display: inline-block;float: left;font-size: 12px;}
+.card-recharge div.t i.card {width: 11px;height: 16px;top: 10px;left: 8px;background: url("http://static01.fn-mart.com/product/images/index/fn_g_header.png?12345656805") -36px -96px no-repeat;}
+
+.mobile-fn {z-index: 4;position: relative;}
+.mobile-fn div.t {padding:0 19px 0 23px;height: 35px;line-height: 36px;position: relative;}
+.mobile-fn div.t a {height: 35px;display: inline-block;float: left;font-size: 12px;line-height: 37px;color: #666;}
+.mobile-fn div.t i.mobile {width: 10px;height: 16px;top: 10px;left: 8px;background: url("http://static01.fn-mart.com/product/images/index/fn_g_header.png?12345656805") -136px -44px no-repeat;}
+
+.mobile-fn-box {width: 282px;height: 158px;padding-left: 16px;position: absolute;top: 34px;left: 1px;z-index: 3;background-color: #fff;display: none;}
+.mobile-fn-box dt {width: 116px;height: 116px;margin: 21px 16px 0 0;overflow: hidden;}
+.mobile-fn-box dt a {width: 116px;height: 116px;display: inline-block;}
+.mobile-fn-box dt a img {width: 116px;height: 116px;display: inline-block;}
+.mobile-fn-box dd {font-size: 0;margin-top: 17px;}
+.mobile-fn-box dd.name p {font-size: 12px;color: #666;height: 21px;line-height: 21px;}
+.mobile-fn-box dd.name p:last-child {color: #C20053;}
+.mobile-fn-box dd.pic {padding-left: 5px;margin-top: 12px;}
+.mobile-fn-box dd.pic a {display: inline-block;width: 50px;padding-top: 50px;cursor: pointer;line-height: 20px;text-align: center;color: #666;font-size: 12px;position: relative;}
+.mobile-fn-box dd.pic a:nth-child(1) {margin-right: 20px;}
+.mobile-fn-box dd.pic i.iph {background: url("http://static01.fn-mart.com/product/images/index/fn_g_header.png?12345656805") -211px -52px no-repeat;}
+.mobile-fn-box dd.pic i {width: 50px;height: 50px;position: absolute;top: 0;left: 0;display: inline-block;overflow: hidden;}
+.mobile-fn-box dd.pic i.andr {background: url("http://static01.fn-mart.com/product/images/index/fn_g_header.png?12345656805") -211px 0 no-repeat;}
+
+.integral-mall {}
+.integral-mall div.t {position: relative;padding: 0 8px;height: 35px;line-height: 36px;}
+.integral-mall div.t a {line-height: 37px;color: #666;height: 35px;display: inline-block;float: left;font-size: 12px;}
+
+.customer-service {z-index: 4;position: relative;}
+.customer-service div.t {position: relative;padding: 0 19px 0 8px;height: 35px;line-height: 36px;}
+.customer-service div.t a {line-height: 37px;color: #666;height: 35px;display: inline-block;float: left;font-size: 12px;}
+.customer-service div.t a:hover {color: #C20053;}
+.customer-service-box {position: absolute;top: 34px;left: 1px;z-index: 3;background-color: #fff;display: none;border: 1px solid #DEDEDE;padding: 2px 0 6px 7px;width: 68px;}
+.customer-service-box li {width: 67px;line-height: 24px;overflow: hidden;float: left;}
+.customer-service-box li a {font-size: 12px;color: #666;}
+.customer-service-box li a:hover {color: #C20053;text-decoration: underline;}
+
+.follow-us {position: relative;}
+.follow-us div.t {position: relative;padding: 0 8px;height: 35px;line-height: 36px;}
+.follow-us div.t a {float: left;}
+.follow-us div.t a:nth-child(1){line-height: 37px;color: #666;height: 35px;display: inline-block;float: left;font-size: 12px;}
+.follow-us div.t .w {width: 18px;height: 18px;display: inline-block;margin-top: 9px;background: url("http://static01.fn-mart.com/product/images/index/fn_g_header.png?12345656805") no-repeat;}
+.follow-us div.t .wb {margin-right: 10px;background-position: -109px -75px;}
+.follow-us div.t .wx {background-position: -89px -75px;}
+.follow-us div.t .wx .wx-box {width: 135px;height: 126px;padding-bottom: 15px;left: -9px;position: absolute;top: 34px;z-index: 3;background-color: #fff;display: none;}
+.wx-box-text {width: 135px;text-align: center;font-size: 12px;color: #666;line-height: 18px;margin-top: 4px;}
+.wx-box-img {width: 80px;height: 80px;text-align: center;display: block;margin: 7px auto 0;}
+/*顶部栏 end*/
+
+/*主栏 start*/
+.header-titlebar {}
+/*主栏 end*/

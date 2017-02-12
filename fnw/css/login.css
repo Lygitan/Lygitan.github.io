@@ -1,0 +1,168 @@
+.header {overflow: auto;display: block;}
+.area {width: 1060px;margin: 0 auto;}
+.header .logo {margin: 10px 0;width: 300px;height: 60px;background: url("https://static02.fn-mart.com/images/member/fn_index_logo.png?1012") no-repeat;display: block;}
+
+.login {margin: 0;width: 100%;min-width: 1190px;height: 495px;font-family: "Microsoft YaHei";}
+.login .login-wrap {width: 1190px;padding: 40px 0 0 0;margin: 0 auto;}
+.login .banner {float: left;width: 660px;height: 359px;}
+.login .login-form {position: relative;float: right;width: 305px;height: 365px;padding: 20px 20px 0 20px;margin-right: 135px;background-color: #fff;}
+.login .login-form .switch-tip {position: absolute;left: 178px;top: 5px;padding: 1px 10px;color: #666666;border: 1px solid #ffd8a4;background-color: #fffdee;}
+.login .login-form .switch-tip em {border-color: transparent transparent transparent #ffd8a4;border-width: 5px;left: 105px;top: 5px;border-style: solid;width: 0;position: absolute;z-index: 1;}
+.login .login-form .switch-tip span {border-color: transparent transparent transparent #fff;border-width: 5px;border-style: solid;height: 0;left: 104px;top: 5px;overflow: hidden;position: absolute;width: 0;z-index: 1;}
+.login .login-form .login-switch {position: absolute;right: 0;top: 0;line-height: 0;}
+.login .login-form .login-switch em {display: inline-block;_display: none;display: none\9;position: absolute;right: 17px;bottom: -45px;width: 0;height: 0;overflow: hidden;border: 44px solid transparent;border-right-color: #fff;transform: rotate(315deg);-ms-transform: rotate(315deg);-moz-transform: rotate(315deg);-webkit-transform: rotate(315deg);}
+.login .login-form .login-switch a {display: inline-block;width: 61px;height: 61px;}
+.login .login-form .login-switch .qrcode {background: url("https://static02.fn-mart.com/images/member/login-qr.png") no-repeat;}
+.login .login-form .login-switch .pc {background: url("https://static02.fn-mart.com/images/member/login-pc.png") no-repeat;display: none;}
+.login .login-form .title {height: 21px;}
+.login .login-form .title h1 {font-size: 16px;color: #666;font-weight: 400;}
+.login .login-form .title .regist-link {height: 20px;margin-top: 2px;}
+.login .login-form .title .regist-link a {line-height: 18px;font-size: 14px;color: #c20053;}
+i {position: relative;}
+.login .login-form .title .regist-link a i {display: inline-block;width: 15px;height: 18px;background: url("https://static02.fn-mart.com/images/member/dialog-login.png?1012") no-repeat -75px -40px;}
+.login .login-form .title .regist-link a span {}
+.login .login-form .msg-wrap {height: 24px;line-height: 24px;padding: 16px 0 7px;}
+.login .login-form .msg-wrap .msg {height: 24px;line-height: 24px;padding: 0 10px 0 30px;position: relative;color: #c20053;}
+.login .login-form .msg-wrap .msg i {display: block;width: 15px;height: 15px;position: absolute;left: 10px;top: 50%;margin-top: -7px;}
+.login .login-form .msg-wrap .msg.msg-warn {border: 1px solid #ffe9b1;background: #fff4d8;}
+.login .login-form .msg-wrap .msg.msg-warn i {background: url("https://static02.fn-mart.com/images/member/fn-icon.png?1012") no-repeat 0 0;}
+.login .login-form .msg-wrap .msg.msg-error {border: 1px solid #ffbdbe;background: #ffebeb;}
+.login .login-form .msg-wrap .msg.msg-error i {background: url("https://static02.fn-mart.com/images/member/dialog-login.png?1012") no-repeat 0 -40px;}
+#login-form {}
+.mt10 {margin-top: 10px;}
+.mr10 {margin-right: 10px;}
+.mb10 {margin-bottom: 10px;}
+.mt20 {margin-top: 20px;}
+.mb20 {margin-bottom: 20px;}
+.login .login-form .u-input {position: relative;}
+.login .login-form .u-input .u-label {width: 41px;height: 38px;border-right: 1px solid #eee;position: absolute;left: 1px;top: 1px;}
+.login .login-form .u-input .u-name {background: url("https://static02.fn-mart.com/images/member/dialog-login.png?1012") no-repeat 0 0;}
+.login .login-form .u-input .u-txt {width: 246px;height: 18px;border: 1px solid #ccc;padding: 10px 10px 10px 47px;font-size: 14px;font-family: "Microsoft YaHei";}
+.login .login-form .u-input .u-pwd {background: url("https://static02.fn-mart.com/images/member/dialog-login.png?1012") no-repeat -39px 0;}
+.u-caps-warming {display: none;position: absolute;left: 40px;top: 35px;line-height: 20px;padding: 3px 9px;background: #FFFDEE;border: 1px solid #FFD8A3;z-index: 2;}
+.u-caps-warming em {border-color: transparent transparent #FFD8A3 transparent;border-width: 0 6px 6px;border-style: solid;width: 0;height: 0;position: absolute;z-index: 5;top: -6px;left: 20px;}
+.u-caps-warming span {border-color: transparent transparent #FFFDEE transparent;border-width: 0 6px 6px;border-style: solid;width: 0;height: 0;position: absolute;z-index: 5;top: -5px;left: 20px;}
+.login .login-form .u-safe {position: relative;line-height: 12px;}
+.login .login-form .u-safe .auto {color: #666;cursor: pointer;}
+.login .login-form .u-safe .u-ckb {margin-right: 10px;vertical-align: middle;}
+.login .login-form .u-safe .forget {position: absolute;right: 0;top: 0;}
+.login .login-form .u-safe .forget a {color: #666;}
+.login .login-form .u-authcode {position: relative;}
+.login .login-form .u-authcode .u-txt {width: 93px;padding: 10px 10px;vertical-align: middle;font-size: 14px;text-align: center;}
+.login .login-form .u-authcode .u-txt.u-txt-error {border-color: #c20053;}
+.login .login-form .u-authcode .code-img {width: 66px;height: 40px;vertical-align: middle;}
+.login .login-form .u-authcode a {color: #2176dd;}
+.login-submit {}
+.login .login-form .u-btn a {display: block;width: 305px;height: 40px;line-height: 40px;border: none;color: #fff;font-size: 18px;text-align: center;font-family: "Microsoft YaHei";background-color: #c20053;cursor: pointer;}
+.login .login-form .u-btn a:hover {background-color: #D5065F;}
+
+#login-mobile {}
+.login .login-form .u-input .u-phone {background: url("https://static02.fn-mart.com/images/member/dialog-login.png?1012") no-repeat -78px 0;}
+#logincaptchaMsg {}
+.code-img {}
+.cpcchange:hover {text-decoration: underline;}
+.login .login-form .u-input .get-code {display: block;width: 110px;height: 28px;line-height: 28px;position: absolute;right: 6px;top: 6px;color: #333;background: #eee;text-align: center;}
+.login .login-form .u-input .get-code:hover {color: #C20053;}
+
+.login .login-form .login-gate {width: 305px;margin-left: -20px;}
+.login .login-form .mobile {width: 305px;height: 16px;line-height: 16px;padding: 12px 20px;background: #f5f5f5;font-size: 0;}
+.login .login-form .mobile .item {display: inline-block;font-size: 14px;line-height: 14px;width: 152px;border-left: 1px solid #ddd;color: #c20053;}
+.login .login-form .mobile .item:first-child {border: none;color: #666;}
+.login .login-form .mobile .item .ico-phone {display: inline-block;width: 12px;height: 18px;margin-top: -2px;margin-right: 6px;background: url("https://static02.fn-mart.com/images/member/dialog-login.png?1012") no-repeat -44px -40px;position: relative;}
+.login .login-form .mobile .item span {vertical-align: top;line-height: 14px;}
+.text-right {text-align: right;}
+.login .login-form .mobile .item .ico-arrow {display: inline-block;width: 16px;height: 16px;background: url("https://static02.fn-mart.com/images/member/dialog-login.png?1012") no-repeat -58px -40px;position: relative;}
+.login .login-form .account {width: 305px;height: 20px;line-height: 20px;padding: 12px 20px;color: #999;background: #eee;word-spacing: -3px;}
+.login .login-form .account dt,.login .login-form .account dd {display: inline-block;vertical-align: top;}
+.login .login-form .account dd a {display: block;width: 20px;height: 20px;}
+.login .login-form .account .qq {background: url("https://static02.fn-mart.com/images/member/login/enterprise.png?1012") no-repeat 0 0;}
+.login .login-form .account .qq:hover {background: url("https://static02.fn-mart.com/images/member/login/enterprise.png?1012") no-repeat -20px 0;}
+.login .login-form .account .wechat {margin-left: 10px;background: url("https://static02.fn-mart.com/images/member/login/enterprise.png?1012") no-repeat 0 -20px;}
+.login .login-form .account .wechat:hover {margin-left: 10px;background: url("https://static02.fn-mart.com/images/member/login/enterprise.png?1012") no-repeat -20px -20px;}
+#qr-login {}
+.login .login-form .login-qr h2 {margin-top: 15px;font-size: 14px;font-weight: bold;color: #333;text-align: center;}
+.login .login-form .login-qr .qr-ct {margin-top: 16px;}
+.login .login-form .login-qr .qr-ct .qr-code {position: relative;margin: 0 auto;width: 160px;height: 160px;border: 1px solid #f6f6f6;}
+.login .login-form .login-qr .qr-ct .qr-code img {width: 160px;height: 160px;}
+.login .login-form .login-qr .qr-ct .error-msg {position: absolute;left: 0;top: 0;}
+.login .login-form .login-qr .qr-ct .error-msg .mask {position: absolute;left: 0;top: 0;width: 160px;height: 160px;background: #333;opacity: .8;z-index: 1;}
+.login .login-form .login-qr .qr-ct .error-msg .m-tip {position: absolute;left: 0;top: 0;width: 160px;height: 160px;z-index: 2;}
+.login .login-form .login-qr .qr-ct .error-msg .m-tip p.tip {margin-top: 44px;font-size: 14px;font-weight: bold;}
+.login .login-form .login-qr .qr-ct .error-msg .m-tip p {text-align: center;color: #fff;}
+.login .login-form .login-qr .qr-ct .error-msg .m-tip .btn-refresh {margin-top: 21px;display: inline-block;color: #fff;width: 80px;height: 30px;line-height: 30px;text-align: center;background-color: #c20053;}
+.login .login-form .login-qr .qr-ct .msg {margin-top: 26px;}
+.login .login-form .login-qr .qr-ct .msg p {color: #666;text-align: center;}
+.login .login-form .login-qr .qr-ct .msg p a {margin: 0 5px;color: #06c;}
+#scan-success {}
+.login .login-form .login-qr .qr-success {margin-top: 60px;}
+.login .login-form .login-qr .qr-success .icon-s {width: 70px;height: 130px;margin: 0 auto;background: url("https://static02.fn-mart.com/images/member/qrlogin-success.png") 0 0 no-repeat;}
+.login .login-form .login-qr .qr-success p {text-align: center;color: #666;margin-top: 3px;}
+.login .login-form .login-qr .qr-success p.xs {margin-top: 16px;font-weight: bold;color: #333;}
+
+#JDiffLogin {}
+.alert-dialog {display: none;top: 0;left: 0;width: 100%;height: 100%;position: fixed;z-index: 999;}
+.alert-dialog .dlg-outer {width: 100%;height: 100%;display: table;position: relative;z-index: 1000;}
+.alert-dialog .dlg-outer .dlg-inner {display: table-cell;vertical-align: middle;}
+.alert-dialog .dlg-ct {font-family: "微软雅黑";width: 468px;background: rgb(180, 180, 180);margin: 0 auto;padding: 8px;}
+.alert-dialog .dlg-ct .u-dlg-tt {position: relative;background: #eeeeee;padding: 0 10px;height: 40px;line-height: 40px;}
+.alert-dialog .dlg-ct .u-dlg-tt h1 {font-size: 16px;color: #333;}
+.alert-dialog .dlg-ct .u-dlg-tt i {cursor: pointer;position: absolute;right: 10px;top: 14px;color: #bbbbbb;text-decoration: none;display: inline-block;width: 12px;height: 12px;background: url("https://static02.fn-mart.com/images/dialog-login.png?1012") no-repeat -30px -40px;}
+.alert-dialog .dlg-ct .u-dlg-ct {background: #FFF;padding: 17px 30px 20px;}
+.alert-dialog .u-dlg-ct p {color: #666;}
+.alert-dialog .u-dlg-ct .m-tip i {margin: 0 5px 0 0;vertical-align: middle;display: inline-block;width: 15px;height: 15px;background: url("https://static02.fn-mart.com/images/icon_light.png?1012") no-repeat;}
+.alert-dialog .u-dlg-ct .m-tel {margin: 9px 0 0;padding-left: 20px;}
+.alert-dialog .u-dlg-ct .m-code {margin: 4px 0 0;padding-left: 43px;position: relative;}
+.alert-dialog .u-dlg-ct .m-code label {float: left;height: 28px;line-height: 28px;}
+.alert-dialog .u-dlg-ct .m-code input {font-family: "微软雅黑";float: left;color: rgb(102, 102, 102);height: 26px;width: 172px;padding: 0 5px;border: 1px rgb(221, 221, 221) solid;;border-image: initial;}
+.alert-dialog .u-dlg-ct .m-code a {margin: 0 0 0 10px;float: left;text-align: center;display: block;width: 105px;height: 26px;line-height: 26px;background: #f6f6f6;color: #333;border: 1px solid #ddd;}
+.alert-dialog .u-dlg-ct .m-code .errmsg {display: none;position: absolute;left: 90px;top: 30px;padding: 3px 10px;background: #fff3f3;border: 1px solid #ffbdbe;color: #C20053;}
+.alert-dialog .u-dlg-ct .m-btns {margin: 33px 0 0;text-align: center;}
+.alert-dialog .u-dlg-ct .m-btns a {display: inline-block;height: 32px;line-height: 32px;width: 108px;background: #c70034;color: #FFF;text-decoration: none;}
+
+/*底部 start*/
+/*map*/
+.footer {clear: both;width: 100%;height: 100%;background-color: #fff;margin-top: 20px;}
+.footer-map {width: 1190px;padding: 38px 0;background-color: #fff;overflow: hidden;}
+.map {float: left;width: 296px;font-size: 18px;}
+.footer-icon {width: 52px;height: 52px;margin: 0 13px 0 40px;float: left;}
+.map-title {color: #333;line-height: 18px;vertical-align: text-top;font-weight: bold;}
+.map .map-describe {color: #999;line-height: 30px;}
+.map-line {width: 1px;margin: 4px 0;height: 48px;float: left;background: #ccc;}
+/*server-list*/
+.server-list {border-top: 1px #ddd solid;border-bottom: 1px #ddd solid;background: #fff;color: #fff;}
+.server-list dd a:hover {text-decoration: underline;}
+.footer .server-list ul {width: 1190px;margin: 0 auto;padding: 35px 0 30px;background: #fff;}
+.footer .server-list li {float: left;width: 95px;margin-right: 65px;}
+.server-list-icon {display: block;width: 20px;height: 20px;float: left;background: url("http://static02.fn-mart.com/product/images/index/fn_g_header.png?12345656805") no-repeat;}
+.icon1 {background-position: -23px -52px;}
+.icon2 {background-position: -96px -44px;}
+.icon3 {background-position: -118px -22px;}
+.icon4 {background-position: -96px -22px;}
+.icon5 {background-position: -168px -42px;}
+.server-list-item {margin-left: 25px;}
+.server-list-item dt {font-size: 16px;line-height: 20px;padding-bottom: 5px;font-weight: 700;}
+.server-list-item dd {font-size: 12px;line-height: 22px;}
+.server-list-item a {color: #666;}
+#footer .app-item {width: 108px;margin-right: 25px;}
+#footer .wechat-item {width: 90px;margin-right: 83px;}
+#footer .app-item,#footer .wechat-item {float: right;height: 124px;}
+.app-item p,.wechat-item p {height: 24px;font-size: 16px;font-weight: 700;padding-bottom: 10px;color: #666;}
+.app-item p a,.wechat-item p a {cursor: default;}
+/*site-info*/
+.site-info {text-align: center;font-size: 12px;color: #666;}
+.foot-nav {padding: 30px 0 20px;width: 1190px;background-color: #fff;text-align: center;margin: 0 auto;}
+.foot-nav a {padding-right: 15px;margin-left: 10px;color: #666;text-decoration: none;}
+.foot-nav a:hover {text-decoration: underline;}
+.foot-nav a:nth-child(10):hover,.foot-nav a:nth-child(11):hover {text-decoration: none;}
+.footer .link {line-height: 18px;}
+.link,.logo-wall {text-align: center;background-color: #fff;width: 1190px;margin: 0 auto;}
+.logo-wall {height: 40px;padding: 30px 0;}
+.logo-wall a:hover {cursor: pointer;}
+.logowall-item {margin-right: 10px;height: 40px;display: inline-block;}
+.logo-wall img {display: block;}
+/*底部 end*/
+
+
+
+
+

@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录飞牛网</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="shortcut icon" href="http://www.feiniu.com/favicon.ico">
+</head>
+<body>
+    <div class="header area">
+        <a href="index.html" class="logo" title="返回飞牛网首页"></a>
+    </div>
+    <div class="login" id="login" style="background-color: #e9e9e9;">
+        <div class="login-wrap">
+            <div class="banner">
+                <a href="" class="aBanner">
+                    <img src="https://img.feiniu.com/C/web/layout/kk/20170208/201702081021241486520484_kk-0.jpg" alt="" id="aBannerImg">
+                </a>
+            </div>
+            <div class="login-form">
+                <div class="switch-tip">
+                    <em></em>
+                    <span></span>
+                    <p>扫码登录更安全</p>
+                </div>
+                <div class="login-switch">
+                    <em></em>
+                    <a href="javascript:;" class="qrcode"></a>
+                    <a href="javascript:;" class="pc"></a>
+                </div>
+                <div id="pc-login" class="login-account">
+                    <div class="title oh">
+                        <h1 class="fl">登录飞牛网</h1>
+                        <div class="regist-link fr hide account-login">
+                            <a href="javascript:;">
+                                <i></i>
+                                <span>账号密码登录</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="msg-wrap">
+                        <div class="msg msg-warn" style="display: none;">
+                            <i></i>
+                            <span class="warnMsg">公共场所不建议自动登录，以防帐号丢失</span>
+                        </div>
+                        <div class="msg msg-error" style="display: none;">
+                            <i></i>
+                            <span class="errorMsg">账号和密码不匹配哦~</span>
+                        </div>
+                    </div>
+                    <form id="login-form">
+                        <div class="u-input mb20">
+                            <label class="u-label u-name"></label>
+                            <input type="text" class="u-txt input-txt" placeholder="邮箱/用户名/手机号" name="username" autocomplete="off">
+                        </div>
+                        <input type="hidden">
+                        <div class="u-input mb20">
+                            <label class="u-label u-pwd"></label>
+                            <input type="text" class="u-txt input-txt cap-lock" placeholder="密码" name="password" autocomplete="off">
+                            <span id="caps-pwd" class="u-caps-warming">
+                                <em></em>
+                                <span></span>
+                                键盘大写锁定开启
+                            </span>
+                        </div>
+                        <div class="u-safe">
+                            <span class="auto">
+                                <label>
+                                    <input type="checkbox" class="u-ckb auto-rmb" name="chkRememberMe">自动登录
+                                </label>
+                            </span>
+                            <span class="forget">
+                                <a href="">忘记密码？</a>
+                            </span>
+                        </div>
+                        <div class="u-input u-authcode mt10" id="logincaptcha" style="display: none;">
+                            <input type="text" class="u-txt mr10 input-auth u-txt-error" name="authcode" placeholder="验证码" maxlength="4">
+                            <img src="https://passport.feiniu.com/dovcode/getVcodeL" alt="" id="vcode" class="code-img mr10 vcode">
+                            <span>
+                                看不清？<a href="javascript:;" class="cpcchange">换一张</a>
+                            </span>
+                        </div>
+                        <div class="u-btn mb20 mt20">
+                            <a href="javascript:;" class="login-submit" name="sbtbutton">登&nbsp;&nbsp;&nbsp;录</a>
+                        </div>
+                    </form>
+                    <form id="login-mobile" class="hide">
+                        <div class="u-input mb10">
+                            <label class="u-label u-phone"></label>
+                            <input type="text" class="u-txt input-txt" placeholder="手机号" name="username" autocomplete="off">
+                        </div>
+                        <div class="u-input u-authcode" id="logincaptchaMsg" style="display: none;">
+                            <input type="text" class="u-txt mr10 input-auth" placeholder="图形验证码" name="imgcode" maxlength="4">
+                            <img src="https://passport.feiniu.com/dovcode/getVcodeL" alt="" class="code-img mr10 vcode">
+                            <span>
+                                看不清？<a href="javascript:;" class="cpcchange">换一张</a>
+                            </span>
+                        </div>
+                        <div class="u-input mb20 mt20">
+                            <label class="u-label u-pwd"></label>
+                            <input type="text" class="u-txt input-txt cap-lock" placeholder="手机验证码" name="authcode" autocomplete="off">
+                            <a href="javascript:;" class="get-code">获取验证码</a>
+                        </div>
+                        <div class="u-safe">
+                            <span class="auto">
+                                <label>
+                                    <input type="checkbox" class="u-ckb auto-rmb" name="chkRememberMe">自动登录
+                                </label>
+                            </span>
+                            <span class="forget">
+                                <a href="">忘记密码？</a>
+                            </span>
+                        </div>
+                        <div class="u-btn mb20 mt20">
+                            <a href="javascript:;" class="login-submit" name="">登&nbsp;&nbsp;&nbsp;录</a>
+                        </div>
+                    </form>
+                    <div class="login-gate">
+                        <div class="mobile">
+                            <a href="javascript:;" class="item mobile-login">
+                                <i class="ico-phone"></i>
+                                <span>手机验证码登录</span>
+                            </a>
+                            <a href="javascript:;" class="item text-right">
+                                <i class="ico-arrow"></i>
+                                <span>免费注册</span>
+                            </a>
+                        </div>
+                        <dl class="account">
+                            <dt class="mr10">合作网站登录:</dt>
+                            <dd>
+                                <a href="javascript:;" class="qq" title="QQ"></a>
+                            </dd>
+                            <dd>
+                                <a href="javascript:;" class="wechat" title="微信"></a>
+                            </dd>
+                        </dl>
+                    </div>
+                </div>
+                <div id="qr-login" class="login-qr hide">
+                    <div class="qr-body" id="qr-body">
+                        <h2>用飞牛网APP，扫一扫安全登录</h2>
+                        <div class="qr-ct">
+                            <div class="qr-code">
+                                <img src="https://passport.feiniu.com/gateway/qrCodeImg?v=1486547908675" alt="扫二维码登录飞牛网" id="qrCodeImg">
+                                <div class="error-msg hide" id="qr-login-error">
+                                    <div class="mask"></div>
+                                    <div class="m-tip">
+                                        <p class="tip">登录失败</p>
+                                        <p>
+                                            <a href="javascript:;" class="btn-refresh" id="refresh-qrcode">刷新</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="msg">
+                                <p>
+                                    打开新版<a href="" target="_blank">飞牛APP</a>扫描二维码
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="qr-success hide" id="scan-success">
+                        <div class="icon-s"></div>
+                        <p class="xs">扫描成功</p>
+                        <p>请勿刷新本页，按手机提示操作</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="alert-dialog" id="JDiffLogin">
+        <div class="dlg-outer">
+            <div class="dlg-inner">
+                <div class="dlg-ct">
+                    <div class="u-dlg-tt">
+                        <h1>验证身份</h1>
+                        <i class="close" href="javascript:;"></i>
+                    </div>
+                    <div class="u-dlg-ct">
+                        <p class="m-tip">
+                            <i></i>
+                            该帐号首次在该地区登录，为了帐号安全，需验证您的身份。
+                        </p>
+                        <p class="m-tel">
+                            <span>已绑定手机</span>
+                            ：
+                            <span></span>
+                        </p>
+                        <p class="m-code cf">
+                            <label>验证码：</label>
+                            <input type="text" name="msgCode" maxlength="6">
+                            <a href="javascript:;" class="send-code">获取验证码</a>
+                            <span class="errmsg" style="display: block;">验证码输入错误，请重新输入</span>
+                        </p>
+                        <p class="m-btns">
+                            <a href="javascript:;" name="b-submit">提交验证</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--底部 start-->
+    <div class="footer" id="footer">
+        <div class="footer-map m" style="display: none;">
+            <ul class="cf">
+                <li class="map">
+                    <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737451465292265_kk-0.png" alt="" class="footer-icon">
+                    <strong class="map-title">正品低价</strong><br>
+                    <span class="map-describe">正品行货 品质保障</span>
+                </li>
+                <li class="map-line"></li>
+                <li class="map">
+                    <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737481465292268_kk-0.png" alt="" class="footer-icon">
+                    <strong class="map-title">品类齐全</strong><br>
+                    <span class="map-describe">品类齐全 选择丰富</span>
+                </li>
+                <li class="map-line"></li>
+                <li class="map">
+                    <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737501465292270_kk-0.png" alt="" class="footer-icon">
+                    <strong class="map-title">快速配送</strong><br>
+                    <span class="map-describe">多仓直发 极速配送</span>
+                </li>
+                <li class="map-line"></li>
+                <li class="map">
+                    <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737531465292273_kk-0.png" alt="" class="footer-icon">
+                    <strong class="map-title">售后无忧</strong><br>
+                    <span class="map-describe">7天无理由退货</span>
+                </li>
+            </ul>
+        </div>
+        <div class="server-list" style="display: none;">
+            <ul class="cf">
+                <li>
+                    <i class="server-list-icon icon1"></i>
+                    <dl class="server-list-item">
+                        <dt><a href="">购物指南</a></dt>
+                        <dd><a href="">新用户注册</a></dd>
+                        <dd><a href="">购物流程</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <i class="server-list-icon icon2"></i>
+                    <dl class="server-list-item">
+                        <dt><a href="">支付方式</a></dt>
+                        <dd><a href="">货到付款</a></dd>
+                        <dd><a href="">银联卡支付</a></dd>
+                        <dd><a href="">支付宝</a></dd>
+                        <dd><a href="">财付通</a></dd>
+                        <dd><a href="">优惠卡券</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <i class="server-list-icon icon3"></i>
+                    <dl class="server-list-item">
+                        <dt><a href="">配送服务</a></dt>
+                        <dd><a href="">配送方式</a></dd>
+                        <dd><a href="">配送查询</a></dd>
+                        <dd><a href="">便利店自提</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <i class="server-list-icon icon4"></i>
+                    <dl class="server-list-item">
+                        <dt><a href="">售后服务</a></dt>
+                        <dd><a href="">退货说明</a></dd>
+                        <dd><a href="">退款说明</a></dd>
+                    </dl>
+                </li>
+                <li>
+                    <i class="server-list-icon icon5"></i>
+                    <dl class="server-list-item">
+                        <dt><a href="">常见问题</a></dt>
+                        <dd><a href="">账户问题</a></dd>
+                        <dd><a href="">发票问题</a></dd>
+                        <dd><a href="">订单问题</a></dd>
+                        <dd><a href="">在线客服</a></dd>
+                    </dl>
+                </li>
+                <li class="app-item">
+                    <p>飞牛网客户端</p>
+                    <a href=""><img src="http://img03.fn-mart.com/C/web/layout/kk/20160527/201605271512451464333165_kk-0.png" alt="" width="90" height="90"></a>
+                </li>
+                <li class="wechat-item">
+                    <p>飞牛网微信</p>
+                    <a href=""><img src="http://img03.fn-mart.com/C/web/layout/kk/20160601/201606010958111464746291_kk-0.jpg" alt="" width="90" height="90"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="site-info">
+            <div class="foot-nav">
+                <a href="">公司介绍</a>|
+                <a href="">飞牛招聘</a>|
+                <a href="">媒体报道</a>|
+                <a href="">热搜索词</a>|
+                <a href="">评价中心</a>|
+                <a href="">友情链接</a>|
+                <a href="">商家入驻</a>|
+                <a href="">招商标准</a>|
+                <a href="">开放平台</a>|
+                <a href="" style="cursor: default;">企业团购 021-36695538</a>|
+                <a href="" style="cursor: default;">客服热线 400-920-6565</a>
+            </div>
+            <div class="link">
+                <p>
+                    <a href="" style="color: #666;">沪ICP备14034590号</a>
+                    　|　食品流通许可证编号：sp3100001310001023　|　酒类商品零售许可证 沪闸酒专字 第0811030108000822
+                </p>
+                <p>
+                    出版物经营许可证编号新出发（沪）零字第Z6216号　|　快递业务经营许可证编号：沪邮20131324B　|　营业执照
+                </p>
+                <p>
+                    Copyright © 2013-2016 飞牛网, All Rights Reserved.
+                </p>
+            </div>
+            <div class="logo-wall">
+                <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291526181456730778_kk-0.png" alt=""></a>
+                <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612371456733557_kk-0.jpg" alt=""></a>
+                <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612471456733567_kk-0.jpg" alt=""></a>
+                <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612561456733576_kk-0.jpg" alt=""></a>
+                <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291613031456733583_kk-0.jpg" alt=""></a>
+                <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20161102/201611021041341478054494_kk-0.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+    <!--底部 end-->
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
