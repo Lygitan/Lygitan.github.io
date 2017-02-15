@@ -12,7 +12,8 @@ ul,ol {list-style: none;}
 a,a:hover {text-decoration: none;}
 input,button {border: 0 none;outline: 0 none;}
 .red {color: #C20053 !important;}
-i {display: inline-block;position: absolute;}
+i {display: inline-block;position: absolute;font-style: normal;}
+em {font-style: normal;}
 .arrow-icon {width: 7px;height: 4px;top: 16px;right: 8px;background: url("http://static01.fn-mart.com/product/images/index/fn_g_header.png?12345656805") -140px -28px no-repeat;-webkit-transition: -webkit-transform .4s ease-out;-moz-transition: -moz-transform .4s ease-out;transition: transform .4s ease-out;display: inline-block;position: absolute;}
 .oe {white-space: nowrap;text-overflow: ellipsis;overflow: hidden;}
 .btn {display: block;width: 28px;height: 62px;line-height: 62px;background: #000;opacity: .2;margin-top: -31px;color: #fff;font-size: 22px;font-weight: 400;font-family: SimSun;filter: alpha(opacity=20);-webkit-transition: opacity .2s linear 0s;transition: opacity .2s linear 0s;text-align: center;position: absolute;top: 50%;}

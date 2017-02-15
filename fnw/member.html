@@ -224,23 +224,814 @@
     <!--顶部栏 end-->
     <!--主栏 start-->
     <div class="header-titlebar">
-        <!--logo-->
-        <div class="m-title cf"></div>
-        <!--logo /-->
-        <!--网址跳转-->
-        <div class="m-index"></div>
-        <!--网址跳转 /-->
-        <!--导航-->
-        <div class="m-navitems"></div>
-        <!--导航 /-->
-        <!--min cart-->
-
-        <!--min cart /-->
+        <div class="m-title cf">
+            <!--logo-->
+            <div class="m-logo">
+                <a href="" class="logo">
+                    <img src="https://static02.fn-mart.com/product/images/member/feiniu_logo.png" alt="飞牛logo">
+                </a>
+            </div>
+            <!--logo /-->
+            <!--网址跳转-->
+            <div class="m-index">
+                <a href="" class="index">我的飞牛</a>
+                <a href="index.html" class="home">返回飞牛网首页</a>
+            </div>
+            <!--网址跳转 /-->
+            <!--导航-->
+            <div class="m-navitems">
+                <ul class="cf">
+                    <li class="u-home">
+                        <a href="">首页</a>
+                    </li>
+                    <li class="u-setting">
+                        <div class="u-dl">
+                            <div class="u-dt">
+                                <span>账户设置</span>
+                                <i></i>
+                            </div>
+                            <div class="u-dd">
+                                <a href="">个人信息</a>
+                                <a href="">安全设置</a>
+                                <a href="">收货地址</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="u-msg">
+                        <a href="" class="J-umsg">消息<span id="JMsgCount" style="display: none;">0</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="J-pointmall">积分商城</a>
+                    </li>
+                </ul>
+            </div>
+            <!--导航 /-->
+            <!--min cart-->
+            <div class="m-mini-cart" id="hd-my-cart">
+                <a href="javascript:;" class="u-wrap c-n">
+                    <i></i>
+                    我的购物车
+                    <span class="u-quantity">（<em class="cart_quantity">0</em>）</span>
+                </a>
+                <div class="cart-box">
+                    <div class="cart-box-cont">
+                        <div class="empty-cart">
+                            <span class="m">
+                                <i class="c-i"></i>
+                                购物车中没有飞牛商品哟！
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--min cart /-->
+            <!--搜索-->
+            <div class="m-search cf">
+                <form action="" class="J_form">
+                    <div class="s-form cf">
+                        <input type="text" class="u-search">
+                        <a href="javascript:;" class="u-btn">搜索</a>
+                    </div>
+                </form>
+            </div>
+            <!--搜索 /-->
+        </div>
     </div>
     <!--主栏 end-->
 </div>
 <!--头部 end-->
-
+<!--主体 start-->
+<div class="container">
+    <!--面包屑-->
+    <div class="crumbs">
+        <span>
+            <a href="">我的飞牛</a>
+        </span>
+    </div>
+    <!--面包屑 /-->
+    <div class="wrapper cf">
+        <!--会员中心导航菜单-->
+        <div class="m-menus">
+            <h1>交易中心</h1>
+            <ul>
+                <li id="order">
+                    <a href="javascript:;" class="target_no">我的订单</a>
+                </li>
+                <li id="commen">
+                    <a href="javascript:;" class="target_no">我的评论</a>
+                </li>
+            </ul>
+            <h1>资产中心</h1>
+            <ul>
+                <li id="coupon">
+                    <a href="javascript:;" class="target_no">我的优惠券</a>
+                </li>
+                <li id="shoppingCard">
+                    <a href="javascript:;" class="target_no">我的购物卡</a>
+                </li>
+                <li id="balance">
+                    <a href="javascript:;" class="target_no">账户余额</a>
+                </li>
+                <li id="point">
+                    <a href="javascript:;" class="target_no">我的积分</a>
+                </li>
+                <li class="sub" id="scoreCard">
+                    <a href="javascript:;" class="target_no">积分换券明细</a>
+                </li>
+            </ul>
+            <h1>关注中心</h1>
+            <ul>
+                <li id="favorite">
+                    <a href="javascript:;" class="target_no">我的收藏</a>
+                </li>
+                <li id="everBuy">
+                    <a href="javascript:;" class="target_no">曾经购买</a>
+                </li>
+                <li id="history">
+                    <a href="javascript:;" class="target_no">我的足迹</a>
+                </li>
+            </ul>
+            <h1>个人中心</h1>
+            <ul>
+                <li id="personalInfo">
+                    <a href="javascript:;" class="target_no">个人信息</a>
+                </li>
+                <li id="grade">
+                    <a href="javascript:;" class="target_no">我的等级</a>
+                </li>
+                <li id="address">
+                    <a href="javascript:;" class="target_no">地址管理</a>
+                </li>
+                <li id="security">
+                    <a href="javascript:;" class="target_no">安全设置</a>
+                </li>
+                <li id="invoiceList">
+                    <a href="javascript:;" class="target_no">增票资质</a>
+                </li>
+            </ul>
+            <h1>服务中心</h1>
+            <ul>
+                <li id="invoice">
+                    <a href="javascript:;" class="target_no">我的发票</a>
+                </li>
+                <li id="returnGoods">
+                    <a href="javascript:;" class="target_no">退货管理</a>
+                </li>
+            </ul>
+        </div>
+        <!--会员中心导航菜单 /-->
+        <div class="m-right">
+            <!--账户总览-->
+            <div class="m-md-1 cf" id="moduleAccount">
+                <div class="u-head">
+                    <img src="https://static02.fn-mart.com/images/member/header_def.png" alt="头像">
+                    <a href="" class="JHeader">
+                        <div class="u-cover"></div>
+                    </a>
+                </div>
+                <div class="u-loading" style="display: none;">
+                    <img src="https://static02.fn-mart.com/images/loading.gif" alt="">
+                </div>
+                <div class="u-info hide" id="userInfo" style="display: block;">
+                    <a href="" class="u-name" title="飞牛网">
+                        <span id="nickName">FN_148662787634600022349</span>
+                    </a>
+                    <a href="" class="u-level" title="普通会员">普通会员</a>
+                    <p class="u-security cf">
+                        <a href="" class="lb">账户安全：</a>
+                        <span class="rank">
+                            <i id="rankLevel" name="rank" style="width: 50%;"></i>
+                        </span>
+                        <strong class="u-rank-txt" id="rankTxt">中</strong>
+                        <a href="" class="hide" id="securityLink">提升</a>
+                    </p>
+                </div>
+                <div class="u-account" id="accountInfo">
+                    <div class="u-loading" style="display: none;">
+                        <img src="https://static02.fn-mart.com/images/loading.gif" alt="" class="imgLoading">
+                    </div>
+                    <ul class="u-col-1 hide" style="display: block;">
+                        <li>
+                            <a href="">
+                                <i class="icon-card"></i>
+                                <span>购物卡余额</span>
+                                <em class="u-unit">&nbsp;元</em>
+                                <em class="u-num">0</em>
+                                <i class="icon-ar"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="icon-balance"></i>
+                                <span>账户余额</span>
+                                <em class="u-unit">&nbsp;元</em>
+                                <em class="u-num">0</em>
+                                <i class="icon-ar"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <ul class="u-col-1 hide" style="display: block;">
+                        <li>
+                            <a href="">
+                                <i class="icon-point"></i>
+                                <span>可用积分</span>
+                                <em class="u-unit">&nbsp;分</em>
+                                <em class="u-num">0</em>
+                                <i class="icon-ar"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="">
+                                <i class="icon-coupon"></i>
+                                <span>优惠券</span>
+                                <em class="u-unit">&nbsp;张</em>
+                                <em class="u-num">0</em>
+                                <i class="icon-ar"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--账户总览 /-->
+            <div class="m-md-2">
+                <!--我的订单-->
+                <div class="m-row-1" id="moduleOrder">
+                    <div class="u-tit cf">
+                        <h1>我的订单</h1>
+                        <a href="" class="u-view-all">查看全部订单</a>
+                        <i class="u-sep"></i>
+                        <a href="" class="u-view-pre">预售单<span class="hide">(待付款 <em>0</em>)</span></a>
+                    </div>
+                    <div class="m-empty">
+                        <i class="icon-cart"></i>您最近没有待处理订单，<a href="">快去逛逛吧~</a>
+                    </div>
+                </div>
+                <!--我的订单 /-->
+                <!--我的收藏-->
+                <div class="m-row-2 cf">
+                    <div class="m-collect" id="moduleCollect">
+                        <div class="u-tit cf">
+                            <h1>我的收藏</h1>
+                            <ul class="u-extra cf">
+                                <li>
+                                    <a href="" class="childCollect">促销（<em>0</em>）</a>
+                                </li>
+                            </ul>
+                            <a href="" class="u-view-more">查看更多</a>
+                        </div>
+                        <div class="u-loading" style="display: none;">
+                            <img src="https://static01.fn-mart.com/images/loading.gif" alt="加载中...">
+                        </div>
+                        <div class="m-empty hide" style="display: block;">
+                            您还未收藏任何商品，
+                            <a href="" class="noCollect">快去逛逛吧~</a>
+                        </div>
+                    </div>
+                    <div class="m-coupon" id="moduleCoupon">
+                        <div class="u-tit cf">
+                            <h1>我的优惠券</h1>
+                            <a href="" class="u-view-more">领取更多</a>
+                        </div>
+                        <div class="u-loading" style="display: none;">
+                            <img src="https://static01.fn-mart.com/images/loading.gif" alt="加载中...">
+                        </div>
+                        <div class="m-empty hide" style="display: block;">
+                            您还没有卡券哦，
+                            <a href="" class="noCollect">快去领取吧~</a>
+                        </div>
+                    </div>
+                </div>
+                <!--我的收藏 /-->
+                <!--猜你喜欢-->
+                <div class="m-row-3 cf" id="moduleLike">
+                    <h1>猜你喜欢</h1>
+                    <div class="u-loading" style="display: none;">
+                        <img src="https://static01.fn-mart.com/images/loading.gif" alt="加载中...">
+                    </div>
+                    <div class="slide cf hide" id="slideRelated" style="display: block;">
+                        <ul class="slide-main cf" id="guessYouLike" style="width: 308000px;margin-left: 0">
+                            <li>
+                                <dl>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/pic/d61d133a2f612051cba0/hnqzTT12_ntdklVdC2/5YeaeGCGWxKxja/CsmRr1hHnLyAX2ZCAAKQRHWRo-g674_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">喜多婴儿洗澡水温计 宝宝沐浴温度计 儿童洗澡温度计 测水温室温</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>11.9</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>14
+                                            </del>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2014/0324/201403C240000031/_145513718_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">强生 婴儿活力清新沐浴露  1L/瓶</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>39.9</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>44.9
+                                            </del>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/main_item/2013/1109/201311C090000789/_927108267_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">陶华碧老干妈肉丝豆豉油辣椒 210g/瓶</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>7.8</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>8.5
+                                            </del>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/pic/708e133c909727b575b0/k2q2nn72FzflKgUM3T/19mGeyjGdGjiDa/CsmRsVh91UeADW_JAAG--q-vZbc679_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">喜多 自然抑菌婴儿洗衣皂200g-3入</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>19.9</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>26.8
+                                            </del>
+                                        </p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2013/1105/201311C050000341/_867761210_160x160.JPG" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">椰乡春光 椰香酥饼 105g/盒</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>9.5</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>9.9
+                                            </del>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2014/0621/201406C210000063/_890836110_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">强生 婴儿清凉沐浴露 300ml/瓶</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>15</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>16.9
+                                            </del>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2013/1031/201310C310000644/0_1_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">欣洁家垃圾袋 45*55CM*25只*3卷 黑色</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>7.5</em>
+                                            </span>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2014/0110/201401C100000101/0_1_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">纸音 锦绣10包迷你手帕纸 8108A</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>2.9</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>4.9
+                                            </del>
+                                        </p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2014/0904/201409C040000011/_153587856_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">得力优酷（deli yocoo）6982 水彩笔 包装颜色随机 24色/筒</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>13.9</em>
+                                            </span>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/pic/8dee133bd571233616ec/hzq2221nv2tdhlugf2/79oaSRZGVijxUa/CsmRsFe78FGAL2PHAAMNB23UGiE134_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">滴露健康抑菌洗手液自然清新500g/瓶</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>17.5</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>19.9
+                                            </del>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2013/1111/201311C110001356/_913652187_160x160.JPG" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">有所思柠檬酱油沙拉汁160ml/瓶</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>11.8</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em>11.9
+                                            </del>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2013/1111/201311C110000979/_961830234_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">青蛙王子婴儿洗发沐浴露(椰油精华)310ml</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>23</em>
+                                            </span>
+                                        </p>
+                                    </dd>
+                                </dl>
+                            </li>
+                            <li>
+                                <dl>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2014/0324/201403C240000023/_943343342_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">强生 婴儿清凉沐浴露  1000ml/瓶</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>58</em>
+                                            </span>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2013/1030/201310C300000817/0_1_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">欣洁家垃圾袋45*50CM 25只 黑色</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>2.3</em>
+                                            </span>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2013/1108/201311C080001381/_429100543_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">可比克 薯片 香辣味 60g/袋</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>3.9</em>
+                                            </span>
+                                        </p>
+                                    </dd>
+                                    <dd>
+                                        <a href="" class="u-likeImg">
+                                            <img src="https://img.feiniu.com/C/item/2013/1106/201311C060001563/_950198028_160x160.jpg" alt="">
+                                        </a>
+                                        <p class="u-name">
+                                            <a href="">帮宝适Pampers超薄干爽系列超大包装小号114片</a>
+                                        </p>
+                                        <p class="u-price">
+                                            <span class="now">
+                                                <em>¥</em><em>118</em>
+                                            </span>
+                                            <del class="old">
+                                                <em>¥</em><em>158</em>
+                                            </del>
+                                        </p>
+                                    </dd>
+                                </dl>
+                            </li>
+                        </ul>
+                        <ul class="slide-nav" id="gylSlideNav">
+                            <li class="slide-item selected"></li>
+                            <li class="slide-item"></li>
+                            <li class="slide-item"></li>
+                            <li class="slide-item"></li>
+                        </ul>
+                        <div class="slide-btn">
+                            <a href="javascript:;" class="slide-prev" id="gylLeft"><</a>
+                            <a href="javascript:;" class="slide-next" id="gylRight">></a>
+                        </div>
+                    </div>
+                </div>
+                <!--猜你喜欢 /-->
+            </div>
+            <div class="m-md-3">
+                <!--积分兑换-->
+                <div class="point-exchange" id="modulePoint">
+                    <div class="u-tit cf">
+                        <h1>积分兑换</h1>
+                        <a href="" class="morePoint">查看更多</a>
+                    </div>
+                    <div class="u-loading" style="display: none;">
+                        <img src="https://static01.fn-mart.com/images/loading.gif" alt="加载中...">
+                    </div>
+                    <div class="slide cf" id="scoreSlide" style="display: block;">
+                        <ul class="slide-main cf" id="scoreNew" style="width: 21600px;">
+                            <li class="cf">
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2013/1101/201311C010001020/_749508816_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">DARLIE 黑人 超白牙膏 190g/支</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2015/1224/201512C240000291/null_967113591_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">贝芙 KN95防雾霾PM2.5保暖口罩滤片 替换装 4片装 儿童小号</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/pic/7207133a1f26dd08a5bc/h262TT5T_nfdBlZdLT/7YeaoaZyEYh9Wi/CsmRsFf69LKAQ4E6AAFKLek3D9o088_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">攀高软头家用宝宝婴儿家庭温度计 温度表PG-910</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2016/0130/201601C300000029/_967624366_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">爱护 Carefor婴儿手口湿巾 20片*4</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2015/0916/201509C160002523/_028268897_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">素萃 复颜芦荟原汁喷雾 120ml</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2016/0806/201608C060000019/_313937566_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">得力5288风琴包 A4彩色手提文件袋</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2016/0526/201605C260000021/201605C260000021_996515499_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">The Face Shop  黑杆防水睫毛膏 7g</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2015/1026/201510C260000127/_234823536_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">中联（ZOLEE） 烘鞋器 ZLHX-05</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                            <li class="cf">>
+                                <a href="" class="u-img">
+                                    <img src="https://img.feiniu.com/C/item/2014/1222/201412C220000164/_832643159_80x80.jpg" alt="">
+                                </a>
+                                <a href="" class="u-name">黑人 漱口水清心绿茶250ml /瓶</a>
+                                <p class="u-price">
+                                    <em>¥</em><em>0.00</em>+<em>299</em><span>积分</span>
+                                </p>
+                                <a href="" class="u-exchange">立即兑换>></a>
+                            </li>
+                        </ul>
+                        <div class="slide-btn">
+                            <a href="javascript:;" class="slide-prev" id="scoLeft"><</a>
+                            <a href="javascript:;" class="slide-next" id="scoRight">></a>
+                        </div>
+                    </div>
+                </div>
+                <!--积分兑换 /-->
+                <!--我的足迹-->
+                <div class="m-history" id="moduleFoot">
+                    <div class="u-tit cf">
+                        <h1>我的足迹</h1>
+                        <a href="" class="moreFoot">查看更多</a>
+                    </div>
+                    <div class="u-loading" style="display: none;">
+                        <img src="https://static01.fn-mart.com/images/loading.gif" alt="加载中...">
+                    </div>
+                    <div class="m-empty hide" style="display: block;">
+                        您很久未留下足迹了，<a href="" class="noFoot">快去逛逛吧~</a>
+                    </div>
+                </div>
+                <!--我的足迹 /-->
+            </div>
+        </div>
+    </div>
+</div>
+<!--主体 end-->
+<!--底部 start-->
+<div class="footer" id="footer">
+    <div class="footer-map m">
+        <ul class="cf">
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737451465292265_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">正品低价</strong><br>
+                <span class="map-describe">正品行货 品质保障</span>
+            </li>
+            <li class="map-line"></li>
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737481465292268_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">品类齐全</strong><br>
+                <span class="map-describe">品类齐全 选择丰富</span>
+            </li>
+            <li class="map-line"></li>
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737501465292270_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">快速配送</strong><br>
+                <span class="map-describe">多仓直发 极速配送</span>
+            </li>
+            <li class="map-line"></li>
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737531465292273_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">售后无忧</strong><br>
+                <span class="map-describe">7天无理由退货</span>
+            </li>
+        </ul>
+    </div>
+    <div class="server-list">
+        <ul class="cf">
+            <li>
+                <i class="server-list-icon icon1"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">购物指南</a></dt>
+                    <dd><a href="">新用户注册</a></dd>
+                    <dd><a href="">购物流程</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon2"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">支付方式</a></dt>
+                    <dd><a href="">货到付款</a></dd>
+                    <dd><a href="">银联卡支付</a></dd>
+                    <dd><a href="">支付宝</a></dd>
+                    <dd><a href="">财付通</a></dd>
+                    <dd><a href="">优惠卡券</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon3"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">配送服务</a></dt>
+                    <dd><a href="">配送方式</a></dd>
+                    <dd><a href="">配送查询</a></dd>
+                    <dd><a href="">便利店自提</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon4"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">售后服务</a></dt>
+                    <dd><a href="">退货说明</a></dd>
+                    <dd><a href="">退款说明</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon5"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">常见问题</a></dt>
+                    <dd><a href="">账户问题</a></dd>
+                    <dd><a href="">发票问题</a></dd>
+                    <dd><a href="">订单问题</a></dd>
+                    <dd><a href="">在线客服</a></dd>
+                </dl>
+            </li>
+            <li class="app-item">
+                <p>飞牛网客户端</p>
+                <a href=""><img src="http://img03.fn-mart.com/C/web/layout/kk/20160527/201605271512451464333165_kk-0.png" alt="" width="90" height="90"></a>
+            </li>
+            <li class="wechat-item">
+                <p>飞牛网微信</p>
+                <a href=""><img src="http://img03.fn-mart.com/C/web/layout/kk/20160601/201606010958111464746291_kk-0.jpg" alt="" width="90" height="90"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="site-info">
+        <div class="foot-nav">
+            <a href="">公司介绍</a>|
+            <a href="">飞牛招聘</a>|
+            <a href="">媒体报道</a>|
+            <a href="">热搜索词</a>|
+            <a href="">评价中心</a>|
+            <a href="">友情链接</a>|
+            <a href="">商家入驻</a>|
+            <a href="">招商标准</a>|
+            <a href="">开放平台</a>|
+            <a href="" style="cursor: default;">企业团购 021-36695538</a>|
+            <a href="" style="cursor: default;">客服热线 400-920-6565</a>
+        </div>
+        <div class="link">
+            <p>
+                <a href="" style="color: #666;">沪ICP备14034590号</a>
+                　|　食品流通许可证编号：sp3100001310001023　|　酒类商品零售许可证 沪闸酒专字 第0811030108000822
+            </p>
+            <p>
+                出版物经营许可证编号新出发（沪）零字第Z6216号　|　快递业务经营许可证编号：沪邮20131324B　|　营业执照
+            </p>
+            <p>
+                Copyright © 2013-2016 飞牛网, All Rights Reserved.
+            </p>
+        </div>
+        <div class="logo-wall">
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291526181456730778_kk-0.png" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612371456733557_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612471456733567_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612561456733576_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291613031456733583_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20161102/201611021041341478054494_kk-0.png" alt=""></a>
+        </div>
+    </div>
+</div>
+<!--底部 end-->
 <script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/member.js"></script>
 </body>

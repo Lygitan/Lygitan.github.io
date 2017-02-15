@@ -72,6 +72,9 @@ $(function () {
                 if (usernameVal ==  name || usernameVal == tel || usernameVal ==  email) {
                     if (passwordVal == pwd) {
                         $(".msg-error").css("display","none");console.log("true");
+                        setTimeout(function () {
+                            window.location.href = "member.html";
+                        },1000);
                         return;
                     } else {
                         $(".msg-error").css("display","block");console.log("false");
@@ -83,10 +86,10 @@ $(function () {
             }
         });
 
-        
         // $(".cpcchange").on("click",function () {
         //     var codeImgUrl = 'https://passport.feiniu.com/dovcode/getVcodeL?v='+(new Date).getTime();
         //     $(this).parent().siblings(".vcode").removeAttrs("src").attr("src",codeImgUrl);
         // });
+        
     });
 });
