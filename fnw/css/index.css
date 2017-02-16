@@ -39,6 +39,7 @@ li.hlp {height: 35px;line-height: 36px;padding: 0 2px;}
 
 .header-topbar-right {}
 .header-topbar-right li {float: left;}
+.header-topbar-right li .t {z-index: 9;}
 
 .my-fn {position: relative;z-index: 4;}
 .my-fn div.t {position: relative;padding: 0 19px 0 8px;height: 35px;line-height: 36px;}

@@ -27,9 +27,13 @@ $(function () {
 
     //我的飞牛移入移出效果
     $(".my-fn").hover(function () {
+        $(this).css("padding","0 1px");
+        $(this).find(".t").css({"border":"1px solid #DEDEDE","background-color":"#fff","border-top":"0","border-bottom":"0"});
         $(".fn-login-box").css({"display":"block"});
         $(this).find(".arrow-icon").css({"transform":"rotate(180deg)"});
     },function () {
+        $(this).css("padding","");
+        $(this).find(".t").css({"border":"0 none","background-color":"","border-top":"","border-bottom":""});
         $(".fn-login-box").css({"display":"none"});
         $(this).find(".arrow-icon").css({"transform":"rotate(0deg)"});
     });
@@ -43,11 +47,15 @@ $(function () {
 
     //手机飞牛网移入移出效果
     $(".mobile-fn").hover(function () {
+        $(this).css("padding","0 1px");
+        $(this).find(".t").css({"border":"1px solid #DEDEDE","border-top":"0","border-bottom-color":"#fff","background-color":"#fff"});
         $(".mobile-fn-box").css({"display":"block"});
         $(this).find(".arrow-icon").siblings().css("color","#C20053");
         $(this).find(".mobile").css("background-position","-129px -75px");
         $(this).find(".arrow-icon").css({"transform":"rotate(180deg)"});
     },function () {
+        $(this).css("padding","");
+        $(this).find(".t").css({"border":"","border-top":"","border-bottom-color":"","background-color":""});
         $(".mobile-fn-box").css({"display":"none"});
         $(this).find(".arrow-icon").siblings().css("color","");
         $(this).find(".mobile").css("background-position","-136px -44px");
@@ -78,12 +86,14 @@ $(function () {
 
     //客户服务移入移出效果
     $(".customer-service").hover(function () {
-        $(this).find(".t").css({"border":"1px solid #DEDEDE","border-top":"0","border-bottom":"0","background-color":"#fff","padding-left":"7px","padding-right":"18px"});
-        $(".customer-service-box").css({"display":"block","left":"2px","border-top":"0","width":"66px"});
+        $(this).css("padding","0 1px");
+        $(this).find(".t").css({"border":"1px solid #DEDEDE","border-top":"0","border-bottom-color":"#fff","background-color":"#fff"});
+        $(".customer-service-box").css({"display":"block"});
         $(this).find(".arrow-icon").css({"transform":"rotate(180deg)"});
     },function () {
-        $(this).find(".t").css({"border":"0 none","background-color":"","padding-left":"","padding-right":""});
-        $(".customer-service-box").css({"display":"none","left":"1px","border-top":"","width":""});
+        $(this).css("padding","");
+        $(this).find(".t").css({"border":"0 none","border-top":"","border-bottom-color":"","background-color":""});
+        $(".customer-service-box").css({"display":"none"});
         $(this).find(".arrow-icon").css({"transform":"rotate(0deg)"});
     });
 

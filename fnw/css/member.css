@@ -36,6 +36,7 @@ li.hlp {height: 35px;line-height: 36px;padding: 0 2px;}
 
 .header-topbar-right {}
 .header-topbar-right li {float: left;}
+.header-topbar-right li .t {z-index: 9;}
 
 .my-fn {position: relative;z-index: 4;}
 .my-fn div.t {position: relative;padding: 0 19px 0 8px;height: 35px;line-height: 36px;}
@@ -47,9 +48,18 @@ li.hlp {height: 35px;line-height: 36px;padding: 0 2px;}
 .fn-picture {margin-right: 15px;width: 80px;height: 80px;float: left;}
 .fn-picture a {display: block;color: #333;}
 .fn-picture a img {border: 1px solid #E2E2E2;width: 80px;height: 80px;padding: 1px;border-radius: 50%;display:inline;}
-.fn-login-tip {height: 80px;line-height: 80px;float: left;}
-.fn-login-tip p {text-align: center;font-size: 13px;font-weight: 700;color: #333;}
-.fn-login-tip p a {color: #333;}
+.fn-username {overflow: hidden;width: 150px;font-size: 13px;font-weight: 700;height: 20px;line-height: 20px;float: left;color: #333;margin-bottom: 10px;white-space: nowrap;text-overflow: ellipsis;}
+.fn-username a {text-decoration: none;color: #333;}
+.fn-vip-name {font-size: 13px;width: 100px;line-height: 24px;height: 24px;float: left;background: url("https://static02.fn-mart.com/product/images/index/header-layer.png?03255666") 0 -22px no-repeat;color: #fff;text-align: center;font-weight: 600;}
+.fn-vip-name a {text-decoration: none;color: #fff;}
+.message {position: relative;display: block;width: 20px;height: 13px;margin: 5px 0 0 15px;background: url("https://static02.fn-mart.com/product/images/index/header-layer.png?03255666") no-repeat;float: left;}
+.msg-count {position: absolute;top: -8px;left: 9px;right: auto;padding: 0 5px;font-size: 0;word-wrap: normal;word-break: normal;}
+.msg-count .circle-l {position: absolute;width: 6px;height: 14px;display: inline-block;left: -1px;top: 0;background: url("https://static02.fn-mart.com/product/images/index/header-layer.png?03255666") -32px 0 no-repeat;}
+.msg-count .circle-c {color: #fff;display: block;font-size: 10px;line-height: 14px;background: #C20053;}
+.msg-count .circle-r {display: inline-block;position: absolute;right: -1px;top: 0;width: 6px;height: 14px;background: url("https://static02.fn-mart.com/product/images/index/header-layer.png?03255666") -66px 0 no-repeat;}
+/*.fn-login-tip {height: 80px;line-height: 80px;float: left;}*/
+/*.fn-login-tip p {text-align: center;font-size: 13px;font-weight: 700;color: #333;}*/
+/*.fn-login-tip p a {color: #333;}*/
 .head-list {height: 85px;width: 265px;padding: 0 0 15px 15px;}
 .head-list li {width: 120px;height: 24px;line-height: 24px;margin-right: 10px;float: left;display: block;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
 .head-list li a {color: #666;}
