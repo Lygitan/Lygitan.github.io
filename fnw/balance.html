@@ -1,0 +1,888 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>账户余额</title>
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/member-common.css">
+    <link rel="stylesheet" href="css/balance.css">
+    <link rel="shortcut icon" href="http://www.feiniu.com/favicon.ico">
+</head>
+<body>
+<!--手机验证弹出对话框 start-->
+<div class="phone_validate_dialog_Popup_content Popup">
+    <div class="phone_validate_dialog_Popup_wrapper Popup_wrapper">
+        <div class="phone_validate_dialog_Popup_inner Popup_inner">
+            <table class="dialog_Popup">
+                <tbody>
+                    <tr>
+                        <td colspan="2" class="Popup_header">
+                            <div class="Popup_titleBar">
+                                <div class="Popup_title">提现步骤一：手机验证</div>
+                                <a href="javascript:;" class="Popup_close">×</a>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="Popup_icon" style="display: none;">
+                            <div class="Popup_icon_bg" style="background: none;"></div>
+                        </td>
+                        <td class="Popup_main" style="width: 550px;height: 245px;">
+                            <div class="Popup_content" style="padding: 20px 25px;">
+                                <div class="g-dlg-st1">
+                                    <div class="g-st-1">
+                                        <ul>
+                                            <li class="first cf">
+                                                <span class="label">提现金额：</span>
+                                                <span class="content">
+                                                    <input type="text" class="withdrawals" id="withdrawalsBtn">
+                                                </span>
+                                            </li>
+                                            <li class="second cf" id="avaliableTip" style="visibility: hidden;">
+                                                <span>
+                                                    <i class="icon_error"></i>请输入提现金额
+                                                </span>
+                                            </li>
+                                            <li class="third cf">
+                                                <span class="label">手机号码：</span>
+                                                <span class="content">135****1204</span>
+                                            </li>
+                                            <li class="last cf">
+                                                <span class="label">验证码：</span>
+                                                <span class="content cf">
+                                                    <input type="text" class="u-ci" id="chaptCode" placeholder="请输入校验码" style="color: #3c3c3c;">
+                                                    <a href="" class="disable" id="chaptCodeBtn" style="cursor: default;">获取短信验证码</a>
+                                                </span>
+                                            </li>
+                                            <li class="second cf">
+                                                <p class="m-tp-clo" id="errorCaptcha"></p>
+                                            </li>
+                                            <li class="second cf" id="codeTip" style="visibility: hidden;">
+                                                <span>
+                                                    <i class="icon_error"></i>
+                                                </span>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="Popup_footer">
+                            <div class="Popup_btn">
+                                <button class="btn_ok">下一步</button>
+                                <button class="btn_no">关闭</button>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--手机验证弹出对话框 end-->
+<!--头部 start-->
+<div class="header" id="header">
+    <!--顶部栏 start-->
+    <div class="header-topbar">
+        <div class="header-topbar-container m cf">
+            <ul class="header-topbar-left fl">
+                <li class="header-topbar-login hlp">
+                    <div class="login-status">
+                        <a href="">FN_1486627..</a>
+                        <a href="" class="msg">消息（<span class="num">0</span>）
+                            <div class="tips">
+                                <span></span>
+                                <i class="tip-t"></i>
+                                <i class="tip-times">×</i>
+                            </div>
+                        </a>
+                        <a href="" class="ml5">退出</a>
+                    </div>
+                </li>
+                <li class="split"></li>
+                <li class="header-topbar-city hlp">
+                    <div class="post">
+                        <span class="shz">送货至：</span>
+                        <a href="" class="post-city">上海</a>
+                        <i class="arrow-icon"></i>
+                    </div>
+                    <div class="city-list-box cf">
+                        <ul class="fl">
+                            <li>
+                                <span>A</span>
+                                <a href="">安徽</a>
+                            </li>
+                            <li>
+                                <span>B</span>
+                                <a href="">北京</a>
+                            </li>
+                            <li>
+                                <span>C</span>
+                                <a href="">重庆</a>
+                            </li>
+                            <li>
+                                <span>F</span>
+                                <a href="">福建</a>
+                            </li>
+                            <li>
+                                <span>G</span>
+                                <a href="">广东</a>
+                                <a href="">广西</a>
+                                <a href="">贵州</a>
+                                <a href="">甘肃</a>
+                            </li>
+                            <li>
+                                <span>H</span>
+                                <a href="">河北</a>
+                                <a href="">黑龙江</a>
+                                <a href="">海南</a>
+                                <a href="">湖北</a>
+                                <a href="">湖南</a>
+                                <a href="">河南</a>
+                            </li>
+                            <li>
+                                <span>J</span>
+                                <a href="">江苏</a>
+                                <a href="">吉林</a>
+                                <a href="">江西</a>
+                            </li>
+                            <li>
+                                <span>L</span>
+                                <a href="">辽宁</a>
+                            </li>
+                        </ul>
+                        <ul class="fl" style="border-right: none;">
+                            <li>
+                                <span>N</span>
+                                <a href="">内蒙古西</a>
+                                <a href="">内蒙古东</a>
+                                <a href="">宁夏</a>
+                            </li>
+                            <li>
+                                <span>Q</span>
+                                <a href="">青海</a>
+                            </li>
+                            <li>
+                                <span>S</span>
+                                <a href="" class="on">上海</a>
+                                <a href="">山西</a>
+                                <a href="">山东</a>
+                                <a href="">四川</a>
+                                <a href="">陕西</a>
+                            </li>
+                            <li>
+                                <span>T</span>
+                                <a href="">天津</a>
+                            </li>
+                            <li>
+                                <span>X</span>
+                                <a href="">西藏</a>
+                                <a href="">新疆</a>
+                            </li>
+                            <li>
+                                <span>Y</span>
+                                <a href="">云南</a>
+                            </li>
+                            <li>
+                                <span>Z</span>
+                                <a href="">浙江</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <ul class="header-topbar-right fr">
+                <li class="my-fn hlp">
+                    <div class="t">
+                        <a href="">我的飞牛</a>
+                        <i class="arrow-icon"></i>
+                    </div>
+                    <div class="fn-login-box" style="display: none;">
+                        <div class="head-pop">
+                            <div class="head-por">
+                                <div class="fn-picture">
+                                    <a href=""><img src="http://static01.fn-mart.com/product/images/index/head-pic.png" alt="" width="80" height="80"></a>
+                                </div>
+                                <div class="fn-username hide" style="display: block;">
+                                    <a href="" class="username">FN_148662787634600022349</a>
+                                </div>
+                                <div class="fn-vip-name hide" style="display: block;">
+                                    <a href="" class="vipname">普通会员</a>
+                                </div>
+                                <div class="fn-message hide" style="display: block;">
+                                    <a href="" class="message">
+                                        <p class="msg-count">
+                                            <span class="circle-l"></span>
+                                            <span class="circle-c">0</span>
+                                            <span class="circle-r"></span>
+                                        </p>
+                                    </a>
+                                </div>
+                                <!--<div class="fn-login-tip">-->
+                                <!--<p><a href="">你好，请登录</a></p>-->
+                                <!--</div>-->
+                            </div>
+                            <ul class="head-list">
+                                <li><a href="">账户余额</a></li>
+                                <li><a href="">待处理订单</a></li>
+                                <li><a href="">我的购物卡</a></li>
+                                <li><a href="">我的收藏</a></li>
+                                <li><a href="">我的优惠券</a></li>
+                                <li><a href="">我的评价</a></li>
+                                <li><a href="">我的积分</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="split"></li>
+                <li class="my-order hlp">
+                    <div class="t"><a href="">我的订单</a></div>
+                </li>
+                <li class="split"></li>
+                <li class="card-recharge red hlp">
+                    <div class="t">
+                        <a href="" class="red">卡劵充值</a>
+                        <i class="card"></i>
+                    </div>
+                </li>
+                <li class="split"></li>
+                <li class="mobile-fn hlp">
+                    <div class="t">
+                        <a href="">手机飞牛网</a>
+                        <i class="mobile"></i>
+                        <i class="arrow-icon"></i>
+                    </div>
+                    <div class="mobile-fn-box">
+                        <dl>
+                            <dt class="fl">
+                                <a href=""><img src="http://img02.fn-mart.com/C/web/layout/kk/20160527/201605271359561464328796_kk-0.jpg" alt=""></a>
+                            </dt>
+                            <dd class="fl name">
+                                <p>扫一扫，下载飞牛客户端</p>
+                                <p>首次登录APP送5元优惠券</p>
+                            </dd>
+                            <dd class="fl pic">
+                                <a href=""><i class="iph"></i> iPhone</a>
+                                <a href=""><i class="andr"></i> Android</a>
+                            </dd>
+                        </dl>
+                    </div>
+                </li>
+                <li class="split"></li>
+                <li class="integral-mall hlp">
+                    <div class="t">
+                        <a href="">积分商城</a>
+                    </div>
+                </li>
+                <li class="split"></li>
+                <li class="customer-service hlp">
+                    <div class="t">
+                        <a href="">客户服务</a>
+                        <i class="arrow-icon"></i>
+                    </div>
+                    <div class="customer-service-box">
+                        <ul>
+                            <li><a href="">帮助中心</a></li>
+                            <li><a href="">在线客服</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="split"></li>
+                <li class="follow-us hlp">
+                    <div class="t">
+                        <a href="">关注我们：</a>
+                        <a href="" title="新浪微博" class="w wb"></a>
+                        <a href="" title="微信" class="w wx">
+                            <div class="wx-box">
+                                <p class="wx-box-text">
+                                    扫描二维码<br>
+                                    关注飞牛网官方微信
+                                </p>
+                                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291030431456713043_kk-0.png" alt="" class="wx-box-img">
+                            </div>
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--顶部栏 end-->
+    <!--主栏 start-->
+    <div class="header-titlebar">
+        <div class="m-title cf">
+            <!--logo-->
+            <div class="m-logo">
+                <a href="" class="logo">
+                    <img src="https://static02.fn-mart.com/product/images/member/feiniu_logo.png" alt="飞牛logo">
+                </a>
+            </div>
+            <!--logo /-->
+            <!--网址跳转-->
+            <div class="m-index">
+                <a href="" class="index">我的飞牛</a>
+                <a href="index.html" class="home">返回飞牛网首页</a>
+            </div>
+            <!--网址跳转 /-->
+            <!--导航-->
+            <div class="m-navitems">
+                <ul class="cf">
+                    <li class="u-home">
+                        <a href="member.html">首页</a>
+                    </li>
+                    <li class="u-setting">
+                        <div class="u-dl">
+                            <div class="u-dt">
+                                <span>账户设置</span>
+                                <i></i>
+                            </div>
+                            <div class="u-dd">
+                                <a href="">个人信息</a>
+                                <a href="">安全设置</a>
+                                <a href="">收货地址</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="u-msg">
+                        <a href="" class="J-umsg">消息<span id="JMsgCount" style="display: none;">0</span></a>
+                    </li>
+                    <li>
+                        <a href="" class="J-pointmall">积分商城</a>
+                    </li>
+                </ul>
+            </div>
+            <!--导航 /-->
+            <!--min cart-->
+            <div class="m-mini-cart" id="hd-my-cart">
+                <a href="javascript:;" class="u-wrap c-n">
+                    <i></i>
+                    我的购物车
+                    <span class="u-quantity">（<em class="cart_quantity">0</em>）</span>
+                </a>
+                <div class="cart-box">
+                    <div class="cart-box-cont">
+                        <div class="empty-cart">
+                            <span class="m">
+                                <i class="c-i"></i>
+                                购物车中没有飞牛商品哟！
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--min cart /-->
+            <!--搜索-->
+            <div class="m-search cf">
+                <form action="" class="J_form">
+                    <div class="s-form cf">
+                        <input type="text" class="u-search">
+                        <a href="javascript:;" class="u-btn">搜索</a>
+                    </div>
+                </form>
+            </div>
+            <!--搜索 /-->
+        </div>
+    </div>
+    <!--主栏 end-->
+</div>
+<!--头部 end-->
+<!--主体 start-->
+<div class="container">
+    <!--面包屑-->
+    <div class="crumbs">
+        <span><a href="login.html">我的飞牛</a></span>
+        >
+        <span>账户余额</span>
+    </div>
+    <!--面包屑 /-->
+    <div class="wrapper cf">
+        <!--会员中心导航菜单-->
+        <div class="m-menus">
+            <h1>交易中心</h1>
+            <ul>
+                <li id="order">
+                    <a href="order.html" class="target_no">我的订单</a>
+                </li>
+                <li id="comment">
+                    <a href="comment.html" class="target_no">我的评价</a>
+                </li>
+            </ul>
+            <h1>资产中心</h1>
+            <ul>
+                <li id="coupon">
+                    <a href="coupon.html" class="target_no">我的优惠券</a>
+                </li>
+                <li id="shoppingCard">
+                    <a href="javascript:;" class="target_no">我的购物卡</a>
+                </li>
+                <li id="balance">
+                    <a href="balance.html" class="target_no">账户余额</a>
+                </li>
+                <li id="point">
+                    <a href="point.html" class="target_no">我的积分</a>
+                </li>
+                <li class="sub" id="scoreCard">
+                    <a href="javascript:;" class="target_no">积分换券明细</a>
+                </li>
+            </ul>
+            <h1>关注中心</h1>
+            <ul>
+                <li id="favorite">
+                    <a href="javascript:;" class="target_no">我的收藏</a>
+                </li>
+                <li id="everBuy">
+                    <a href="javascript:;" class="target_no">曾经购买</a>
+                </li>
+                <li id="history">
+                    <a href="javascript:;" class="target_no">我的足迹</a>
+                </li>
+            </ul>
+            <h1>个人中心</h1>
+            <ul>
+                <li id="personalInfo">
+                    <a href="personalInfo.html" class="target_no">个人信息</a>
+                </li>
+                <li id="grade">
+                    <a href="javascript:;" class="target_no">我的等级</a>
+                </li>
+                <li id="address">
+                    <a href="address.html" class="target_no">地址管理</a>
+                </li>
+                <li id="security">
+                    <a href="security.html" class="target_no">安全设置</a>
+                </li>
+                <li id="invoiceList">
+                    <a href="javascript:;" class="target_no">增票资质</a>
+                </li>
+            </ul>
+            <h1>服务中心</h1>
+            <ul>
+                <li id="invoice">
+                    <a href="javascript:;" class="target_no">我的发票</a>
+                </li>
+                <li id="returnGoods">
+                    <a href="returnGoods.html" class="target_no">退货管理</a>
+                </li>
+            </ul>
+        </div>
+        <!--会员中心导航菜单 /-->
+        <div class="m-right">
+            <div class="main balance">
+                <!--themes-->
+                <div class="themes_title">
+                    <h3>账户余额</h3>
+                    <a href="" class="blue">账户余额说明</a>
+                </div>
+                <!--themes /-->
+                <!--message-->
+                <div class="message_tab">
+                    <ul class="cf">
+                        <li class="mes_01">
+                            <i class="icon_purse"></i>
+                            <div>
+                                <p class="txt">可用余额</p>
+                                <p class="num"><em class="rmb">￥</em>0.00</p>
+                            </div>
+                        </li>
+                        <li class="mes_02">
+                            <i class="icon_lock"></i>
+                            <div>
+                                <p class="txt">冻结金额</p>
+                                <p class="num"><em class="rmb">￥</em>0.00</p>
+                            </div>
+                        </li>
+                        <li class="mes_03">
+                            <i class="icon_question" id="question"></i>
+                        </li>
+                        <li class="mes_04">
+                            <p class="txt">账户状态：<span class="status">未激活</span></p>
+                            <p class="activation">（激活需要绑定手机和设定支付密码，赶快去<a href=""><span class="blue">激活</span></a>！）</p>
+                        </li>
+                        <li class="mes_05">
+                            <a href="javascript:;" class="invalid" id="btnCash">提现</a>
+                            <input type="hidden" id="invalidId" value="0">
+                        </li>
+                    </ul>
+                    <div class="tip" id="question_tip">
+                        尚未提现完成的金额
+                    </div>
+                </div>
+                <!--message /-->
+                <div class="ui_tab">
+                    <ul class="ui_tab_nav">
+                        <li class="active">
+                            <a href="javascript:;" id="activeHref" class="activeHref">近三个月收支明细</a>
+                        </li>
+                        <li class="last">
+                            <a href="javascript:;" id="lastHref" class="lastHref">三个月前收支明细</a>
+                        </li>
+                    </ul>
+                    <div class="ui_tab_content">
+                        <div class="ui_panel" id="noComment">
+                            <!--Details List start-->
+                            <div class="details_list">
+                                <div class="details_list_tit cf">
+                                    <ul>
+                                        <li class="col_w16">日期</li>
+                                        <li class="col_w16">存入</li>
+                                        <li class="col_w16">支出</li>
+                                        <li class="col_w16">类型</li>
+                                        <li class="col_w35">备注</li>
+                                    </ul>
+                                </div>
+                                <div class="details_list_cont" id="balanceDetail">
+                                    <div class="noRecord">暂无记录</div>
+                                </div>
+                            </div>
+                            <!--Details List start /-->
+                            <!--page next start-->
+                            <div class="fn_page cf" id="pagePanel" style="display: none;">
+                                <ul>
+                                    <li class="fn_prev off">
+                                        <a href="javascript:;" id="lastPage"><i class="arrow_prev"><span>上一页</span></i></a>
+                                    </li>
+                                    <li>
+                                        <span class="cur" id="curPage">1</span>
+                                        /
+                                        <span class="all" id="allPage">1</span>
+                                    </li>
+                                    <li class="fn_next off">
+                                        <a href="javascript:;" id="nextPage"><i class="arrow_next"><span>下一页</span></i></a>
+                                    </li>
+                                    <li>
+                                        <span>到第</span>
+                                        <input type="text" id="gotoPageNum">
+                                        <span>页</span>
+                                    </li>
+                                    <li class="goto">
+                                        <a href="javascript:;" id="gotoPage">跳转</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!--page next start /-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--step1 dialog start-->
+            <div id="step1" style="display: none">
+                <div class="g-dlg-st1">
+                    <div class="g-st-1">
+                        <ul>
+                            <li class="first cf">
+                                <span class="label">提现金额：</span>
+                                <span class="content">
+                                    <input type="text" class="withdrawals" id="withdrawalsBtn">
+                                </span>
+                            </li>
+                            <li class="second cf" id="avaliableTip" style="visibility: hidden;">
+                                <span>
+                                    <i class="icon_error"></i>请输入提现金额
+                                </span>
+                            </li>
+                            <li class="third cf">
+                                <span class="label">手机号码：</span>
+                                <span class="content">135****1204</span>
+                            </li>
+                            <li class="last cf">
+                                <span class="label">验证码：</span>
+                                <span class="content cf">
+                                    <input type="text" class="u-ci" id="chaptCode" placeholder="请输入校验码" style="color: #3c3c3c;">
+                                    <a href="" class="disable" id="chaptCodeBtn" style="cursor: default;">获取短信验证码</a>
+                                </span>
+                            </li>
+                            <li class="second cf">
+                                <p class="m-tp-clo" id="errorCaptcha"></p>
+                            </li>
+                            <li class="second cf" id="codeTip" style="visibility: hidden;">
+                                <span>
+                                    <i class="icon_error"></i>
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <!--step1 dialog end-->
+            <!--step2 dialog start-->
+            <div id="step2" style="display: none">
+                <div class="g-dlg-st2">
+                    <div class="g-st-2">
+                        <div class="f-i cf">
+                            <label>收款方开户行地址：</label>
+                            <select id="accountArea">
+                                <option value="" class="selected">请选择</option>
+                                <option value="00000">安徽</option>
+                                <option value="00001">北京</option>
+                                <option value="00002">北京（牡丹卡中心）</option>
+                                <option value="00003">北京（香港分行）</option>
+                                <option value="00004">大连</option>
+                                <option value="00005">福建</option>
+                                <option value="00006">甘肃</option>
+                                <option value="00007">广东</option>
+                                <option value="00008">广西</option>
+                                <option value="00009">贵州</option>
+                                <option value="00010">海南</option>
+                                <option value="00011">河北</option>
+                                <option value="00012">河南</option>
+                                <option value="00013">黑龙江</option>
+                                <option value="00014">湖北</option>
+                                <option value="00015">湖南</option>
+                                <option value="00016">吉林</option>
+                                <option value="00017">江苏</option>
+                                <option value="00018">江西</option>
+                                <option value="00019">辽宁</option>
+                                <option value="00020">内蒙</option>
+                                <option value="00021">宁波</option>
+                                <option value="00022">宁夏</option>
+                                <option value="00023">青岛</option>
+                                <option value="00024">青海</option>
+                                <option value="00025">山东</option>
+                                <option value="00026">山西</option>
+                                <option value="00027">陕西</option>
+                                <option value="00028">上海</option>
+                                <option value="00029">深圳</option>
+                                <option value="00030">四川</option>
+                                <option value="00031">天津</option>
+                                <option value="00032">西藏</option>
+                                <option value="00033">厦门</option>
+                                <option value="00034">新疆</option>
+                                <option value="00035">云南</option>
+                                <option value="00036">浙江</option>
+                                <option value="00037">浙江平湖</option>
+                                <option value="00038">重庆</option>
+                                <option value="00039">重庆市璧山县</option>
+                                <option value="00040">总行票据营业部</option>
+                                <option value="00041">总行营业部</option>
+                            </select>
+                            <select name="" id="accountCity" class="f-sel-2">
+                                <option value="-1" selected>请选择：</option>
+                            </select>
+                            <span class="err-msg f-err-msg" id="accountAddress_error" style="visibility: hidden;">
+                                <i class="icon_error"></i>
+                            </span>
+                        </div>
+                        <div class="f-i f-i2 cf">
+                            <label>收款方开户行：</label>
+                            <input type="text" id="accountAccount" disabled>
+                            <a href="javascript:;" id="btnQueryBank">查询</a>
+                            <span class="err-msg f-err-msg" id="accountAccount_error" style="visibility: hidden;">
+                                <i class="icon_error"></i>
+                            </span>
+                        </div>
+                        <div class="f-i cf">
+                            <label>银行卡号：</label>
+                            <input type="text" id="accountAccountNum">
+                             <span class="err-msg f-err-msg" id="accountAccountNum_error" style="visibility: hidden;">
+                                <i class="icon_error"></i>
+                            </span>
+                        </div>
+                        <div class="f-i cf">
+                            <label>开户姓名：</label>
+                            <input type="text" id="accountAccountName">
+                             <span class="err-msg f-err-msg" id="accountAccountName_error" style="visibility: hidden;">
+                                <i class="icon_error"></i>
+                            </span>
+                        </div>
+                        <div class="f-i cf">
+                            <label>支付密码：</label>
+                            <input type="password" id="accountAccountPwd">
+                             <span class="err-msg f-err-msg" id="accountAccountPwd_error" style="visibility: hidden;">
+                                <i class="icon_error"></i>
+                            </span>
+                        </div>
+                        <div id="chaptCodePane" class="f-i f-i-captcha cf">
+                            <input type="text" class="ipt-captcha u-ipt-captcha" id="" placeholder="验证码">
+                            <img src="" alt="" class="captcha u-captcha" id="chaptcodePic" title="看不清？点击换一个">
+                            <span class="err-msg f-err-msg" id="chaptcode_error" style="visibility: hidden;">
+                                <i class="icon_error"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--step2 dialog end-->
+            <!--查询 dialog start-->
+            <div id="step2-query" style="display: none">
+                <div class="g-dlg-qb">
+                    <div class="g-qb-op">
+                        <input type="text" id="btnDoQueryBankInput">
+                        <a href="javascript:;" class="u-q" id="btnDoQueryBank">查询</a>
+                    </div>
+                    <div class="q-qb-list">
+                        <label>收款人开户行</label>
+                        <ul id="bankList"></ul>
+                    </div>
+                    <div class="g-qb-ft" id="btnBar">
+                        <a href="javascript:;" id="closeAccountBtn">关闭窗口</a>
+                        <label id="selfInput">选不到，我要自行输入</label>
+                    </div>
+                    <div class="g-qb-ib" id="selfInputDiv" style="display: none;">
+                        <label>请输入开户行与支行全名</label>
+                        <textarea  id="accountNameBySelfBtn"></textarea>
+                        <a href="javascript:;" id="closeAccountBySelfBtn">确定</a>
+                    </div>
+                </div>
+            </div>
+            <!--查询 dialog end-->
+            <!--提示 dialog start-->
+            <div id="step3" style="display: none">
+                <div class="g-dlg-if" style="height: 100px;">
+                    <div class="g-info">
+                        <p>您的提现申请已提交。您的提现金额将会被冻结，我们将在5天内将资金打入您指定的账号。如有疑问，请联系飞牛客服。</p>
+                        <p class="hotline">客服热线：400-920-6565</p>
+                    </div>
+                </div>
+            </div>
+            <!--提示 dialog end-->
+            <!--支付密码错误提示 start-->
+            <div id="errorPwd" style="display: none">
+                <div class="err-pwd g-err-pwd">
+                    <p>抱歉，您已3次输错支付密码，支付密码被锁定，请3小时后重试</p>
+                    <p>您也可修改密码后重试</p>
+                </div>
+            </div>
+            <!--支付密码错误提示 end-->
+            <!--支付密码错误提示 start-->
+            <div id="notWidthdraw" style="display: none">
+                <div class="err-pwd g-err-pwd">
+                    <p>亲，该笔飞牛余额为公司福利，无法操作提现哟！</p>
+                </div>
+            </div>
+            <!--支付密码错误提示 end-->
+        </div>
+    </div>
+</div>
+<!--主体 end-->
+<!--底部 start-->
+<div class="footer" id="footer">
+    <div class="footer-map m">
+        <ul class="cf">
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737451465292265_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">正品低价</strong><br>
+                <span class="map-describe">正品行货 品质保障</span>
+            </li>
+            <li class="map-line"></li>
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737481465292268_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">品类齐全</strong><br>
+                <span class="map-describe">品类齐全 选择丰富</span>
+            </li>
+            <li class="map-line"></li>
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737501465292270_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">快速配送</strong><br>
+                <span class="map-describe">多仓直发 极速配送</span>
+            </li>
+            <li class="map-line"></li>
+            <li class="map">
+                <img src="http://img03.fn-mart.com/C/web/layout/kk/20160607/201606071737531465292273_kk-0.png" alt="" class="footer-icon">
+                <strong class="map-title">售后无忧</strong><br>
+                <span class="map-describe">7天无理由退货</span>
+            </li>
+        </ul>
+    </div>
+    <div class="server-list">
+        <ul class="cf">
+            <li>
+                <i class="server-list-icon icon1"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">购物指南</a></dt>
+                    <dd><a href="">新用户注册</a></dd>
+                    <dd><a href="">购物流程</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon2"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">支付方式</a></dt>
+                    <dd><a href="">货到付款</a></dd>
+                    <dd><a href="">银联卡支付</a></dd>
+                    <dd><a href="">支付宝</a></dd>
+                    <dd><a href="">财付通</a></dd>
+                    <dd><a href="">优惠卡券</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon3"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">配送服务</a></dt>
+                    <dd><a href="">配送方式</a></dd>
+                    <dd><a href="">配送查询</a></dd>
+                    <dd><a href="">便利店自提</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon4"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">售后服务</a></dt>
+                    <dd><a href="">退货说明</a></dd>
+                    <dd><a href="">退款说明</a></dd>
+                </dl>
+            </li>
+            <li>
+                <i class="server-list-icon icon5"></i>
+                <dl class="server-list-item">
+                    <dt><a href="">常见问题</a></dt>
+                    <dd><a href="">账户问题</a></dd>
+                    <dd><a href="">发票问题</a></dd>
+                    <dd><a href="">订单问题</a></dd>
+                    <dd><a href="">在线客服</a></dd>
+                </dl>
+            </li>
+            <li class="app-item">
+                <p>飞牛网客户端</p>
+                <a href=""><img src="http://img03.fn-mart.com/C/web/layout/kk/20160527/201605271512451464333165_kk-0.png" alt="" width="90" height="90"></a>
+            </li>
+            <li class="wechat-item">
+                <p>飞牛网微信</p>
+                <a href=""><img src="http://img03.fn-mart.com/C/web/layout/kk/20160601/201606010958111464746291_kk-0.jpg" alt="" width="90" height="90"></a>
+            </li>
+        </ul>
+    </div>
+    <div class="site-info">
+        <div class="foot-nav">
+            <a href="">公司介绍</a>|
+            <a href="">飞牛招聘</a>|
+            <a href="">媒体报道</a>|
+            <a href="">热搜索词</a>|
+            <a href="">评价中心</a>|
+            <a href="">友情链接</a>|
+            <a href="">商家入驻</a>|
+            <a href="">招商标准</a>|
+            <a href="">开放平台</a>|
+            <a href="" style="cursor: default;">企业团购 021-36695538</a>|
+            <a href="" style="cursor: default;">客服热线 400-920-6565</a>
+        </div>
+        <div class="link">
+            <p>
+                <a href="" style="color: #666;">沪ICP备14034590号</a>
+                　|　食品流通许可证编号：sp3100001310001023　|　酒类商品零售许可证 沪闸酒专字 第0811030108000822
+            </p>
+            <p>
+                出版物经营许可证编号新出发（沪）零字第Z6216号　|　快递业务经营许可证编号：沪邮20131324B　|　营业执照
+            </p>
+            <p>
+                Copyright © 2013-2016 飞牛网, All Rights Reserved.
+            </p>
+        </div>
+        <div class="logo-wall">
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291526181456730778_kk-0.png" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612371456733557_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612471456733567_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291612561456733576_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20160229/201602291613031456733583_kk-0.jpg" alt=""></a>
+            <a class="logowall-item"><img src="http://img03.fn-mart.com/C/web/layout/kk/20161102/201611021041341478054494_kk-0.png" alt=""></a>
+        </div>
+    </div>
+</div>
+<!--底部 end-->
+<script src="http://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
+<script src="js/member-common.js"></script>
+<script src="js/balance.js"></script>
+</body>
+</html>

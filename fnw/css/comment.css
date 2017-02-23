@@ -1,0 +1,61 @@
+.wrapper .m-right {margin: 0 0 0 10px;float: left;width: 1020px;}
+.main {padding: 15px;background-color: #fff;}
+.themes_title {border-bottom: 2px solid #eee;height: 20px;line-height: 20px;padding: 0 10px 7px 5px;margin-bottom: 20px;position: relative;margin-top: -3px;}
+.themes_title h3 {color: #6c6c6c;font-size: 14px;font-weight: 700;}
+.ui_tab_nav {height: 35px;margin-bottom: -2px;overflow: hidden;position: relative;z-index: 1;}
+.ui_tab_nav li {float: left;}
+.evaluation .ui_tab_nav .active a {border-bottom: 3px;}
+.ui_tab_nav .active a {background: #fff;border-bottom: 0;padding-bottom: 7px;color: #C20053;border-top: 2px solid #C20053;}
+.evaluation .ui_tab_nav a {padding: 2px 51px 3px;height: 28px;line-height: 28px;}
+.ui_tab_nav a {font-weight: 700;color: #6c6c6c;background: #fcfcfc;border: 1px solid #eee;border-right: 0;display: block;font-size: 14px;padding: 5px 51px 6px;}
+.ui_tab_nav .already_comment a {border-right: 1px solid #eee;}
+.num {font-family: tahoma;}
+.ui_tab_content {border-top: 1px solid #eee;}
+#noComment {}
+.ui_tab_content .ui_panel {padding: 20px 0 0;}
+.explanation {border: 1px solid #ddd;color: #9c9c9c;line-height: 20px;padding: 15px;margin-top: 30px;}
+.explanation .explanation_tips {font-weight: 700;line-height: 20px;}
+.redtxt {color: #C20053;}
+.jflink {color: #06c;}
+#commented {}
+.evaluation .success_msg {display: none;border: 1px solid #FFCE83;background-color: #FFFDEE;height: 78px;line-height: 78px;text-align: center;margin-bottom: 10px;}
+.evaluation .success_msg i {margin-right: 5px;display: inline-block;zoom: 1;}
+/*删除评论*/
+.eval-del {width: 345px;font: 700 14px/40px simsun;background: url("http://static02.fn-mart.com/product/images/member/erroruploadimg.jpg?1234") no-repeat;padding-left: 50px;height: 40px;}
+/*评论失败*/
+.eval-fail {width: 320px;}
+.eval-fail h4 {font: 400 14px/28px "microsoft yahei";}
+.eval-fail p {line-height: 18px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

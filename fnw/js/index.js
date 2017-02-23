@@ -18,9 +18,13 @@ $(function () {
 
     //送货至移入移出效果
     $(".header-topbar-city").hover(function () {
+        $(this).css({"padding":"0 1px"});
+        $(this).find(".post").css({"border":"1px solid #DEDEDE","background-color":"#fff","border-top":"0","border-bottom":"0","z-index":"9"});
         $(".city-list-box").css({"display":"block"});
         $(this).find(".arrow-icon").css({"transform":"rotate(180deg)"});
     },function () {
+        $(this).css({"padding":""});
+        $(this).find(".post").css({"border":"","background-color":"","border-top":"","border-bottom":""});
         $(".city-list-box").css({"display":"none"});
         $(this).find(".arrow-icon").css({"transform":"rotate(0deg)"});
     });

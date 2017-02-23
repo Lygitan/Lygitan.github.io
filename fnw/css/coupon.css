@@ -1,0 +1,100 @@
+.wrapper .m-right {margin: 0 0 0 10px;float: left;width: 1020px;}
+/*title*/
+.m-cptit {background: #fff;height: 42px;padding: 18px 20px 0;}
+.m-cptit p {float: right;}
+.m-cptit p span {display: block;margin-left: 15px;float: left;}
+.m-cptit p span a,.m-cptit p span i {color: #666;display: block;margin-right: 5px;float: left;}
+.m-cptit p span i {background: url("https://s1.feiniu.com/product/images/member/coupons_ic.png?1234") no-repeat;width: 20px;height: 20px;font-style: normal;position: relative;}
+.m-cptit p span i.icon-receive {background-position: 0 -21px;}
+.m-cptit h4 {font: 400 16px/24px "microsoft yahei";color: #333;}
+/*content*/
+.m-cpcont {background: #fff;padding: 20px;margin-top: 10px;}
+.m-cpcont .m-cpsort {width: 100%;height: 41px;background: #f5f5f5;}
+.m-cptype {margin-left: 20px;float: left;}
+.m-cptype h4 {font-size: 14px;color: #333;line-height: 41px;float: left;font-weight: 400;}
+.m-cptype .m-cpsbr {position: relative;z-index: 2;width: 101px;border: 1px solid #f5f5f5;border-bottom: 0 none;margin-left: 6px;height: 40px;float: left;}
+.m-cptype .m-cpsbr:hover {border-color: #ddd;background: #fff;}
+.m-cptype .m-cpsbr p {position: relative;width: 100%;font-size: 14px;line-height: 39px;text-indent: 10px;}
+.m-cptype .m-cpsbr p i {position: absolute;top: 16px;right: 10px;background: url("https://s1.feiniu.com/product/images/member/coupons_ic.png?1234") -13px -52px no-repeat;width: 7px;height: 4px;display: block;font-style: normal;}
+.m-cptype .m-cpsbr:hover p i {background-position: 0 -52px \9\0;-webkit-transform: rotate(180deg);-webkit-transition: transform .4s ease-out;transform: rotate(180deg);transition: transform .4s ease-out;}
+.m-cptype .m-cpsbr ul {position: absolute;top: 40px;left: -1px;width: 100%;text-indent: 10px;border: 1px solid #ddd;border-top: 0 none;background: #fff;display: none;}
+.m-cptype .m-cpsbr ul li.active,.m-cptype .m-cpsbr ul li:hover {background: #f5f5f5;color: #C20053;}
+.m-cptype .m-cpsbr ul li {width: 100%;height: 21px;line-height: 21px;cursor: pointer;}
+.m-cptype .m-cpsbr ul li.active i,.m-cptype .m-cpsbr ul li:hover i {display: inline-block;}
+.m-cptype .m-cpsbr ul li i {background: url("https://s1.feiniu.com/product/images/member/coupons_ic.png?1234") 0 -63px no-repeat;width: 10px;height: 8px;display: none;margin-left: 10px;position: relative;}
+.m-cptype .m-cpsx {width: 89px;}
+.m-cpst {margin-right: 20px;line-height: 41px;float: right;}
+.m-cpst p.active {color: #C20053;}
+.m-cpst p {margin-left: 22px;cursor: pointer;float: left;}
+.m-cpcont .m-cpws {width: 100%;padding-top: 8px;text-align: right;line-height: 28px;}
+.m-cpcont .m-cpws a {color: #4280d3;}
+/*no list*/
+.m-cpnolist {width: 100%;padding: 100px 0 150px;text-align: center;font: 400 15px/28px "microsoft yahei";}
+.m-cpnolist i {background: url("https://s1.feiniu.com/product/images/member/fn_lg_icon.png?1234") no-repeat;width: 88px;height: 87px;display: inline-block;font-style: normal;position: relative;}
+.m-cpnolist a {color: #4280d3;}
+/*list*/
+.m-cpcont .m-cplist {width: 100%;overflow: hidden;}
+.m-cpcont .m-cplist ul {width: 103%;}
+/*page go*/
+.m-cppgg {width: 100%;height: 36px;text-align: right;margin-top: 20px;}
+.m-cppgg li {display: inline-block;color: #333;margin-left: 4px;}
+.m-cppgg li.m-disable button,.m-cppgg li.m-disable span {background: #fff;cursor: default;color: #ddd;}
+.m-cppgg li span {width: 82px;display: block;text-align: center;line-height: 34px;cursor: pointer;background: #f9f9f9;}
+.m-cppgg li button,.m-cppgg li input,.m-cppgg li span {height: 34px;border: 1px solid #ccc;}
+.m-cppgg li i {font-style: normal;color: #C20053;position: relative;}
+em {font-style: normal;}
+.m-cppgg li input {width: 50px;text-align: center;background: #fff;font-size: 14px;line-height: 34px;}
+.m-cppgg li button {width: 55px;text-align: center;background: #f9f9f9;cursor: pointer;}
+/*recommend*/
+.m-cpcomd {width: 100%;margin-top: 50px;background: #fff;padding-bottom: 30px;}
+.m-cpcomd .m-cptrem {width: 100%;height: 40px;border-bottom: 1px solid #ddd;line-height: 40px;font-size: 14px;color: #333;text-indent: 20px;}
+.m-cpcomd .m-cptrem a {margin-right: 20px;color: #333;display: block;float: right;font-size: 12px;}
+.m-cpcomd .m-cpltrem {position: relative;padding: 20px 0 0 42px;height: 208px;overflow: hidden;width: 980px;display: block;}
+#voucherSlideWrap {width: 980px;height: 208px;position: absolute;left: 42px;top: 20px;overflow: hidden;}
+#voucherSlide {position: absolute;left: 0;top: 0;}
+.m-cpcomd .m-cpltrem li {width: 980px;float: left;}
+.m-cpcomd .m-cpltrem dd {position: relative;width: 223px;height: 208px;margin-right: 15px;background: #f5f5f5;float: left;}
+.m-cpcomd .m-cpltrem dd.m-col2 .m-money {background: #ffb648;}
+.m-cpcomd .m-cpltrem .m-money {position: relative;width: 208px;height: 76px;color: #fff;padding: 18px 0 0 15px;}
+.m-cpcomd .m-cpltrem .m-money h2 {font: 700 36px/36px Arial;}
+.m-cpcomd .m-cpltrem .m-money h2 i {font-size: 24px;margin-right: 4px;display: inline-block;font-style: normal;position: relative;font-family: Arial;}
+.m-cpcomd .m-cpltrem .m-money .m-icon {position: absolute;background: url("https://s1.feiniu.com/product/images/member/coupons_ic.png?1234") 0 -301px repeat-x;left: 0;bottom: 0;width: 100%;height: 4px;}
+.m-cpcomd .m-cpltrem .m-shop {height: 22px;line-height: 22px;padding: 10px 15px 0;width: 193px;color: #999;overflow: hidden;    white-space: nowrap;text-overflow: ellipsis;}
+.m-cpcomd .m-cpltrem dd.m-col2 .m-btn {border-color: #ffb74c;color: #ffb74c;}
+.m-cpcomd .m-cpltrem dd.m-col2 .m-btn:hover {background: #F6EEE2;}
+.m-cpcomd .m-cpltrem .m-btn {margin: 15px 0 0 50px;width: 122px;height: 32px;text-align: center;display: block;border: 1px solid #fd5851;color: #fd5851;border-radius: 61px;font: 700 14px/32px "microsoft yahei";cursor: pointer;}
+.m-cpcomd .slide-btn a {position: absolute;top: 50%;margin-top: -25px;background: url("https://s1.feiniu.com/product/images/member/coupons_ic.png?1234") no-repeat;display: block;width: 30px;height: 50px;overflow: hidden;text-indent: -1000em;}
+.m-cpcomd .slide-btn .slide-prev {left: 0;background-position: 0 -171px;}
+.m-cpcomd .slide-btn .slide-next {right: 0;background-position: 0 -233px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,123 @@
+/*.crumbs {font-size: 12px;}*/
+.wrapper .m-right {margin: 0 0 0 10px;float: left;width: 1020px;}
+.main {padding: 15px;background-color: #fff;}
+.my_order {padding-top: 12px;}
+.my_order .ui_tab_nav {margin-top: 15px;height: auto;margin-bottom: -2px;}
+.ui_tab_nav {z-index: 2;}
+.ui_tab_nav {height: 35px;margin-bottom: -2px;overflow: hidden;position: relative;}
+.cf:before {content: "\0020";display: block;height: 0;overflow: hidden;}
+/*.my_order .ui_tab_nav*/
+.my_order .ui_tab_nav li {position: relative;}
+.ui_tab_nav li {float: left;}
+.my_order .ui_tab_nav .active a,.my_order .ui_tab_nav .active a:hover {color: #C20053;}
+.ui_tab_nav a {color: #666;font-weight: 700;background: #fcfcfc;border: 1px solid #eee;border-right: 0;display: block;font-size: 14px;padding: 5px 51px 6px;}
+.ui_tab_nav .active a {background: #fff;border-bottom: 0;padding-bottom: 7px;color: #C20053;border-top: 2px solid #C20053;}
+.my_order .ui_tab_nav a,.my_order .ui_tab_nav .v_line {display: inline-block;zoom: 1;}
+.my_order .ui_tab_nav a {width: 120px;text-align: center;height: 20px;line-height: 20px;background-color: #fff;border: 0;padding: 0 0 5px;}
+.my_order .ui_tab_nav .v_line {margin: 0;position: absolute;right: 0;top: 3px;}
+.my_order .v_line {border-left: 1px solid #eee;height: 14px;vertical-align: middle;width: 1px;margin: 0 10px 0 5px;}
+.my_order .o-skd {top: 0;left: 14px;height: 26px;border-left: 1px dotted #ccc;}
+.my_order .o-skd a {width: 87px;padding-left: 20px;text-align: left;line-height: 22px;}
+/*.my_order .nav_line*/
+.my_order .nav_line {background-color: #C20053;bottom: -2px;font-size: 0;height: 2px;left: 0;top: 2px;line-height: 2px;position: relative;width: 120px;}
+/*.my_order .ui_tab_content*/
+.my_order .ui_tab_content {border-top: 0;}
+.my_order .ui_panel {padding: 0;}
+.my_order .query_area {position: relative;margin-top: 20px;padding-left: 15px;}
+.order_select {margin-bottom: 15px;}
+.order_select .order_select_l {float: left;width: 420px;}
+.order_select .order_select_l .select_name {float: left;height: 20px;line-height: 20px;width: 228px;padding: 2px 5px;border: 1px solid #ddd;}
+.my_order .query_area .inquery {border: 1px solid #ddd;background-color: #f9f9f9;width: 50px;height: 26px;text-align: center;margin-left: 5px;float: left;}
+.order_select .order_select_l .u-more-cdt {display: block;float: left;height: 26px;line-height: 26px;color: #06C;text-decoration: none;margin-left: 15px;}
+.order_select .order_select_l .u-more-cdt i.up {background-position: 0 -30px;}
+.order_select .order_select_l .u-more-cdt i {display: inline-block;background: url("https://static02.fn-mart.com/images/member/btn_slide.png?1234") 0 -90px no-repeat;width: 10px;height: 6px;text-decoration: none;vertical-align: middle;margin-left: 4px;font-style: normal;position: relative;}
+.m-top-search {margin-bottom: 20px;}
+.m-top-search .u-l,.m-top-search .u-r {float: left;cursor: default;}
+.date {border: #999 1px solid;height: 20px;background: #fff url("https://static02.fn-mart.com/product/js/lib/DatePicker/skin/datePicker.gif") no-repeat right;}
+.m-top-search .u-r .u-recent {margin-top: 10px;}
+.m-top-search .u-r .u-recent a {display: inline-block;padding: 1px;height: 22px;line-height: 22px;width: 77px;text-align: center;border: 1px solid #ddd;color: #3c3c3c;text-decoration: none;position: relative;}
+.m-top-search .u-r .u-recent a.active {border: 2px solid #C20053;padding: 0;}
+.m-top-search .u-r .u-recent a.active i {display: inline-block;position: absolute;right: 0;bottom: 0;width: 16px;height: 16px;background: url("https://static02.fn-mart.com/images/member/iconcur.png?123456") no-repeat;}
+.m-top-search .u-r .u-recent a i {font-style: normal;}
+.m-top-search .u-r .u-btn-s {margin: 20px 0 0;}
+.m-top-search .u-r .u-btn-s>a {display: inline-block;background: url("https://static02.fn-mart.com/images/member/btn_add.png?1234") 0 -168px no-repeat;width: 80px;height: 28px;line-height: 28px;text-align: center;text-decoration: none;color: #FFF;}
+.m-top-search .u-r .u-btn-s>a:hover {display: inline-block;background-position: 0 -197px;}
+/*.order_title*/
+.order_title {margin-top: 15px;height: 38px;line-height: 38px;border: 1px solid #ddd;background-color: #eee;text-align: center;margin-bottom: 10px;}
+.order_title li {float: left;}
+.order_title .order_info {width: 582px;}
+.order_title .order_price,.order_title .order_status,.order_title .order_operate {width: 128px;}
+.order_none {padding: 100px 0;background: #FFF;text-align: center;color: #666;font-size: 16px;}
+.order_none i {display: inline-block;width: 88px;height: 87px;background: url("https://static02.fn-mart.com/product/images/icon-niu.png?1234") no-repeat;vertical-align: middle;font-style: normal;position: relative;}
+.order_none .txt-tip {margin-top: 35px;}
+.order_none .order-btn {margin-top: 15px;text-align: center;}
+.order_none .order-btn a {display: inline-block;margin-right: 10px;width: 84px;height: 26px;font-size: 12px;color: #666;line-height: 26px;text-align: center;border: 1px solid #ddd;}
+.order_none .order-btn .order-red {background-color: #C20053;border-color: #C20053;color: #fff;}
+.fn_page {color: #3c3c3c;font-size: 12px;margin-top: 20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
